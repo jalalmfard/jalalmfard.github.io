@@ -61,7 +61,10 @@ p {
 .toolbar #youtube-logo:hover {
     opacity: 0.8;
 }
+.logo{
+    cursor: pointer;
 
+}
 .content {
     display: flex;
     margin: 82px auto 32px;

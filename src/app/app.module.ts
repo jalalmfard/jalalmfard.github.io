@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { I18nModule } from './i18n/i18n.module';
 import { SelectLanguageComponent } from './select-language/select-language.component';
 import { ImageSliderModule } from './imageSlider/imageSlider.module';
+import { ArchitectureComponent } from './architecture/architecture.component';
  
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SelectLanguageComponent,
+    ArchitectureComponent
   ],
   imports: [
     BrowserModule,

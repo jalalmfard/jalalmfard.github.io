@@ -1,20 +1,4 @@
-.responsive {
-    width: 960px;
-    height: 500px;
-    object-fit: cover;
-    object-position: bottom;
-    
-  }
-
-  .slider-container {
-    width: 800px;
-    overflow: hidden;
+.title{
+  text-align: center;
+  margin: auto;
 }
-
-  .margin-auto{
-    margin: 0 auto;
-  }
-
-  .mt-50{
-    margin-top: 50px;
-  }
