@@ -8,13 +8,17 @@ import { I18nModule } from './i18n/i18n.module';
 import { SelectLanguageComponent } from './select-language/select-language.component';
 import { ImageSliderModule } from './imageSlider/imageSlider.module';
 import { ArchitectureComponent } from './architecture/architecture.component';
+import { SpinnerComponent } from './spinner/spinner.component';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { LoadingInterceptor } from './loading.interceptor';
  
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SelectLanguageComponent,
-    ArchitectureComponent
+    ArchitectureComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,9 @@ import { ArchitectureComponent } from './architecture/architecture.component';
     I18nModule,
     ImageSliderModule
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true
+  }],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

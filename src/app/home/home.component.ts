@@ -11,7 +11,12 @@ export class HomeComponent {
   title = 'Jalal Mashhadi Fard';
 
   slides: SlideInterface[] = [
-    { url: '/assets/images/main/slider/1.jpg', title: 'image1' },
-    { url: '/assets/images/main/slider/2.jpg', title: 'image2' },
+    { url: '/assets/images/main/slider/1.jpg', title: '' },
+    { url: '/assets/images/main/slider/2.jpg', title: '' },
+    { url: '/assets/images/main/slider/3.jpg', title: '' },
+    { url: '/assets/images/main/slider/4.jpg', title: '' },
+    { url: '/assets/images/main/slider/5.jpg', title: '' },
+    { url: '/assets/images/main/slider/6.jpg', title: '' },
+
   ];
 }
