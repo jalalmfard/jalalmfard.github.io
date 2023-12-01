@@ -57,9 +57,17 @@ export class ImageSliderComponent implements OnInit, OnDestroy {
   }
 
   getCurrentSlideUrl() {
-    return `${this.slides[this.currentIndex].url}`;
+    try {
+      return `${this.slides[this.currentIndex].src}`;
+    } catch (error) {
+      return '';
+    }
   }
-  getCurrentSlideTitle(){
-    return `${this.slides[this.currentIndex].title}`;
+  getCurrentSlideTitle() {
+    try {
+      return `${this.slides[this.currentIndex].description}`;
+    } catch (error) {
+      return '';
+    }
   }
 }

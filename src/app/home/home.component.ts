@@ -7,26 +7,25 @@ import { SetupService } from '../services/setup.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-export class HomeComponent {
-  
+export class HomeComponent implements OnInit {
   title = 'Jalal Mashhadi Fard';
+  slides!: SlideInterface[] ;
+  data: any;
+  constructor(private setup: SetupService) {}
+  async ngOnInit(): Promise<void> {
+    this.data = await this.setup.getPageData('main');
+    
+    this.sortImagesByPlace();
 
-  /**
-   *
-   */
-  constructor(private setup:SetupService ) {
     
-   console.log(this.setup.getPageData("main"));
-    
+    this.slides = this.data.images;
   }
 
-  slides: SlideInterface[] = [
-    { url: '/assets/images/main/slider/1.jpg', title: '' },
-    { url: '/assets/images/main/slider/2.jpg', title: '' },
-    { url: '/assets/images/main/slider/3.jpg', title: '' },
-    { url: '/assets/images/main/slider/4.jpg', title: '' },
-    { url: '/assets/images/main/slider/5.jpg', title: '' },
-    { url: '/assets/images/main/slider/6.jpg', title: '' },
+  sortImagesByPlace() {
+    if (this.data.images) {
+      this.data.images.sort((a: { place: number; }, b: { place: number; }) => a.place - b.place);
+    }
+  }
 
-  ];
+  
 }

@@ -1,4 +1,4 @@
 export interface SlideInterface {
-  url: string;
-  title: string;
+  src: string;
+  description: string;
 }

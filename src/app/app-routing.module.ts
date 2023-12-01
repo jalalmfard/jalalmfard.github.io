@@ -7,6 +7,7 @@ import { LogoComponent } from './logo/logo.component';
 import { FurnituredesignComponent } from './furnituredesign/furnituredesign.component';
 import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
 import { ArtreviewsComponent } from './artreviews/artreviews.component';
+import { ArchitectureDetailComponent } from './architecture/architecturedetail/architecturedetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 
   { path: 'architecture', component: ArchitectureComponent },
+
+  { path: 'architecture/:id', component: ArchitectureDetailComponent },
 
   { path: 'artreviews', component: ArtreviewsComponent },
 

@@ -11,6 +11,8 @@ import { ArchitectureComponent } from './architecture/architecture.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoadingInterceptor } from './loading.interceptor';
+import { LightboxModule } from 'ngx-lightbox';
+import { ArchitectureDetailComponent } from './architecture/architecturedetail/architecturedetail.component';
  
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { LoadingInterceptor } from './loading.interceptor';
     HomeComponent,
     SelectLanguageComponent,
     ArchitectureComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    ArchitectureDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     I18nModule,
-    ImageSliderModule
+    ImageSliderModule,
+    LightboxModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true

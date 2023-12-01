@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
-import { SlideInterface } from '../imageSlider/types/slide.interface';
-import { SetupService } from '../services/setup.service';
+import { SetupService } from 'src/app/services/setup.service';
+ 
 
 @Component({
   selector: 'app-architecture',
-  templateUrl: './architecture.component.html',
-  styleUrls: ['./architecture.component.css']
+  templateUrl: './architecturedetail.component.html',
+  styleUrls: ['./architecturedetail.component.css']
 })
-export class ArchitectureComponent {
+export class ArchitectureDetailComponent {
    slides!: any[] ;
   data: any;
   constructor(private setup: SetupService) {}
   async ngOnInit(): Promise<void> {
+
     this.data = await this.setup.getPageData('architecture');
     
     this.sortImagesByPlace();
