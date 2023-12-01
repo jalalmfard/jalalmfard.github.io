@@ -1,32 +1,22 @@
 <div class="card-container p-10 title">
 
-    <h1>Architecture & Interior design</h1>
+    <h1>{{selectedItem.title}}</h1>
 
 </div>
-<div class="card-container"*ngFor="let slide of slides" >
-    <div class="main">
-        <div>
-            <div class="title">
-                {{slide.title}}
-            </div>
-            <div class="location">
-                {{slide.location}}  
-            </div>
-        </div>
+<br>
+<div class="card-container p-10" >
+    <p>
+        {{selectedItem.description}}
+    </p>
+</div>
+<br>
 
-        <div>
-            <div class="image">
-                <div id="frame">
-                    <div id="border">
-                        <img class="image" [src]="slide.src">
-                    </div>
-                </div>
-            </div>
-            <div class="link">
-                <button class="button-more" [routerLink]="['/architecture/'+slide.id]" role="button">more ...</button>
 
-            </div>
+<div class="card-container" *ngFor="let slide of selectedItem.images">
+    <div id="frame">
+        <div id="border">
+            <img class="image" src="{{slide.src}}" alt="">
+
         </div>
     </div>
-    <hr>
 </div>
