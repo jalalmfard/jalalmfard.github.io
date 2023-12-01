@@ -1,0 +1,59 @@
+{
+    "name": "architecture",
+    "title": "Jalal Mashhadi Fard - Architecture",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/architecture/1.jpg",
+            "title": "Sanabad apartment interior design",
+            "description": "In this project, an attempt was made to show the architecture in the gentle spirit of the warm life of the family members, and the design of the details was done in coordination with the employer's furniture. One of the most important demands of the project employer is originality, splendor and minimal design.",
+            "location": "Mashhad / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0001/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0001/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0001/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/images-0001/4.jpg",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/architecture/images-0001/5.jpg",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/architecture/images-0001/6.jpg",
+                    "place": 6
+                }
+            ],
+            "place": 1
+        } ,
+        {
+            "id": "0002",
+            "src": "/assets/images/architecture/2.jpg",
+            "title": "Master room",
+            "description": "Its a part of collaborative project in Dubai. Interior designer and rendering by Jalal.Mfard",
+            "location": "Dubai",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0002/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0002/2.jpg",
+                    "place": 2
+                }
+            ],
+            "place": 2
+        } 
+    ]
+}
