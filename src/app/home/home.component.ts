@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { SlideInterface } from '../imageSlider/types/slide.interface';
+import { SetupService } from '../services/setup.service';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,15 @@ import { SlideInterface } from '../imageSlider/types/slide.interface';
 export class HomeComponent {
   
   title = 'Jalal Mashhadi Fard';
+
+  /**
+   *
+   */
+  constructor(private setup:SetupService ) {
+    
+   console.log(this.setup.getPageData("main"));
+    
+  }
 
   slides: SlideInterface[] = [
     { url: '/assets/images/main/slider/1.jpg', title: '' },
