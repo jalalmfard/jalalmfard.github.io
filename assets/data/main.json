@@ -1,0 +1,17 @@
+{
+    "name": "home",
+    "title": "Jalal Mashhadi Fard",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "src": "path/to/home-image1.jpg",
+            "description": "Description for Home Image 1",
+            "images": []
+        },
+        {
+            "src": "path/to/home-image2.jpg",
+            "description": "Description for Home Image 2",
+            "images": []
+        }
+    ]
+}
