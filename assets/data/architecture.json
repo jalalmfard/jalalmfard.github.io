@@ -36,7 +36,7 @@
                 }
             ],
             "place": 1
-        } ,
+        },
         {
             "id": "0002",
             "src": "/assets/images/architecture/2.jpg",
@@ -54,6 +54,336 @@
                 }
             ],
             "place": 2
-        } 
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/architecture/3.jpg",
+            "title": "Master room",
+            "description": "Alhabtoor Residences tower. Interior designer and rendering by Jalal.Mfard",
+            "location": "Dubai / UAE",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0003/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 3
+        },
+        {
+            "id": "0004",
+            "src": "/assets/images/architecture/4.jpg",
+            "title": "Jim shin - Old house renovation",
+            "description": "An old house renovated to Jim shin Cafe game board complex Architect and interior designer: Jalal.Mfard - Colleagues: Donia Sadeghi & Amirkhosrow Keyhani",
+            "location": "Mashhad / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0004/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0004/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0004/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/images-0004/4.jpg",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/architecture/images-0004/5.jpg",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/architecture/images-0004/6.jpg",
+                    "place": 6
+                }
+            ],
+            "place": 4
+        },
+        {
+            "id": "0005",
+            "src": "/assets/images/architecture/5.jpg",
+            "title": "Kordkouy Apartment",
+            "description": "Kordkouy apartment architecture",
+            "location": "Kourdkouy , Golestan / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0005/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0005/2.jpg",
+                    "place": 2
+                }
+            ],
+            "place": 5
+        },
+        {
+            "id": "0006",
+            "src": "/assets/images/architecture/6.jpg",
+            "title": "Golestan apartment",
+            "description": "Kordkouy apartment architecture",
+            "location": "Gorgan / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0006/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 6
+        },
+        {
+            "id": "0007",
+            "src": "/assets/images/architecture/7.jpg",
+            "title": "Shandiz Tinny villa",
+            "description": "Architect : JalalMfard",
+            "location": "Shandiz- Mashhad / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0007/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 7
+        },
+        {
+            "id": "0008",
+            "src": "/assets/images/architecture/8.jpg",
+            "title": "Bahahr Cafe Complex",
+            "description": "Architect: JalalMfard - first phase colleague: Sepideh moussavi",
+            "location": "Mashhad/Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0008/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 8
+        },
+        {
+            "id": "0009",
+            "src": "/assets/images/architecture/9.jpg",
+            "title": "Molana Complex",
+            "description": "Work on progress Architect & interior designer : Jalal Mashhadi Fard",
+            "location": "Mashhad / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0009/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 9
+        },
+        {
+            "id": "0010",
+            "src": "/assets/images/architecture/10.jpg",
+            "title": "Molana Complex",
+            "description": "Work on progress Architect & interior designer : Jalal Mashhadi Fard",
+            "location": "Mashhad / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0010/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0010/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0010/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/images-0010/4.jpg",
+                    "place": 4
+                }
+            ],
+            "place": 10
+        },
+        {
+            "id": "0011",
+            "src": "/assets/images/architecture/11.jpg",
+            "title": "Pazh AAA office",
+            "description": "Interior designers: Jalal Mashhadi fard & Sepideh Moussavi",
+            "location": "Pazh Tower / Mashhad - Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0011/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 11
+        },
+        {
+            "id": "0012",
+            "src": "/assets/images/architecture/12.jpg",
+            "title": "Golestan Fruit & vegetables Whole selling",
+            "description": "Head of Architecture team : Jalal Mashhadi Fard",
+            "location": "Kourdkouy - Golestan / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0012/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 12
+        },
+        {
+            "id": "0013",
+            "src": "/assets/images/architecture/13.jpg",
+            "title": "Villa NO 12",
+            "description": "Head of Architecture team : Jalal Mashhadi Fard",
+            "location": "Noor - Mazandaran / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0013/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 13
+        },
+        {
+            "id": "0014",
+            "src": "/assets/images/architecture/14.jpg",
+            "title": "Arghavan Villa",
+            "description": "Architect & interior Designer : JalalMashhadifard",
+            "location": "Argavan Darreh/ Mashhad - Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0014/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 14
+        },
+        {
+            "id": "0015",
+            "src": "/assets/images/architecture/15.jpg",
+            "title": "Muscat- Cafe bakery",
+            "description": "Architect & interior Designer : JalalMashhadifard",
+            "location": "Muscat - Oman",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0015/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 15
+        },
+        {
+            "id": "0016",
+            "src": "/assets/images/architecture/16.jpg",
+            "title": "Golestan Fruit & vegetables Whole selling",
+            "description": "HEAD ARCHITEC : Jalal Mashhadi Fard -  Colleagues in the design team : Mohsen Mohammadian & Amirhossein Jabberi & Shadi Shahpasasnd & Sepideh Moussavi & Amirmohammad Baradan",
+            "location": "Kourdkouy - Golestan / Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0016/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/4.jpg",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/5.jpg",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/6.jpg",
+                    "place": 6
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/7.jpg",
+                    "place": 7
+                },
+                {
+                    "src": "/assets/images/architecture/images-0016/8.jpg",
+                    "place": 8
+                }
+            ],
+            "place": 16
+        },
+        {
+            "id": "0017",
+            "src": "/assets/images/architecture/17.jpg",
+            "title": "Shouri's Palace redesign",
+            "description": "Project redesigned based on classic shaped structure by Jalal Mashhadi Fard",
+            "location": "Keresht / Damavand - Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0017/1.jpg",
+                    "description": "entrance space",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0017/2.jpg",
+                    "description": "bar of eastern building",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0017/3.jpg",
+                    "description": "main palace interior design",
+                    "place": 3
+                }
+            ],
+            "place": 17
+        },
+        {
+            "id": "0018",
+            "src": "/assets/images/architecture/18.jpg",
+            "title": "FEEL BOUTIQUE PLAZA",
+            "description": "FEEL is a Boutique Plaza for Experiencing an Aesthetic Lifestyle",
+            "location": "Keresht / Damavand - Iran",
+            "images": [
+                {
+                    "src": "/assets/images/architecture/images-0018/1.jpg",
+                    "description": "Fulfillment of an Empowering and Energizing Lifestyle",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/2.jpg",
+                    "description": "Above-standard Quality and Coherent Experiences",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/3.jpg",
+                    "description": "FEEL caters to a plethorao f the wants and needs of thetarget audience in an engaging, integrated fashion under a single roof.",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/4.jpg",
+                    "description": "Having felt the existing gap; we are united and determined to muster the masters for creating such a vibrant space.",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/5.jpg",
+                    "description": "The target audience yearns for a multi- dimensional hangout that offers a third spacetobalanceoutthework-home interrelation.",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/6.jpg",
+                    "description": "Above-standard Quality and Coherent Experiences",
+                    "place": 6
+                },
+                {
+                    "src": "/assets/images/architecture/images-0018/7.jpg",
+                    "description": "FEEL is Distinctive, Dynamic, and Delightful.",
+                    "place": 7
+                }
+            ],
+            "place": 18
+        }
     ]
 }
