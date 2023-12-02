@@ -93,9 +93,9 @@ svg.material-icons:not(:last-child) {
     justify-content: center;
     margin-top: 16px;
     width: fit-content;
-
+    margin: auto;
+    text-align: center;
 }
-
 .card {
     all: unset;
     border-radius: 4px;
