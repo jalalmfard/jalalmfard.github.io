@@ -1,0 +1,55 @@
+{
+    "name": "exhibitions",
+    "title": "Jalal Mashhadi Fard - Exhibitions",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/exhibitions/1.jpg",
+            "title": "Harlow",
+            "description": "\"Harlow\" exhibition Artist : Majid Gooran Artdirector : Jalal Mashhadi Fard",
+            "location": "",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 1
+        },
+        {
+            "id": "0002",
+            "src": "/assets/images/exhibitions/2.jpg",
+            "title": "Floorz Project",
+            "description": "Artists: Omid Jahantigh & Negar Zonoobi & Sanaz Haeri & Elmira Laki & Curator : e1 artgallery Jalal Mashhadi Fard",
+            "location": "",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0002/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/exhibitions/3.mp4",
+            "title": "Feel",
+            "isvideo": true,
+            "description": "",
+            "location": "",
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0003/1.mp4",
+                    "isvideo": true,
+                    "place": 1
+                }
+            ],
+            "place": 3
+        }
+    ]
+}
