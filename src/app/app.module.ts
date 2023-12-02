@@ -20,6 +20,8 @@ import { CommonModule } from '@angular/common';
 import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
 import { FurnituredesignComponent } from './furnituredesign/furnituredesign.component';
 import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
+import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artreviewsdetail.component';
+import { ArtreviewsComponent } from './artreviews/artreviews.component';
  
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { furnituredesignDetailComponent } from './furnituredesign/furnituredesig
     ExhibitionsComponent,
     ExhibitionsDetailComponent,
     FurnituredesignComponent,
-    furnituredesignDetailComponent
+    furnituredesignDetailComponent,
+    ArtreviewsComponent,
+    ArtreviewsDetailComponent
   ],
   imports: [
     BrowserModule,

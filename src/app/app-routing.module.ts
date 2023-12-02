@@ -12,6 +12,7 @@ import { ArtworksComponent } from './artworks/artworks.component';
 import { ArtworksDetailComponent } from './artworks/artworksdetail/artworksdetail.component';
 import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
 import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
+import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artreviewsdetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -19,17 +20,18 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 
   { path: 'architecture', component: ArchitectureComponent },
-
   { path: 'architecture/:id', component: ArchitectureDetailComponent },
 
+
   { path: 'artreviews', component: ArtreviewsComponent },
+  { path: 'artreviews/:id', component: ArtreviewsDetailComponent },
+
 
   { path: 'artworks', component: ArtworksComponent },
-  
   { path: 'artworks/:id', component: ArtworksDetailComponent },
 
-  { path: 'exhibitions', component: ExhibitionsComponent },
 
+  { path: 'exhibitions', component: ExhibitionsComponent },
   { path: 'exhibitions/:id', component: ExhibitionsDetailComponent },
 
 
