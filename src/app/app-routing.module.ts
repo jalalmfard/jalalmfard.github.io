@@ -11,6 +11,7 @@ import { ArchitectureDetailComponent } from './architecture/architecturedetail/a
 import { ArtworksComponent } from './artworks/artworks.component';
 import { ArtworksDetailComponent } from './artworks/artworksdetail/artworksdetail.component';
 import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
+import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -28,12 +29,14 @@ const routes: Routes = [
   { path: 'artworks/:id', component: ArtworksDetailComponent },
 
   { path: 'exhibitions', component: ExhibitionsComponent },
-  
+
   { path: 'exhibitions/:id', component: ExhibitionsDetailComponent },
 
 
 
   { path: 'furnituredesign', component: FurnituredesignComponent },
+  { path: 'furnituredesign/:id', component: furnituredesignDetailComponent },
+
 
   { path: 'logo', component: LogoComponent },
 

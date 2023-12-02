@@ -6,9 +6,9 @@
         {
             "id": "0001",
             "src": "/assets/images/furnituredesign/1.jpg",
-            "title": "Harlow",
-            "description": "\"Harlow\" exhibition Artist : Majid Gooran Artdirector : Jalal Mashhadi Fard",
-            "location": "",
+            "title": "C-chair",
+            "description": "",
+            "location": "Wood + Metal ",
             "isvideo": false,
             "images": [
                 {
@@ -22,9 +22,9 @@
         {
             "id": "0002",
             "src": "/assets/images/furnituredesign/2.jpg",
-            "title": "Floorz Project",
+            "title": "4/6 Persons Table",
             "description": "Artists: Omid Jahantigh & Negar Zonoobi & Sanaz Haeri & Elmira Laki & Curator : e1 artgallery Jalal Mashhadi Fard",
-            "location": "",
+            "location": "Wood + Metal ",
             "isvideo": false,
             "images": [
                 {
@@ -38,10 +38,10 @@
         {
             "id": "0003",
             "src": "/assets/images/furnituredesign/3.jpg",
-            "title": "Feel",
+            "title": "Bench",
             "isvideo": false,
             "description": "",
-            "location": "",
+            "location": "Designed By Jalal Mashhadi Fard",
             "images": [
                 {
                     "src": "/assets/images/furnituredesign/images-0003/1.jpg",
