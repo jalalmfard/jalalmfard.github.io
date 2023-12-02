@@ -13,6 +13,8 @@ import { ArtworksDetailComponent } from './artworks/artworksdetail/artworksdetai
 import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
 import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
 import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artreviewsdetail.component';
+import { logoDetailComponent } from './logo/logodetail/logodetail.component';
+import { posterDetailComponent } from './poster/posterdetail/posterdetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -41,8 +43,11 @@ const routes: Routes = [
 
 
   { path: 'logo', component: LogoComponent },
+  { path: 'logo/:id', component: logoDetailComponent },
 
   { path: 'poster', component: PosterComponent },
+  { path: 'poster/:id', component: posterDetailComponent },
+
 
   { path: '**', component: HomeComponent },
 ];

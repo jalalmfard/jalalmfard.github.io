@@ -1,0 +1,215 @@
+{
+    "name": "poster",
+    "title": "Jalal Mashhadi Fard - Furniture design",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/poster/1.jpg",
+            "title": "CoverArt - Puzzle",
+            "description": "",
+            "location": "The cover design based on “The Lovers” painting by Rene Magritte & “Melancholy” painting by Edvard Munch",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 1
+        },
+        {
+            "id": "0002",
+            "src": "/assets/images/poster/2.jpg",
+            "title": "Fashion Design Poster",
+            "description": "",
+            "location": "Arshin House Design",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0002/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/poster/3.jpg",
+            "title": "Mime Workshop Poster design",
+            "isvideo": false,
+            "description": "",
+            "location": "Reza Keshavarz workshop",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0003/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 3
+        },
+        {
+            "id": "0004",
+            "src": "/assets/images/poster/4.jpg",
+            "title": "Dynamic Workshop Poster",
+            "isvideo": false,
+            "description": "Reza Keshavarz - workshop",
+            "location": "Reza Keshavarz - workshop",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0004/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 4
+        },
+        {
+            "id": "0005",
+            "src": "/assets/images/poster/5.jpg",
+            "title": "Oblivion",
+            "isvideo": false,
+            "description": "",
+            "location": "",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0005/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 5
+        },
+        {
+            "id": "0006",
+            "src": "/assets/images/poster/6.jpg",
+            "title": "Indian Dance Workshop",
+            "isvideo": false,
+            "description": "Poster designed by Jalal Mfard",
+            "location": "Poster designed by Jalal Mfard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0006/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 6
+        },
+        {
+            "id": "0007",
+            "src": "/assets/images/poster/7.jpg",
+            "title": "Khatoon series - episode 1 Poster",
+            "isvideo": false,
+            "description": "Collage and video artist : Jalal Mashhadi fard",
+            "location": "Collage and video artist : Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0007/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 7
+        },
+        {
+            "id": "0008",
+            "src": "/assets/images/poster/8.jpg",
+            "title": "Moon Cafe Poster",
+            "isvideo": false,
+            "description": "poster designed by Jalal Mashhadi Fard",
+            "location": "poster designed by Jalal Mashhadi Fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0008/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 8
+        },
+        {
+            "id": "0009",
+            "src": "/assets/images/poster/9.jpg",
+            "title": "Qaulity design Workshop Poster",
+            "isvideo": false,
+            "description": "Poster designed by jalal mashhadi fard",
+            "location": "Poster designed by jalal mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0009/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 9
+        },
+        {
+            "id": "0010",
+            "src": "/assets/images/poster/10.jpg",
+            "title": "Zaman",
+            "isvideo": false,
+            "description": "Zaman by Reza Tajbakhsh - Cover art : Jalal Mashhadi fard",
+            "location": "Zaman by Reza Tajbakhsh - Cover art : Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0010/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 10
+        },
+        {
+            "id": "0011",
+            "src": "/assets/images/poster/11.jpg",
+            "title": "Meet somewhere other than the desert",
+            "isvideo": false,
+            "description": "From in praise of conversation series",
+            "location": "From in praise of conversation series",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0011/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 11
+        },
+        {
+            "id": "0012",
+            "src": "/assets/images/poster/12.jpg",
+            "title": "Blue morpho music cover",
+            "isvideo": false,
+            "description": "A song by Nazanin Rezaei -  Music cover :  Jalal Mashhadi Fard",
+            "location": "A song by Nazanin Rezaei -  Music cover :  Jalal Mashhadi Fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0012/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 12
+        },
+        {
+            "id": "0013",
+            "src": "/assets/images/poster/13.jpg",
+            "title": "Dinasohr",
+            "isvideo": false,
+            "description": "Cover art by : Jalal Mashhadi Fard",
+            "location": "Cover art by : Jalal Mashhadi Fard",
+            "images": [
+                {
+                    "src": "/assets/images/poster/images-0013/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 13
+        }
+    ]
+}

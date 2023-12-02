@@ -1,0 +1,137 @@
+{
+    "name": "logo",
+    "title": "Jalal Mashhadi Fard - Furniture design",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/logo/1.mp4",
+            "title": "Alireza Jafarzadeh 's Logo",
+            "description": "Logo By JalalMfard",
+            "location": "Logo By JalalMfard",
+            "isvideo": true,
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0001/1.mp4",
+                    "isvideo": true,
+                    "place": 1
+                }
+            ],
+            "place": 1
+        },
+        {
+            "id": "0002",
+            "src": "/assets/images/logo/2.jpg",
+            "title": "Gallery Expo Logo",
+            "description": "Logo by JalalMFard",
+            "location": "Logo by JalalMFard",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0002/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/logo/3.jpg",
+            "title": "Artouch Logo",
+            "isvideo": false,
+            "description": "Art touch is a different experience of art.",
+            "location": "Art touch is a different experience of art.",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0003/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 3
+        },
+        {
+            "id": "0004",
+            "src": "/assets/images/logo/4.jpg",
+            "title": "Jigsaw Logo",
+            "isvideo": false,
+            "description": "JIGSAW social media agency Logo designed by Jalal.M.Fard",
+            "location": "JIGSAW social media agency Logo designed by Jalal.M.Fard",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0004/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 4
+        }
+        ,
+        {
+            "id": "0005",
+            "src": "/assets/images/logo/5.jpg",
+            "title": "Fekrino entertainment platform",
+            "isvideo": false,
+            "description": "Designed by Jalal Mashhadi fard",
+            "location": "Designed by Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0005/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 5
+        }
+        ,
+        {
+            "id": "0006",
+            "src": "/assets/images/logo/6.mp4",
+            "title": "Fekrino Logo motion",
+            "isvideo": true,
+            "description": "Designed by Jalal Mashhadi fard",
+            "location": "Designed by Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0006/1.mp4",
+                    "isvideo": true,
+                    "place": 1
+                }
+            ],
+            "place": 6
+        },
+        {
+            "id": "0007",
+            "src": "/assets/images/logo/7.jpg",
+            "title": "YAR Music Academy Logo",
+            "isvideo": false,
+            "description": "Designed by Jalal Mashhadi fard",
+            "location": "Designed by Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0007/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 7
+        },
+        {
+            "id": "0008",
+            "src": "/assets/images/logo/8.jpg",
+            "title": "MY-EX LOGO",
+            "isvideo": false,
+            "description": "MY EX exchange designed by Jalal Mashhadi fard",
+            "location": "MY EX exchange designed by Jalal Mashhadi fard",
+            "images": [
+                {
+                    "src": "/assets/images/logo/images-0008/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 8
+        }
+    ]
+}

@@ -1,1 +1,33 @@
-<p>poster works!</p>
+ 
+<div class="card-container p-10">
+
+    <h1>Posters</h1>
+
+</div>
+<div class="card-container"*ngFor="let slide of slides" >
+    <div class="main">
+        <div>
+            <div class="title">
+                {{slide.title}}
+            </div>
+            <div class="location">
+                {{slide.location}}  
+            </div>
+        </div>
+
+        <div>
+            <div class="image">
+                <div id="frame">
+                    <div id="border">
+                        <img class="image" [src]="slide.src">
+                    </div>
+                </div>
+            </div>
+            <div class="link">
+                <button class="button-more" [routerLink]="['/poster/'+slide.id]" role="button">more ...</button>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>

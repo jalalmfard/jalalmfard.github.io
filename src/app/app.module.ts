@@ -22,6 +22,10 @@ import { FurnituredesignComponent } from './furnituredesign/furnituredesign.comp
 import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
 import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artreviewsdetail.component';
 import { ArtreviewsComponent } from './artreviews/artreviews.component';
+import { PosterComponent } from './poster/poster.component';
+import { posterDetailComponent } from './poster/posterdetail/posterdetail.component';
+import { LogoComponent } from './logo/logo.component';
+import { logoDetailComponent } from './logo/logodetail/logodetail.component';
  
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { ArtreviewsComponent } from './artreviews/artreviews.component';
     FurnituredesignComponent,
     furnituredesignDetailComponent,
     ArtreviewsComponent,
-    ArtreviewsDetailComponent
+    ArtreviewsDetailComponent,
+    PosterComponent,
+    posterDetailComponent,
+    LogoComponent,
+    logoDetailComponent
   ],
   imports: [
     BrowserModule,
