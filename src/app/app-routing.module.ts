@@ -8,6 +8,9 @@ import { FurnituredesignComponent } from './furnituredesign/furnituredesign.comp
 import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
 import { ArtreviewsComponent } from './artreviews/artreviews.component';
 import { ArchitectureDetailComponent } from './architecture/architecturedetail/architecturedetail.component';
+import { ArtworksComponent } from './artworks/artworks.component';
+import { ArtworksDetailComponent } from './artworks/artworksdetail/artworksdetail.component';
+import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -20,9 +23,15 @@ const routes: Routes = [
 
   { path: 'artreviews', component: ArtreviewsComponent },
 
-  { path: 'artworks', component: ArtreviewsComponent },
+  { path: 'artworks', component: ArtworksComponent },
+  
+  { path: 'artworks/:id', component: ArtworksDetailComponent },
 
   { path: 'exhibitions', component: ExhibitionsComponent },
+  
+  { path: 'exhibitions/:id', component: ExhibitionsDetailComponent },
+
+
 
   { path: 'furnituredesign', component: FurnituredesignComponent },
 

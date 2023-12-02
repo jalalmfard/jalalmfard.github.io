@@ -13,6 +13,13 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoadingInterceptor } from './loading.interceptor';
 import { LightboxModule } from 'ngx-lightbox';
 import { ArchitectureDetailComponent } from './architecture/architecturedetail/architecturedetail.component';
+import { ArtworksComponent } from './artworks/artworks.component';
+import { ArtworksDetailComponent } from './artworks/artworksdetail/artworksdetail.component';
+import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
+import { CommonModule } from '@angular/common';
+import { ExhibitionsDetailComponent } from './exhibitions/exhibitionsdetail/exhibitionsdetail.component';
+import { FurnituredesignComponent } from './furnituredesign/furnituredesign.component';
+import { furnituredesignDetailComponent } from './furnituredesign/furnituredesigndetail/furnituredesigndetail.component';
  
 @NgModule({
   declarations: [
@@ -21,14 +28,21 @@ import { ArchitectureDetailComponent } from './architecture/architecturedetail/a
     SelectLanguageComponent,
     ArchitectureComponent,
     SpinnerComponent,
-    ArchitectureDetailComponent
+    ArchitectureDetailComponent,
+    ArtworksComponent,
+    ArtworksDetailComponent,
+    ExhibitionsComponent,
+    ExhibitionsDetailComponent,
+    FurnituredesignComponent,
+    furnituredesignDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     I18nModule,
     ImageSliderModule,
-    LightboxModule
+    LightboxModule,
+    CommonModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true

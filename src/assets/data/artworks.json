@@ -1,0 +1,262 @@
+{
+    "name": "artworks",
+    "title": "Jalal Mashhadi Fard - Artworks",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/artworks/1.jpg",
+            "title": "Playing Cards",
+            "description": "In the Playing Cards series, the artist's subject is the difference between \"seeing images through the eyes\" and \"picturing them in mind.\" In this collage artwork, the artist represents his Iranian identity and connects with the historical concepts of his country. Jalal pushes the limitations to show how he pictures persons and their vibes in his mind without any rules. He uses patterns, forms, and figures as a scenario that he can imagine and enjoy.",
+            "location": "Digital print on fine art canvas",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0001/1.jpg",
+                    "description": "Goli 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card : Golshifteh Farahani",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0001/2.jpg",
+                    "description": "Mah / Moon 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card :Audrey hepburn",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0001/3.jpg",
+                    "description": "Duff 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card :Marilyn Monroe",
+                    "place": 3
+                }
+            ],
+            "place": 1
+        },
+        {
+            "id": "0002",
+            "src": "/assets/images/artworks/2.jpg",
+            "title": "Sometimes I have nightmares of freedom",
+            "description": "Freedom is just a word, not a truth; It is a dream, not a fact; It is a nightmare, not a prospect; It is a game, not a reality; Sometimes I have nightmares of freedom.",
+            "location": "Digital print on fine art canvas",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0002/1.jpg",
+                    "description": "Fatal games - 50x60cm 2021 Digital Collage print on fine art canvas. - Location: Milad tower in Tehran - Iran",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/2.jpg",
+                    "description": "Freedom nightmare - 50x60cm 2021 Digital Collage print on fine art canvas. - Location: Freedom tower in Tehran - Iran",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/3.jpg",
+                    "description": "My Ex-Love , Iran - 50x60cm 2021 Digital Collage print on fine art canvas. Edition 3 + 2 A.P - Location: Si o se pol Bridge , Isfahan-Iran",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/4.jpg",
+                    "description": "Untitled from freedom nightmare series 60x80cm  ed: 5 + 2 A.P 2022 used painting: The #theelderstaghuntofelectoe #thegoldenage is an oil on canvas painting by Lucas Cranach .",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/5.jpg",
+                    "description": "Freedom sounds 50x60cm 2022 Digital Collage print on fine art canvas. Edition 5 + 2 A.P  1500$ Location: Freedom (Azadi) tower in Tehran - Iran",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/6.jpg",
+                    "description": "Untitled 50x70 Print on paper  2022 edition 5 + 2 A.P From freedom nightmare series",
+                    "place": 6
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/7.jpg",
+                    "description": "Untitled  from freedom nightmare series 60x80cm  ed: 5 + 2 A.P 2022",
+                    "place": 7
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/8.jpg",
+                    "description": "Freedom under repair from freedom nightmare series 60x80cm  ed: 5 + 2 A.P 2022",
+                    "place": 8
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/9.jpg",
+                    "description": "Untitled from freedom nightmare series 50x70 cm ed: 5 + 2 A.P 2022",
+                    "place": 9
+                },
+                {
+                    "src": "/assets/images/artworks/images-0002/10.jpg",
+                    "description": "Kiss You i Freedom from freedom nightmare series 60x80cm  ed: 5 + 2 A.P 2022",
+                    "place": 10
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/artworks/3.jpg",
+            "title": "What i see in the city",
+            "description": "In this collection of photo-collage, the artist intends to criticize the limitation of his country and the real world, using some photos of Tehran with photographs of famous cinema characters. In addition, he pictures his dream and imagination to all people to show power, freedom of mind, and dreams. This contrast convinces the audience that the artist aims to create peace between the two paradoxical parts of each frame. The viewer is called to enter a fantasy world full of peaceful oppositions, sweet integrations, freedom of mind, friendship, love, etc.",
+            "location": "Digital print on black and white baryta paper",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0003/1.jpg",
+                    "description": "Kiss You i Freedom from freedom nightmare series 60x80cm  ed: 5 + 2 A.P 2022",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/2.jpg",
+                    "description": "",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/3.jpg",
+                    "description": "",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/4.jpg",
+                    "description": "",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/5.jpg",
+                    "description": "",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/6.jpg",
+                    "description": "",
+                    "place": 6
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/7.jpg",
+                    "description": "",
+                    "place": 7
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/8.jpg",
+                    "description": "",
+                    "place": 8
+                },
+                {
+                    "src": "/assets/images/artworks/images-0003/9.jpg",
+                    "description": "",
+                    "place": 9
+                }
+            ],
+            "place": 3
+        },
+        {
+            "id": "0004",
+            "src": "/assets/images/artworks/4.jpg",
+            "title": "Persian Pop Royal family cards",
+            "description": "In the artworks of this series, Persian pop historical singers placed on playin card instead of King , Queen and Jack .",
+            "location": "Digital print on paper",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0004/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 4
+        },
+        {
+            "id": "0005",
+            "src": "/assets/images/artworks/5.jpg",
+            "title": "Paradise series",
+            "description": "Some words contain the concepts promised by religions and traditions which have the power and mystery to surround many people. This series is expressing a part of these magical promises hidden in those words.",
+            "location": "Digital Print on paper",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0005/1.jpg",
+                    "description": "paradise \"Behesht\" has the same meaning in the minds of the people all around the world with different cultures and languages even with different religions and it's a dreamy place that all the prophets promised their virtuous followers. ",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0005/2.jpg",
+                    "description": "In some religions, the prophets promise their followers, if they can control and avoid their sexual needs in this world, to be rewarded with unlimited and fantastic pleasure in the afterworld with countless and extraordinary charming sexual partners who they named \"houri\".",
+                    "place": 2
+                }
+            ],
+            "place": 5
+        },
+        {
+            "id": "0006",
+            "src": "/assets/images/artworks/6.jpg",
+            "title": "Summer is short",
+            "description": "Based on Zedbazi ,  Tabestoon kootahe song ",
+            "location": "By Jalal Mashhadi Fard",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0006/1.jpg",
+                    "description": "SUMMER IS SHORT 50x65cm 2022 Digital Collage print on paper. Edition 5 + 2 A.P",
+                    "place": 1
+                }
+            ],
+            "place": 6
+        },
+        {
+            "id": "0007",
+            "src": "/assets/images/artworks/7.jpg",
+            "title": "Wonder Wold",
+            "description": "This artwork expresses the imagination of an Iranian artist when he tries to illuminate the greatness of the human spirit and the glory of creation, with the experience of his life in wonder worlds of Persian carpet patterns and his contemporary minimalist vision. This artwork is based on the paradox of elements that, while contradicting each other, achieve peace in his artworks and make the works contain his traditional and contemporary visions.",
+            "location": "Digital print on fine art canvas",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0007/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0007/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0007/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/artworks/images-0007/4.jpg",
+                    "place": 4
+                }
+            ],
+            "place": 7
+        },
+        {
+            "id": "0008",
+            "src": "/assets/images/artworks/8.jpg",
+            "title": "Flow-Ly",
+            "description": "The holy human existence consists of energy rays in a way that seems the source of this energy is outside of his material body. When there is a connection between the human soul and its spiritual source, the light will cover the human existence and a superior feeling will appear in him. A feeling that causes a human to leave his material dependencies, and to turn towards his spiritual light. Untitled from Flow-ly series By Yasaman Alizadeh Moghadam & Jalal Mashhadi fard",
+            "location": "sculptor Series By Yasaman Alizadeh Moghadam - Jalal Mashhadi Fard",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0008/1.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0008/2.jpg",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0008/3.jpg",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/artworks/images-0008/4.jpg",
+                    "place": 4
+                }
+            ],
+            "place": 8
+        },
+        {
+            "id": "0009",
+            "src": "/assets/images/artworks/9.jpg",
+            "title": "Curator's installation",
+            "description": "The installation is designed by curator based on the statement of the artist's series, which itself is formed from the artist's artworks, and not only the frames form a new artwork, but also each frame independent by itself. about Omid jahantigh's series in \"Floorz Project / episode \" is stated :\"the artworks of this series are images of human free of it's earthly egotistic mask,Spaceless, timeless and constantly morphing .\"",
+            "location": "Installation by Jalal MashhadiFard on Omid Jahantigh's Artworks.",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0009/1.jpg",
+                    "place": 1
+                }
+            ],
+            "place": 9
+        }
+    ]
+}
