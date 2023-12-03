@@ -5,49 +5,52 @@
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
       <li>
-        <a  [routerLink]="['/architecture']">
+        <a [routerLink]="['/architecture']">
           <span>Architecture & Interior design</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/artworks']">
+        <a [routerLink]="['/artworks']">
           <span>Artworks</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/exhibitions']">
+        <a [routerLink]="['/exhibitions']">
           <span>Exhibitions</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/furnituredesign']">
+        <a [routerLink]="['/furnituredesign']">
           <span>Furniture design</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/artreviews']">
+        <a [routerLink]="['/artreviews']">
           <span>Art reviews</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/poster']">
+        <a [routerLink]="['/poster']">
           <span>Poster</span>
         </a>
       </li>
       <li>
-        <a  [routerLink]="['/logo']">
+        <a [routerLink]="['/logo']">
           <span>Logo</span>
         </a>
       </li>
     </ul>
   </header>
 
-  <router-outlet></router-outlet>
-
-
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     © 2023 JalalMFard LLC.
   </footer>
+  <div>
+    <img src="/assets/images/jalal-arteza.png" class="sign" alt="JalalMFard">
+  </div>
 </div>
