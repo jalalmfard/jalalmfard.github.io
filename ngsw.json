@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701583305785,
+  "timestamp": 1701588111162,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.6193afe964d81088.js",
+        "/main.09dbc1d43c777977.js",
         "/manifest.webmanifest",
         "/polyfills.3ac713b3bdd14a30.js",
         "/runtime.2c65e9ffc8a9e47e.js",
-        "/styles.aef207af0c8a27dd.css"
+        "/styles.6fa7e2ef9ee9f436.css"
       ],
       "patterns": []
     },
@@ -194,6 +194,8 @@
         "/assets/images/logo/images-0006/1.mp4",
         "/assets/images/logo/images-0007/1.jpg",
         "/assets/images/logo/images-0008/1.jpg",
+        "/assets/images/logos/android-chrome-192x192.png",
+        "/assets/images/logos/android-chrome-512x512.png",
         "/assets/images/logos/android-icon-144x144.png",
         "/assets/images/logos/android-icon-192x192.png",
         "/assets/images/logos/android-icon-36x36.png",
@@ -211,6 +213,7 @@
         "/assets/images/logos/apple-icon-76x76.png",
         "/assets/images/logos/apple-icon-precomposed.png",
         "/assets/images/logos/apple-icon.png",
+        "/assets/images/logos/apple-touch-icon.png",
         "/assets/images/logos/browserconfig.xml",
         "/assets/images/logos/favicon-16x16.png",
         "/assets/images/logos/favicon-32x32.png",
@@ -423,6 +426,8 @@
     "/assets/images/logo/images-0006/1.mp4": "02a5482ee5b8709ade4dbfd244aa6fd3a6e6f1c0",
     "/assets/images/logo/images-0007/1.jpg": "02166c5233118041e0ed68e14feb6b1821e6d38f",
     "/assets/images/logo/images-0008/1.jpg": "d71d3671611da5939a9d190fcc59c76ad7f7ce48",
+    "/assets/images/logos/android-chrome-192x192.png": "eb8a0f7a425b147a286d5e07996925d640b34ce6",
+    "/assets/images/logos/android-chrome-512x512.png": "f777725ce6c1ece2572551862f3a96ed43f156a7",
     "/assets/images/logos/android-icon-144x144.png": "4b5ab9184bfa84e9d3e62a78bb6f25d0608c18d1",
     "/assets/images/logos/android-icon-192x192.png": "cc2042c5d569d3fe85b44c612e3788a9b5d73ce0",
     "/assets/images/logos/android-icon-36x36.png": "81358725347e8bbf01b199d8aac81b423838a776",
@@ -440,11 +445,12 @@
     "/assets/images/logos/apple-icon-76x76.png": "dea57d0abc58d2425ae2696293a146d20ef03068",
     "/assets/images/logos/apple-icon-precomposed.png": "af6b3bee4289f13f70b80ec7f6d9c0fbdedbdf2f",
     "/assets/images/logos/apple-icon.png": "af6b3bee4289f13f70b80ec7f6d9c0fbdedbdf2f",
+    "/assets/images/logos/apple-touch-icon.png": "070fd09c2a3b9f8f79e3a2b255c70d5030c4b48c",
     "/assets/images/logos/browserconfig.xml": "853389b6c4273965899eb1302d665eb91395fd0c",
-    "/assets/images/logos/favicon-16x16.png": "bed42858f0a10d3522dbb94cdca1d2139103d9ed",
-    "/assets/images/logos/favicon-32x32.png": "687e0e2f8179a2bb380c21053ca722b9fa7c1298",
+    "/assets/images/logos/favicon-16x16.png": "438ffc38408a5d9279d06745f22426f351bc5bc4",
+    "/assets/images/logos/favicon-32x32.png": "d460a5c40dfc1c3b51b3503e0d612e1a60541660",
     "/assets/images/logos/favicon-96x96.png": "f7d99f72b7b38ba40c24362b5b644addb8bd4cc6",
-    "/assets/images/logos/favicon.ico": "872fe0529bd3c2132d069bd16c3deb750e0bb1a4",
+    "/assets/images/logos/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
     "/assets/images/logos/ms-icon-144x144.png": "4b5ab9184bfa84e9d3e62a78bb6f25d0608c18d1",
     "/assets/images/logos/ms-icon-150x150.png": "cb9ec6b6c7e00084fd4e3abb12d376fca1b8da5f",
     "/assets/images/logos/ms-icon-310x310.png": "3d6d01cba51af51dda880f57cd9216be7d7478b3",
@@ -481,13 +487,13 @@
     "/assets/images/poster/images-0011/1.jpg": "3b48342be9108c9946fab2782a55579ffcf3029a",
     "/assets/images/poster/images-0012/1.jpg": "a7d2aa6fb15ad1aac89efa3a1ba04e8d79fad193",
     "/assets/images/poster/images-0013/1.jpg": "6a35365e648d494c6e5c9fe0176be7c022d0a840",
-    "/favicon.ico": "370d5390d74830e03cef748cc812b364a93f73dc",
-    "/index.html": "7e14b2389ffec38d13c74ee4d97c79459a2de9d5",
-    "/main.6193afe964d81088.js": "a97c9846f713f5439f84671322e6565d566af2f3",
+    "/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
+    "/index.html": "635fdb53bf73bf3b51389400cbffd8c7d9170a8b",
+    "/main.09dbc1d43c777977.js": "30944bee277e3bcdefc30a9181ee999a02a0a243",
     "/manifest.webmanifest": "7a79aa64d1a7e608a38f4b65ba9f3331bd0a5482",
     "/polyfills.3ac713b3bdd14a30.js": "39963192165c9971f1b6aa39c551528d122e0d91",
     "/runtime.2c65e9ffc8a9e47e.js": "2767271177514a82d08d5f50f188b94e147cda03",
-    "/styles.aef207af0c8a27dd.css": "dd460e46f591e22c7e30c2e3b483cd084d9e271c"
+    "/styles.6fa7e2ef9ee9f436.css": "f1ae34dec9fb91aac0b9d7b18d24fed32450badd"
   },
   "navigationUrls": [
     {
