@@ -317,10 +317,16 @@ svg#clouds {
     height: auto;
     bottom: 40px;
     left: 40px;
+    border:none !important;
 }
 @media screen and (max-width: 575px) {
     svg#rocket-smoke {
         display: none;
         visibility: hidden;
     }
+}
+
+img {
+    border: 1px solid #DFDFDF;
+    border-radius: 16px;
 }

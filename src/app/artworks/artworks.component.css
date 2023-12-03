@@ -49,8 +49,7 @@
     position: relative;
     padding: 0;
     margin: 0;
-    border: solid 15px #555;
-    box-shadow: -3px -3px 12px #999;
+ 
 
 }
 
@@ -58,7 +57,7 @@
     position: relative;
     padding: 0;
     margin: 0;
-    box-shadow: -3px -3px 12px #999;
+    
 }
 
 img {
