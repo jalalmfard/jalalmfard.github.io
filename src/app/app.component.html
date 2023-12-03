@@ -1,13 +1,9 @@
 <div class="content" role="main">
   <header class="header">
-     <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <a [routerLink]="['/']" class="logo">Home</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li>
-        <a [routerLink]="['/']">
-          <span>Home</span>
-        </a>
-      </li>
       <li>
         <a [routerLink]="['/architecture']">
           <span>Architecture & Interior design</span>
