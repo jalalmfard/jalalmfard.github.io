@@ -27,7 +27,8 @@ import { posterDetailComponent } from './poster/posterdetail/posterdetail.compon
 import { LogoComponent } from './logo/logo.component';
 import { logoDetailComponent } from './logo/logodetail/logodetail.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
- 
+import { AboutComponent } from './about/about.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +48,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     PosterComponent,
     posterDetailComponent,
     LogoComponent,
-    logoDetailComponent
+    logoDetailComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

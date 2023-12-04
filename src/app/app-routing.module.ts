@@ -15,6 +15,7 @@ import { furnituredesignDetailComponent } from './furnituredesign/furnituredesig
 import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artreviewsdetail.component';
 import { logoDetailComponent } from './logo/logodetail/logodetail.component';
 import { posterDetailComponent } from './poster/posterdetail/posterdetail.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -48,6 +49,7 @@ const routes: Routes = [
   { path: 'poster', component: PosterComponent },
   { path: 'poster/:id', component: posterDetailComponent },
 
+  { path: 'about', component: AboutComponent },
 
   { path: '**', component: HomeComponent },
 ];
