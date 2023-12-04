@@ -2,3 +2,24 @@
 {
     text-align: center;
 }
+
+.text-about
+{
+  font-size: 18px;
+  line-height: 2.6;
+  text-align: justify;
+}
+
+
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+}
+
+.link-about {
+  flex: 1;
+  justify-content: center;
+ }
