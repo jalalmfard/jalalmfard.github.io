@@ -1,56 +1,63 @@
 <div class="content" role="main">
-  <header class="header">
+  <!-- <header class="header">
     <a [routerLink]="['/']" class="logo">Home</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li>
-        <a [routerLink]="['/architecture']">
+
+  </header> -->
+
+  <nav
+    class="foxnav mt-3 text-center">
+    <ul class="foxnav-items">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/']">Home</a>
+      </li>
+
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/architecture']">
           <span>Architecture & Interior design</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/artworks']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/artworks']">
           <span>Artworks</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/exhibitions']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/exhibitions']">
           <span>Exhibitions</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/furnituredesign']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/furnituredesign']">
           <span>Furniture design</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/artreviews']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/artreviews']">
           <span>Art reviews</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/poster']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/poster']">
           <span>Poster</span>
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/logo']">
+      <li class="foxnav-item">
+        <a class="item-link" [routerLink]="['/logo']">
           <span>Logo</span>
         </a>
       </li>
     </ul>
-  </header>
+  </nav>
 
   <div class="main-content">
     <router-outlet></router-outlet>
   </div>
 
   <!-- Footer -->
-  <footer class="footer">
-    © 2023 JalalMFard LLC.
-  </footer>
+  <footer class="footer">© 2023 JalalMFard LLC.</footer>
   <div>
-    <img src="/assets/images/jalal-arteza.png" class="sign" alt="JalalMFard">
+    <img src="/assets/images/jalal-arteza.png" class="sign" alt="JalalMFard" />
   </div>
 </div>
