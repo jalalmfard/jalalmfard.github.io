@@ -1,6 +1,5 @@
 <div class="content" role="main">
-   <nav
-    class="foxnav mt-3 text-center">
+  <nav class="foxnav mt-3 text-center">
     <ul class="foxnav-items">
       <li class="foxnav-item">
         <a class="item-link" [routerLink]="['/']">Home</a>
@@ -53,8 +52,12 @@
     <router-outlet></router-outlet>
   </div>
 
-  <!-- Footer -->
-  <footer class="footer">© 2023 JalalMFard LLC.</footer>
+  <footer class="footer">
+    <span> © 2023 JalalMFard LLC.</span>
+    <a href="https://www.instagram.com/JalalMfard/">
+      <img class="instagram" src="/assets/images/instagram.svg" alt="instagram"/>
+    </a>
+  </footer>
   <div>
     <img src="/assets/images/jalal-arteza.png" class="sign" alt="JalalMFard" />
   </div>
