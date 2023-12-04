@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701677733002,
+  "timestamp": 1701699730036,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.7817340e24a5d05c.js",
+        "/main.3954735f8289edae.js",
         "/manifest.webmanifest",
         "/polyfills.3ac713b3bdd14a30.js",
         "/runtime.2c65e9ffc8a9e47e.js",
-        "/styles.d6e4bb7028478eff.css"
+        "/styles.232ad20b0aade3e7.css"
       ],
       "patterns": []
     },
@@ -177,6 +177,7 @@
         "/assets/images/furnituredesign/images-0001/1.jpg",
         "/assets/images/furnituredesign/images-0002/1.jpg",
         "/assets/images/furnituredesign/images-0003/1.jpg",
+        "/assets/images/instagram.svg",
         "/assets/images/jalal-arteza.png",
         "/assets/images/logo/1.mp4",
         "/assets/images/logo/2.jpg",
@@ -409,6 +410,7 @@
     "/assets/images/furnituredesign/images-0001/1.jpg": "ef81e02b26f6af680a067e5df3421029d176bb6a",
     "/assets/images/furnituredesign/images-0002/1.jpg": "1d68fcc87b2d2778cc4c5792adc82bc39a1f2891",
     "/assets/images/furnituredesign/images-0003/1.jpg": "65068a23eeae91efdf1e0f5358ef65ca68cd65c1",
+    "/assets/images/instagram.svg": "b8a197c4d07e340243da7f7ca3d83e56383b97db",
     "/assets/images/jalal-arteza.png": "ffb14d105942f8927b88616c16de49494fa38603",
     "/assets/images/logo/1.mp4": "ed5f934ad74a4aa5ef2fc57948a725f8a003c46f",
     "/assets/images/logo/2.jpg": "4fd8c5f7a60070eb729908c11c857eae8f361964",
@@ -488,12 +490,12 @@
     "/assets/images/poster/images-0012/1.jpg": "a7d2aa6fb15ad1aac89efa3a1ba04e8d79fad193",
     "/assets/images/poster/images-0013/1.jpg": "6a35365e648d494c6e5c9fe0176be7c022d0a840",
     "/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
-    "/index.html": "a23d211d2d688123e7dbac7ea186a9bc6936a0f1",
-    "/main.7817340e24a5d05c.js": "b82176e3ff67081086288787326549077e66cc37",
+    "/index.html": "ac79680204c46c30adc12514ad0f377b3815093f",
+    "/main.3954735f8289edae.js": "9eaed4d0455e7dcba14901f3c1debd69c31d0cfe",
     "/manifest.webmanifest": "7a79aa64d1a7e608a38f4b65ba9f3331bd0a5482",
     "/polyfills.3ac713b3bdd14a30.js": "39963192165c9971f1b6aa39c551528d122e0d91",
     "/runtime.2c65e9ffc8a9e47e.js": "2767271177514a82d08d5f50f188b94e147cda03",
-    "/styles.d6e4bb7028478eff.css": "154830f0b8dbaf06606a752f3c8a807864583374"
+    "/styles.232ad20b0aade3e7.css": "5e758257b1aa8b3ef7d1f467fef60ef36142c312"
   },
   "navigationUrls": [
     {
