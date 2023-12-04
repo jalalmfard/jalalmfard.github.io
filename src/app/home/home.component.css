@@ -1,8 +1,4 @@
-.title{
-  text-align: center;
-  margin: auto;
-}
-.title-main{
-  font-size: 22px;
-  font-weight: lighter;
+.text-center
+{
+    text-align: center;
 }

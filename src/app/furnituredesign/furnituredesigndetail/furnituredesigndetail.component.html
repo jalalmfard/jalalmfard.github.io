@@ -1,28 +1,38 @@
 <div class="card-container p-10">
 
-    <h1>{{selectedItem.title}}</h1>
+  <h1>{{selectedItem.title}}</h1>
 
 </div>
 <br>
 <div class="card-container p-10">
-    <p>
-        {{selectedItem.description}}
-    </p>
+  <p>
+      {{selectedItem.description}}
+  </p>
 </div>
 <br>
 
 <div *ngIf="selectedItem.images">
-    <div class="card-container" *ngFor="let slide of selectedItem.images">
-        <div id="frame">
-            <div id="border">
-                <img class="image" src="{{slide.src}}" alt="">
+  <div class="card-container" *ngFor="let slide of selectedItem.images">
+      <div id="frame">
+          <div id="border" *ngIf="!slide.isvideo">
 
-            </div>
-        </div>
-        <div *ngIf="slide.description">
-            <button class="button-more" role="button">{{slide.description}}</button>
-        </div>
-        <br>
-        <br>
-    </div>
+              <img class="show-image" [src]="slide.src">
+          </div>
+
+          <div id="border" *ngIf="slide.isvideo">
+
+              <video class="image" controls>
+                  <source [src]="slide.src" type="video/mp4">
+                 Your browser does not support the video tag.
+                </video>
+
+
+          </div>
+      </div>
+      <div *ngIf="slide.description">
+          <button class="button-more" role="button">{{slide.description}}</button>
+      </div>
+      <br>
+      <br>
+  </div>
 </div>

@@ -15,18 +15,18 @@
     <div class="card-container" *ngFor="let slide of selectedItem.images">
         <div id="frame">
             <div id="border" *ngIf="!slide.isvideo">
-                      
-                <img class="image" [src]="slide.src">
+
+                <img class="show-image" [src]="slide.src">
             </div>
 
             <div id="border" *ngIf="slide.isvideo">
-        
+
                 <video class="image" controls>
                     <source [src]="slide.src" type="video/mp4">
                    Your browser does not support the video tag.
                   </video>
 
-                  
+
             </div>
         </div>
         <div *ngIf="slide.description">
