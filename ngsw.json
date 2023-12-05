@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701736455585,
+  "timestamp": 1701779924719,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -268,7 +268,7 @@
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
     "/assets/data/furnituredesign.json": "9cac16232e20a56771b977667566fe947edc0b98",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
-    "/assets/data/main.json": "85943a5f90e83c8234c04962f146e8b02bc119b1",
+    "/assets/data/main.json": "d26bc3d8b6db5ba1af9ea6a99b3c7cb2c6a79861",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
     "/assets/i18n/en.json": "4f9fd1dbef475aefaab135cb36865c17958ee127",
     "/assets/i18n/fa.json": "900ca73b626ddc11613d96db383f534772a03fdb",
