@@ -338,7 +338,7 @@ svg#clouds {
 /* Sign Section */
 .sign {
   position: fixed;
-  width: 100px;
+  width: 200px;
   height: auto;
   bottom: 40px;
   left: 40px;
