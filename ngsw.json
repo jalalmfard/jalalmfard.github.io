@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701848058948,
+  "timestamp": 1704400599428,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/manifest.webmanifest",
         "/polyfills.3ac713b3bdd14a30.js",
         "/runtime.2c65e9ffc8a9e47e.js",
-        "/styles.232ad20b0aade3e7.css"
+        "/styles.876f77c18e0bacb6.css"
       ],
       "patterns": []
     },
@@ -130,6 +130,11 @@
         "/assets/images/artworks/7.jpg",
         "/assets/images/artworks/8.jpg",
         "/assets/images/artworks/9.jpg",
+        "/assets/images/artworks/Jan/Jan 2.jpg",
+        "/assets/images/artworks/Jan/Jan 3.jpg",
+        "/assets/images/artworks/Jan/Jan 4.jpg",
+        "/assets/images/artworks/Jan/Jan 5.jpg",
+        "/assets/images/artworks/Jan/stone .jpg",
         "/assets/images/artworks/images-0001/1.jpg",
         "/assets/images/artworks/images-0001/2.jpg",
         "/assets/images/artworks/images-0001/3.jpg",
@@ -174,6 +179,7 @@
         "/assets/images/furnituredesign/1.jpg",
         "/assets/images/furnituredesign/2.jpg",
         "/assets/images/furnituredesign/3.jpg",
+        "/assets/images/furnituredesign/Feel/FEEL FUR.jpg",
         "/assets/images/furnituredesign/images-0001/1.jpg",
         "/assets/images/furnituredesign/images-0002/1.jpg",
         "/assets/images/furnituredesign/images-0003/1.jpg",
@@ -264,9 +270,9 @@
   "hashTable": {
     "/assets/data/architecture.json": "c02918d70137a2b82a247f678509e8f45c814b1a",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
-    "/assets/data/artworks.json": "9f4ae7efa61815729bb41732e0d24c818605550d",
+    "/assets/data/artworks.json": "cd8a32e96be8779cd5b69d571397a4016f541c1c",
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
-    "/assets/data/furnituredesign.json": "9cac16232e20a56771b977667566fe947edc0b98",
+    "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
     "/assets/data/main.json": "309e36f53e5c08ab2764ec03a305824609792ae0",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
@@ -363,6 +369,11 @@
     "/assets/images/artworks/7.jpg": "9990a4a30d2ded23f37c9adfec355822f01ecdcb",
     "/assets/images/artworks/8.jpg": "0e464e159ae66c0d49dbc128392a3f8174a66a0c",
     "/assets/images/artworks/9.jpg": "a46afdd3501ffc7fa559117bb9a125442b174ef7",
+    "/assets/images/artworks/Jan/Jan 2.jpg": "0f8864e2afd3e7b89c12a9a197b870622f3a80f8",
+    "/assets/images/artworks/Jan/Jan 3.jpg": "f6956b219da6e58419973cf818c8ce1c9b341b00",
+    "/assets/images/artworks/Jan/Jan 4.jpg": "0fc0ac6991213c5ac2a0ea392bb200462bf94733",
+    "/assets/images/artworks/Jan/Jan 5.jpg": "e75b9b32cf58d2b6b6a85f7d25fac0eb890cf339",
+    "/assets/images/artworks/Jan/stone .jpg": "bb144ce37ffd25b58ecb2905a29664560ebb761c",
     "/assets/images/artworks/images-0001/1.jpg": "2757ddf1fca6b950aaaf36d50a0cc309216b1945",
     "/assets/images/artworks/images-0001/2.jpg": "802a3da56c21b44a41c1ee139f2109d0a6068438",
     "/assets/images/artworks/images-0001/3.jpg": "452943ce7e2571c880b6f1282477fd97abf6aa50",
@@ -407,6 +418,7 @@
     "/assets/images/furnituredesign/1.jpg": "ef81e02b26f6af680a067e5df3421029d176bb6a",
     "/assets/images/furnituredesign/2.jpg": "1d68fcc87b2d2778cc4c5792adc82bc39a1f2891",
     "/assets/images/furnituredesign/3.jpg": "65068a23eeae91efdf1e0f5358ef65ca68cd65c1",
+    "/assets/images/furnituredesign/Feel/FEEL FUR.jpg": "a1ecc95a8a96078324d213882fb145012a888c13",
     "/assets/images/furnituredesign/images-0001/1.jpg": "ef81e02b26f6af680a067e5df3421029d176bb6a",
     "/assets/images/furnituredesign/images-0002/1.jpg": "1d68fcc87b2d2778cc4c5792adc82bc39a1f2891",
     "/assets/images/furnituredesign/images-0003/1.jpg": "65068a23eeae91efdf1e0f5358ef65ca68cd65c1",
@@ -490,12 +502,12 @@
     "/assets/images/poster/images-0012/1.jpg": "a7d2aa6fb15ad1aac89efa3a1ba04e8d79fad193",
     "/assets/images/poster/images-0013/1.jpg": "6a35365e648d494c6e5c9fe0176be7c022d0a840",
     "/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
-    "/index.html": "50fbac473142f2410540f19235a15fbc97048e82",
+    "/index.html": "a16e70e5a312aa862753bb2f495715e65d02ede8",
     "/main.3954735f8289edae.js": "9eaed4d0455e7dcba14901f3c1debd69c31d0cfe",
     "/manifest.webmanifest": "7a79aa64d1a7e608a38f4b65ba9f3331bd0a5482",
     "/polyfills.3ac713b3bdd14a30.js": "39963192165c9971f1b6aa39c551528d122e0d91",
     "/runtime.2c65e9ffc8a9e47e.js": "2767271177514a82d08d5f50f188b94e147cda03",
-    "/styles.232ad20b0aade3e7.css": "5e758257b1aa8b3ef7d1f467fef60ef36142c312"
+    "/styles.876f77c18e0bacb6.css": "487db3d7d90af0edf422447d2f74572695e4f183"
   },
   "navigationUrls": [
     {

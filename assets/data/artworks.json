@@ -4,6 +4,36 @@
     "description": "Welcome to our website!",
     "images": [
         {
+            "id": "Jan1",
+            "src": "/assets/images/artworks/Jan/Jan 3.jpg",
+            "title": "Untitled From Jan series",
+            "description": "JALAL MASHHADI FARD 40x40x50 cm",
+            "location": "White stones & energetic salt stones",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/Jan/Jan 3.jpg",
+                    "description": "40x40x50 By Jalal Mashhadi fard in collabaration with Mohsen Mohammadian, Edition 1/3",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/Jan/Jan 2.jpg",
+                    "description": "40x40x50 By Jalal Mashhadi fard in collabaration with Mohsen Mohammadian, Edition 1/3",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/Jan/Jan 4.jpg",
+                    "description": "40x40x50 By Jalal Mashhadi fard in collabaration with Mohsen Mohammadian, Edition 1/3",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/artworks/Jan/Jan 5.jpg",
+                    "description": "40x40x50 By Jalal Mashhadi fard in collabaration with Mohsen Mohammadian, Edition 1/3",
+                    "place": 4
+                }
+            ],
+            "place": 1
+        },
+        {
             "id": "0001",
             "src": "/assets/images/artworks/1.jpg",
             "title": "Playing Cards",
@@ -26,7 +56,7 @@
                     "place": 3
                 }
             ],
-            "place": 1
+            "place": 2
         },
         {
             "id": "0002",

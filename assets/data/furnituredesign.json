@@ -4,6 +4,22 @@
     "description": "Welcome to our website!",
     "images": [
         {
+            "id": "Feel",
+            "src": "/assets/images/furnituredesign/Feel/FEEL FUR.jpg",
+            "title": "Feel Furniture",
+            "description": "Feel Boutiqe plaza furnitures",
+            "location": "Muscat, Oman",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/furnituredesign/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 1
+        },
+        {
             "id": "0001",
             "src": "/assets/images/furnituredesign/1.jpg",
             "title": "C-chair",
@@ -17,7 +33,7 @@
                     "place": 1
                 }
             ],
-            "place": 1
+            "place": 2
         },
         {
             "id": "0002",
