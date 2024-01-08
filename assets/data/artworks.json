@@ -5,9 +5,9 @@
     "images": [
         {
             "id": "Jan1",
-            "src": "/assets/images/artworks/Jan/Jan 3.jpg",
-            "title": "Untitled From Jan series",
-            "description": "JALAL MASHHADI FARD 40x40x50 cm",
+            "src": "src/assets/images/main/slider/jan.jpg",
+            "title": "Jan series",
+            "description": "JALAL MASHHADI FARD",
             "location": "White stones & energetic salt stones",
             "images": [
                 {
