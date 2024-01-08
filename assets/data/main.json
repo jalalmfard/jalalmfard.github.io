@@ -11,6 +11,13 @@
             "place":1
         },
         {
+            "id":"Jan sculapture",
+            "src": "/assets/images/main/slider/jan.jpg",
+            "description": "",
+            "images": [],
+            "place":1
+        },
+        {
             "id":"0002",
             "src": "/assets/images/main/slider/2.webp",
             "description": "",

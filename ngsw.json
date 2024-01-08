@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1704400599428,
+  "timestamp": 1704709254684,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -236,6 +236,7 @@
         "/assets/images/main/slider/4.webp",
         "/assets/images/main/slider/5.webp",
         "/assets/images/main/slider/6.webp",
+        "/assets/images/main/slider/jan.jpg",
         "/assets/images/poster/1.jpg",
         "/assets/images/poster/10.jpg",
         "/assets/images/poster/11.jpg",
@@ -274,7 +275,7 @@
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
-    "/assets/data/main.json": "309e36f53e5c08ab2764ec03a305824609792ae0",
+    "/assets/data/main.json": "66f0155b7d5e896ae47c298cb3d8b8703fa6f267",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
     "/assets/i18n/en.json": "4f9fd1dbef475aefaab135cb36865c17958ee127",
     "/assets/i18n/fa.json": "900ca73b626ddc11613d96db383f534772a03fdb",
@@ -475,6 +476,7 @@
     "/assets/images/main/slider/4.webp": "dd5fe71acef62f9d4cdf7b9339eb6c75592891a2",
     "/assets/images/main/slider/5.webp": "ab533ec08a48b549bbefd446a3399eaac6d6d591",
     "/assets/images/main/slider/6.webp": "822a85ec70a7c4cc7b71ed8857b838a2eb7a786d",
+    "/assets/images/main/slider/jan.jpg": "302d721206aa4ae0b03722c202959b30812e3749",
     "/assets/images/poster/1.jpg": "31b53f30b317023f8cada99d818a47beb49384f8",
     "/assets/images/poster/10.jpg": "f87e25b4b46e667486b3062d77ab537f572a15f4",
     "/assets/images/poster/11.jpg": "3b48342be9108c9946fab2782a55579ffcf3029a",
