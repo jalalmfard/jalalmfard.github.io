@@ -8,7 +8,7 @@
             "src": "/assets/images/main/slider/1.webp",
             "description": "",
             "images": [],
-            "place":7
+            "place":2
         },
         {
             "id":"Jan sculapture",
@@ -22,7 +22,7 @@
             "src": "/assets/images/main/slider/2.webp",
             "description": "",
             "images": [],
-            "place":2
+            "place":3
         }
         ,
         {
@@ -30,7 +30,7 @@
             "src": "/assets/images/main/slider/3.webp",
             "description": "",
             "images": [],
-            "place":3
+            "place":4
         }
         ,
         {
@@ -38,7 +38,7 @@
             "src": "/assets/images/main/slider/4.webp",
             "description": "",
             "images": [],
-            "place":4
+            "place":7
         }
         ,
         {
