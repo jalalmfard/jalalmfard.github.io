@@ -5,7 +5,7 @@
     "images": [
         {
             "id": "Jan1",
-            "src": "src/assets/images/main/slider/jan.jpg",
+            "src": "/assets/images/main/slider/1.webp",
             "title": "Jan series",
             "description": "JALAL MASHHADI FARD",
             "location": "White stones & energetic salt stones",
