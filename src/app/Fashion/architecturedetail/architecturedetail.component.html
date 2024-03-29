@@ -1,0 +1,28 @@
+<div class="card-container p-10">
+
+    <h1>{{selectedItem.title}}</h1>
+
+</div>
+<br>
+<div class="card-container p-10">
+    <p>
+        {{selectedItem.description}}
+    </p>
+</div>
+<br>
+
+<div *ngIf="selectedItem.images">
+    <div class="card-container" *ngFor="let slide of selectedItem.images">
+        <div id="frame">
+            <div id="border">
+                <img class="show-image" src="{{slide.src}}" alt="">
+
+            </div>
+        </div>
+        <div *ngIf="slide.description">
+            <button class="button-more" role="button">{{slide.description}}</button>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
