@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1711721750312,
+  "timestamp": 1711838342493,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -29,7 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/data/architecture copy.json",
+        "/assets/data/Fashion.json",
         "/assets/data/architecture.json",
         "/assets/data/artreviews.json",
         "/assets/data/artworks.json",
@@ -270,7 +270,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/data/architecture copy.json": "c02918d70137a2b82a247f678509e8f45c814b1a",
+    "/assets/data/Fashion.json": "8c6c481c59c8a146681d3b28d00bbcdea1bb9d09",
     "/assets/data/architecture.json": "c02918d70137a2b82a247f678509e8f45c814b1a",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "9ad0a98668746f99d76e387d586b3f4869662657",
