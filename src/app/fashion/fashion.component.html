@@ -1,7 +1,7 @@
 
 <div class="card-container p-10">
 
-    <h1>Fashion Design</h1>
+    <h1>Fashion</h1>
 
 </div>
 <div class="card-container"*ngFor="let slide of slides" >
@@ -11,7 +11,7 @@
                 {{slide.title}}
             </div>
             <div class="location">
-                {{slide.location}}  
+                {{slide.location}}
             </div>
         </div>
 
@@ -24,10 +24,10 @@
                 </div>
             </div>
             <div class="link">
-                <button class="button-more" [routerLink]="['/FashionDesign'+slide.id]" role="button">more ...</button>
+                <button class="button-more" [routerLink]="['/fashion/'+slide.id]" role="button">more ...</button>
 
             </div>
         </div>
     </div>
-    
+
 </div>

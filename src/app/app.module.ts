@@ -28,6 +28,8 @@ import { LogoComponent } from './logo/logo.component';
 import { logoDetailComponent } from './logo/logodetail/logodetail.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { AboutComponent } from './about/about.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { FashionDetailComponent } from './fashion/fashiondetail/fashiondetail.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { AboutComponent } from './about/about.component';
     posterDetailComponent,
     LogoComponent,
     logoDetailComponent,
-    AboutComponent
+    AboutComponent,
+    FashionComponent,
+    FashionDetailComponent
   ],
   imports: [
     BrowserModule,

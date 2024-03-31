@@ -16,6 +16,8 @@ import { ArtreviewsDetailComponent } from './artreviews/artreviewsdetail/artrevi
 import { logoDetailComponent } from './logo/logodetail/logodetail.component';
 import { posterDetailComponent } from './poster/posterdetail/posterdetail.component';
 import { AboutComponent } from './about/about.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { FashionDetailComponent } from './fashion/fashiondetail/fashiondetail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -28,6 +30,10 @@ const routes: Routes = [
 
   { path: 'artreviews', component: ArtreviewsComponent },
   { path: 'artreviews/:id', component: ArtreviewsDetailComponent },
+
+
+  { path: 'fashion', component: FashionComponent },
+  { path: 'fashion/:id', component: FashionDetailComponent },
 
 
   { path: 'artworks', component: ArtworksComponent },
