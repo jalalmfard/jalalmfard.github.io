@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1712263754839,
+  "timestamp": 1712266677249,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -85,6 +85,8 @@
         "/assets/images/architecture/Feel/tumb .jpg",
         "/assets/images/architecture/Feel/tumb.jpg",
         "/assets/images/architecture/Feel/yogaroom.jpg",
+        "/assets/images/architecture/Jan plaza/Jan plaza copy.jpg",
+        "/assets/images/architecture/Jan plaza/Jan plaza.jpg",
         "/assets/images/architecture/images-0001/1.webp",
         "/assets/images/architecture/images-0001/2.webp",
         "/assets/images/architecture/images-0001/3.webp",
@@ -289,14 +291,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/data/architecture.json": "36b9a0f1eaa8b1a61abc067a0cb0a57ace0064f2",
+    "/assets/data/architecture.json": "d6c3e477740b5f7d127cf5c5122084d22a68e9ba",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "bf8016a24d4b25df775e7a746f633ebdc9028f6f",
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
     "/assets/data/fashion.json": "8c6c481c59c8a146681d3b28d00bbcdea1bb9d09",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
-    "/assets/data/main.json": "4ad4c9a9806c3a23ff14b9e60ec24a8efb6214c2",
+    "/assets/data/main.json": "e1389c4ef39e6b916b8d375b0c5a06a998b25aaf",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
     "/assets/i18n/en.json": "4f9fd1dbef475aefaab135cb36865c17958ee127",
     "/assets/i18n/fa.json": "900ca73b626ddc11613d96db383f534772a03fdb",
@@ -345,6 +347,8 @@
     "/assets/images/architecture/Feel/tumb .jpg": "b250837f8c33b5ed3ee045dcbf746d6bcf2fa69a",
     "/assets/images/architecture/Feel/tumb.jpg": "295c31ad1277f8a5749bebc3c153e3b49ca2201a",
     "/assets/images/architecture/Feel/yogaroom.jpg": "bde272c31e9fe06ab7cb575b971bf0830f5e5703",
+    "/assets/images/architecture/Jan plaza/Jan plaza copy.jpg": "3ac6a7eceaf564cf3c9bec9972db05bd2b69561c",
+    "/assets/images/architecture/Jan plaza/Jan plaza.jpg": "3ac6a7eceaf564cf3c9bec9972db05bd2b69561c",
     "/assets/images/architecture/images-0001/1.webp": "f6a05c4b77a864d5814cb9dab00c47e80ee04399",
     "/assets/images/architecture/images-0001/2.webp": "b180ed47d5f29907b5c069b321f0638167bc84da",
     "/assets/images/architecture/images-0001/3.webp": "c5ab48a3888d70305166f730f73108742235a1bc",

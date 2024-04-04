@@ -8,7 +8,21 @@
             "src": "/assets/images/main/slider/1.webp",
             "description": "",
             "images": [],
+            "place":4
+        },
+        {
+            "id":"0009",
+            "src": "/assets/images/architecture/Jan plaza/Jan plaza.jpg",
+            "description": "",
+            "images": [],
             "place":2
+        },
+        {
+            "id":"0020",
+            "src": "/assets/images/main/slider/jan.jpg",
+            "description": "",
+            "images": [],
+            "place":3
         },
         {
             "id":"Jan sculapture",
@@ -30,7 +44,7 @@
             "src": "/assets/images/main/slider/3.webp",
             "description": "",
             "images": [],
-            "place":4
+            "place":5
         }
         ,
         {
@@ -46,7 +60,7 @@
             "src": "/assets/images/main/slider/5.webp",
             "description": "",
             "images": [],
-            "place":5
+            "place":6
         }
         ,
         {
@@ -54,7 +68,7 @@
             "src": "/assets/images/main/slider/6.webp",
             "description": "",
             "images": [],
-            "place":6
+            "place":8
         }
     ]
 }
