@@ -250,32 +250,7 @@
             ],
             "place": 9
         },
-        {
-            "id": "0010",
-            "src": "/assets/images/architecture/10.webp",
-            "title": "Molana Complex",
-            "description": "Work on progress Architect & interior designer : Jalal Mashhadi Fard",
-            "location": "Mashhad / Iran",
-            "images": [
-                {
-                    "src": "/assets/images/architecture/images-0010/1.webp",
-                    "place": 1
-                },
-                {
-                    "src": "/assets/images/architecture/images-0010/2.webp",
-                    "place": 2
-                },
-                {
-                    "src": "/assets/images/architecture/images-0010/3.webp",
-                    "place": 3
-                },
-                {
-                    "src": "/assets/images/architecture/images-0010/4.webp",
-                    "place": 4
-                }
-            ],
-            "place": 10
-        },
+      
         {
             "id": "0011",
             "src": "/assets/images/architecture/11.webp",
