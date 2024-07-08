@@ -112,6 +112,38 @@
             "place": 5
         },
         {
+            "id": "0005",
+            "src": "/assets/images/architecture/Feel/Soulscpaes.jpg",
+            "title": "SOULSCAPES",
+            "description": "Artists: YASMEEN ABDULLAH & Curator : Jalal Mashhadi Fard",
+            "location": "Muscat - Feel Expression",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0005",
+            "src": "/assets/images/architecture/Feel/Soulscpaes.jpg",
+            "title": "FEEL THE FANN 01",
+            "description": "By Jalal Mashhadi Fard - Artists : Alia Al Farsi - Siavash Sufinejad ( curated by Sepideh Kalhor ) ",
+            "location": "Muscat - Feel Expression",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 3
+        },
+        {
             "id": "0003",
             "src": "/assets/images/exhibitions/3.mp4",
             "title": "Feel",

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720454295077,
+  "timestamp": 1720455456954,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -95,8 +95,10 @@
         "/assets/images/architecture/Feel/POSTER2.jpg",
         "/assets/images/architecture/Feel/Pricelist 0.jpg",
         "/assets/images/architecture/Feel/Sereeeneee.jpg",
+        "/assets/images/architecture/Feel/Soulscpaes.jpg",
         "/assets/images/architecture/Feel/artgallery lobby.jpg",
         "/assets/images/architecture/Feel/both.jpg",
+        "/assets/images/architecture/Feel/feelfannPoster1may.jpg",
         "/assets/images/architecture/Feel/main pic.jpg",
         "/assets/images/architecture/Feel/music.jpg",
         "/assets/images/architecture/Feel/pic 2.jpg",
@@ -342,7 +344,7 @@
     "/assets/data/architecture.json": "bae6119a265a7c6aff0a844e0b021a9b42238923",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "2b8eef6b16268f2a482f68dd4e358d8cf5c29a1a",
-    "/assets/data/exhibitions.json": "987bbbb4df4aa8d64a18ac97d57fe2d5c2349bae",
+    "/assets/data/exhibitions.json": "ee0e6276eb6648450b64388f3c4d5e0b6835ba08",
     "/assets/data/fashion.json": "e7f19fe66f8d9f5a9b950b03861a7a50ef902856",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
@@ -405,8 +407,10 @@
     "/assets/images/architecture/Feel/POSTER2.jpg": "f7b76abb6a69ed4a617ff65a5aee1939a18604be",
     "/assets/images/architecture/Feel/Pricelist 0.jpg": "577439adfd7567a9d4c670f580e6e2df7172cd4c",
     "/assets/images/architecture/Feel/Sereeeneee.jpg": "8167de02b6ae3528d71bb105f1e1c9c9d5f09690",
+    "/assets/images/architecture/Feel/Soulscpaes.jpg": "54a9ea50d70ef219e6377ef0665fb5524c256e34",
     "/assets/images/architecture/Feel/artgallery lobby.jpg": "fad59314841ba48721f23019fb0ea398c0e2c990",
     "/assets/images/architecture/Feel/both.jpg": "c601d192c0de4c08772df30464fe84f30738646f",
+    "/assets/images/architecture/Feel/feelfannPoster1may.jpg": "e075c1fe12700327249affe0bc58c1244cf7ae57",
     "/assets/images/architecture/Feel/main pic.jpg": "eed3bc58dca7c31efbaa942dbfd9e8de44c92ed1",
     "/assets/images/architecture/Feel/music.jpg": "aeadc7179b004b212d60975a3f395236c82d058b",
     "/assets/images/architecture/Feel/pic 2.jpg": "27d15bf9c240b1e607606c5af0cc28d0f96af23a",
