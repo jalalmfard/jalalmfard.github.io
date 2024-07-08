@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720443049597,
+  "timestamp": 1720443095409,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -321,7 +321,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/data/architecture.json": "ff92de2a6845def4860395f0f7bdeb4a8132f55c",
+    "/assets/data/architecture.json": "4b4b71e73803974167f93d7cebda58e05676707c",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "bf8016a24d4b25df775e7a746f633ebdc9028f6f",
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
