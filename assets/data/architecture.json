@@ -117,7 +117,14 @@
             "description": "Jan project interior design details - Part 1:The main architectural concept of Jan is the thought of light that splits the black heart of the earth and moves towards the light. So everything that is in it comes from the same thought and all the details in John express a specific narrative. Architect & Designer : Jalal Mashhadi Fard - Construction : Hossein Mashhadi Fard & Mohsen Mohammadina & Mojtaba Shahmoradi 2018-2023",
             "location": "Mashhad / Iran",
             "images": [
-                
+                {
+                    "src": "/assets/images/architecture/Jan plaza/IMG_1679.jpg",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/images-0002/2.webp",
+                    "place": 2
+                }
             ],
             "place": 2
         },
