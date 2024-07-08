@@ -59,6 +59,30 @@
             "place": 2
         },
         {
+            "id": "00010",
+            "src": "/assets/images/architecture/Feel/Hiddenway/Hiddenway1.jpg",
+            "title": "HIDDENWAY series",
+            "description": "…And if He bars against you all ways and passages, He will show you a Hidden way, which no man knows… “Rumi” ",
+            "images": [
+                {
+                    "src": "/assets/images/artworks/images-0001/1.jpg",
+                    "description": "Goli 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card : Golshifteh Farahani",
+                    "place": 1
+                },
+                {
+                    "src": "/assets/images/artworks/images-0001/2.jpg",
+                    "description": "Mah / Moon 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card :Audrey hepburn",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/artworks/images-0001/3.jpg",
+                    "description": "Duff 100x70cm ( L size ) 2021 Digital print on canvas. Edition 5 + 2 A.P /The person in this Card :Marilyn Monroe",
+                    "place": 3
+                }
+            ],
+            "place": 1
+        },
+        {
             "id": "0002",
             "src": "/assets/images/artworks/2.jpg",
             "title": "Sometimes I have nightmares of freedom",
