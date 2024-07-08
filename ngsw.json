@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720450544038,
+  "timestamp": 1720450588059,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -81,6 +81,7 @@
         "/assets/images/architecture/Feel/Feelcollection.jpg",
         "/assets/images/architecture/Feel/Feelstudio.jpg",
         "/assets/images/architecture/Feel/Furniture.jpg",
+        "/assets/images/architecture/Feel/Hiddenway/Hiddenway1.jpg",
         "/assets/images/architecture/Feel/artgallery lobby.jpg",
         "/assets/images/architecture/Feel/tumb .jpg",
         "/assets/images/architecture/Feel/tumb.jpg",
@@ -321,11 +322,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/data/architecture.json": "1fff81a4ca24da60bfc459102fb7a5fd48eb8856",
+    "/assets/data/architecture.json": "728f64545485e3f70b6ccf18982292b90bbd3521",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "1b0d1e74c627ed2b628e2576d7e15ecc9ce23b0c",
     "/assets/data/exhibitions.json": "3ce5f0084ced0b70d73bb06146652cfd9ff7182e",
-    "/assets/data/fashion.json": "8c6c481c59c8a146681d3b28d00bbcdea1bb9d09",
+    "/assets/data/fashion.json": "e7f19fe66f8d9f5a9b950b03861a7a50ef902856",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
     "/assets/data/main.json": "e1389c4ef39e6b916b8d375b0c5a06a998b25aaf",
@@ -373,6 +374,7 @@
     "/assets/images/architecture/Feel/Feelcollection.jpg": "266d0dd706ceda145363888d99ed9eace7130b62",
     "/assets/images/architecture/Feel/Feelstudio.jpg": "e8f09fd57c3a30dc785f05a2b3b0e04f2fcc0c42",
     "/assets/images/architecture/Feel/Furniture.jpg": "033090a99750b4f2d039b01a533a49a6a818c629",
+    "/assets/images/architecture/Feel/Hiddenway/Hiddenway1.jpg": "3ba5471989eb3ac960a79c2184d97e6c6d79822c",
     "/assets/images/architecture/Feel/artgallery lobby.jpg": "fad59314841ba48721f23019fb0ea398c0e2c990",
     "/assets/images/architecture/Feel/tumb .jpg": "b250837f8c33b5ed3ee045dcbf746d6bcf2fa69a",
     "/assets/images/architecture/Feel/tumb.jpg": "295c31ad1277f8a5749bebc3c153e3b49ca2201a",
