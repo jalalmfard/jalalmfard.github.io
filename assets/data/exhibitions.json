@@ -28,9 +28,69 @@
             "isvideo": false,
             "images": [
                 {
-                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
-                    "isvideo": false,
+                    "src": "/assets/images/architecture/Feel/3.jpg",
+                    "description": " ",
                     "place": 1
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Banquettt1.jpg",
+                    "description": " ",
+                    "place": 2
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Banquettt.jpg",
+                    "description": " ",
+                    "place": 3
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Hiddenwayyy1.jpg",
+                    "description": " ",
+                    "place": 4
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Hiddenwayyy.jpg",
+                    "description": " ",
+                    "place": 5
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Duendeee1.jpg",
+                    "description": " ",
+                    "place": 6
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Labyrinthhhh1.jpg",
+                    "description": " ",
+                    "place": 7
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Labyrinthhhh.jpg",
+                    "description": " ",
+                    "place": 8
+                },
+                {
+                    "src": "assets/images/architecture/Feel/pic 2.jpg",
+                    "description": " ",
+                    "place": 9
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Nirvana .jpg",
+                    "description": " ",
+                    "place": 10
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Sereeeneee.jpg",
+                    "description": " ",
+                    "place": 11
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/both.jpg",
+                    "description": " ",
+                    "place": 12
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/music.jpg",
+                    "description": " ",
+                    "place": 13
                 }
             ],
             "place": 1

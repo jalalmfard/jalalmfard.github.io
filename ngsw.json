@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720454068016,
+  "timestamp": 1720454295077,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -342,7 +342,7 @@
     "/assets/data/architecture.json": "bae6119a265a7c6aff0a844e0b021a9b42238923",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "2b8eef6b16268f2a482f68dd4e358d8cf5c29a1a",
-    "/assets/data/exhibitions.json": "48e0f709114dab8600f5b52e12078b8d8c3b9da1",
+    "/assets/data/exhibitions.json": "987bbbb4df4aa8d64a18ac97d57fe2d5c2349bae",
     "/assets/data/fashion.json": "e7f19fe66f8d9f5a9b950b03861a7a50ef902856",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
