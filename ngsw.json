@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720453664123,
+  "timestamp": 1720454068016,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -90,6 +90,8 @@
         "/assets/images/architecture/Feel/Hiddenwayyy.jpg",
         "/assets/images/architecture/Feel/Hiddenwayyy1.jpg",
         "/assets/images/architecture/Feel/Labyrinthhhh.jpg",
+        "/assets/images/architecture/Feel/Labyrinthhhh1.jpg",
+        "/assets/images/architecture/Feel/Nirvana .jpg",
         "/assets/images/architecture/Feel/POSTER2.jpg",
         "/assets/images/architecture/Feel/Pricelist 0.jpg",
         "/assets/images/architecture/Feel/Sereeeneee.jpg",
@@ -339,7 +341,7 @@
   "hashTable": {
     "/assets/data/architecture.json": "bae6119a265a7c6aff0a844e0b021a9b42238923",
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
-    "/assets/data/artworks.json": "5d4757cd692017883a5eefd8da4f5366a34a5b01",
+    "/assets/data/artworks.json": "2b8eef6b16268f2a482f68dd4e358d8cf5c29a1a",
     "/assets/data/exhibitions.json": "48e0f709114dab8600f5b52e12078b8d8c3b9da1",
     "/assets/data/fashion.json": "e7f19fe66f8d9f5a9b950b03861a7a50ef902856",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
@@ -398,6 +400,8 @@
     "/assets/images/architecture/Feel/Hiddenwayyy.jpg": "b65c3538a67a7c5de12939f869f9a01331c80601",
     "/assets/images/architecture/Feel/Hiddenwayyy1.jpg": "58e62173821cdec8a8242e57ec308392d221259d",
     "/assets/images/architecture/Feel/Labyrinthhhh.jpg": "c5e7fee68d188314074fec3fdb2f256736b196ef",
+    "/assets/images/architecture/Feel/Labyrinthhhh1.jpg": "1eb25a2b21d07cdc09bf48b2cd2f9b9046b3179b",
+    "/assets/images/architecture/Feel/Nirvana .jpg": "491052f55609a0fa3dba5ed6116d7fc2f1b138cd",
     "/assets/images/architecture/Feel/POSTER2.jpg": "f7b76abb6a69ed4a617ff65a5aee1939a18604be",
     "/assets/images/architecture/Feel/Pricelist 0.jpg": "577439adfd7567a9d4c670f580e6e2df7172cd4c",
     "/assets/images/architecture/Feel/Sereeeneee.jpg": "8167de02b6ae3528d71bb105f1e1c9c9d5f09690",
