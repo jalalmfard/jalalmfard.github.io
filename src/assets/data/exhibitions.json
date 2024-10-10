@@ -20,6 +20,38 @@
             "place": 4
         },
         {
+            "id": "00011",
+            "src": "/assets/images/exhibitions/1.jpg",
+            "title": "FEEL THE FANN 02",
+            "description": "By Jalal Mashhadi Fard - Artists : Bianca Savsenco - Siavash Sufinejad ( curated by Sepideh Kalhor ) ",
+            "location": "Muscat - Feel Expression",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 5
+        },
+        {
+            "id": "00012",
+            "src": "/assets/images/exhibitions/1.jpg",
+            "title": "Tehran Design Week",
+            "description": "July 2024",
+            "location": "Tehran - Sufi House",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 5
+        },
+        {
             "id": "0004",
             "src": "/assets/images/architecture/Feel/POSTER2.jpg",
             "title": "Hiddenway",
