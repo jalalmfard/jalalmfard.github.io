@@ -36,11 +36,11 @@
             "place": 5
         },
         {
-            "id": "00012",
+            "id": "00011",
             "src": "/assets/images/exhibitions/1.jpg",
-            "title": "Tehran Design Week",
-            "description": "July 2024",
-            "location": "Tehran - Sufi House",
+            "title": "Nature",
+            "description": "Curated by Artunity, Najmeh Amini, Jalal Mashhadi Fard",
+            "location": "Mashhad - Jana Art Space",
             "isvideo": false,
             "images": [
                 {
@@ -49,7 +49,39 @@
                     "place": 1
                 }
             ],
-            "place": 5
+            "place": 4
+        },
+        {
+            "id": "00013",
+            "src": "/assets/images/exhibitions/1.jpg",
+            "title": "Nature",
+            "description": "Curated by Artunity, Najmeh Amini, Jalal Mashhadi Fard",
+            "location": "Mashhad - Jana Art Space",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 4
+        },
+        {
+            "id": "00014",
+            "src": "/assets/images/exhibitions/1.jpg",
+            "title": "The abstract labor of art",
+            "description": "11 October until November 8 , 2024",
+            "location": "Tehran - Soo Contemporary",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/exhibitions/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
         },
         {
             "id": "0004",
