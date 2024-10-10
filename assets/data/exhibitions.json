@@ -21,7 +21,7 @@
         },
         {
             "id": "00011",
-            "src": "/assets/images/exhibitions/1.jpg",
+            "src": "/assets/images/exhibitions/Feelthe fann02.jpg",
             "title": "FEEL THE FANN 02",
             "description": "By Jalal Mashhadi Fard - Artists : Bianca Savsenco - Siavash Sufinejad ( curated by Sepideh Kalhor ) ",
             "location": "Muscat - Feel Expression",
@@ -37,10 +37,10 @@
         },
         {
             "id": "00011",
-            "src": "/assets/images/exhibitions/1.jpg",
-            "title": "Nature",
-            "description": "Curated by Artunity, Najmeh Amini, Jalal Mashhadi Fard",
-            "location": "Mashhad - Jana Art Space",
+            "src": "/assets/images/exhibitions/design week.jpg",
+            "title": "Tehran design week",
+            "description": "July2024",
+            "location": "Tehran - Sufi House",
             "isvideo": false,
             "images": [
                 {
@@ -53,7 +53,7 @@
         },
         {
             "id": "00013",
-            "src": "/assets/images/exhibitions/1.jpg",
+            "src": "/assets/images/exhibitions/nature.jpg",
             "title": "Nature",
             "description": "Curated by Artunity, Najmeh Amini, Jalal Mashhadi Fard",
             "location": "Mashhad - Jana Art Space",
@@ -69,7 +69,7 @@
         },
         {
             "id": "00014",
-            "src": "/assets/images/exhibitions/1.jpg",
+            "src": "/assets/images/exhibitions/Soo.jpg",
             "title": "The abstract labor of art",
             "description": "11 October until November 8 , 2024",
             "location": "Tehran - Soo Contemporary",
