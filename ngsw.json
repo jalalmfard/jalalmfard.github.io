@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1728561969460,
+  "timestamp": 1728564882063,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -252,6 +252,7 @@
         "/assets/images/exhibitions/images-0002/1.jpg",
         "/assets/images/exhibitions/images-0003/1.mp4",
         "/assets/images/exhibitions/nature.jpg",
+        "/assets/images/fashion/Noushella.jpg",
         "/assets/images/furnituredesign/1.jpg",
         "/assets/images/furnituredesign/2.jpg",
         "/assets/images/furnituredesign/3.jpg",
@@ -350,7 +351,7 @@
     "/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/assets/data/artworks.json": "2b8eef6b16268f2a482f68dd4e358d8cf5c29a1a",
     "/assets/data/exhibitions.json": "6f72f9d89ab04c94b666639336dad1bad2cd0094",
-    "/assets/data/fashion.json": "e7f19fe66f8d9f5a9b950b03861a7a50ef902856",
+    "/assets/data/fashion.json": "9b16a22778a872d6667f0c7ed11b20331322c27b",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
     "/assets/data/main.json": "06ae2dac1b00d32ad6b0eca1d866c91646f9be60",
@@ -569,6 +570,7 @@
     "/assets/images/exhibitions/images-0002/1.jpg": "6ce461b321481bfa6ec77cf59324687d98191602",
     "/assets/images/exhibitions/images-0003/1.mp4": "47bdbec1acb816598b5272e02c7df8174747d249",
     "/assets/images/exhibitions/nature.jpg": "87c1ea3aeb7f35272a50265ad126dba7f9559438",
+    "/assets/images/fashion/Noushella.jpg": "b3889e2138c75621c6b9fafe1e0380b4ac88dcab",
     "/assets/images/furnituredesign/1.jpg": "ef81e02b26f6af680a067e5df3421029d176bb6a",
     "/assets/images/furnituredesign/2.jpg": "1d68fcc87b2d2778cc4c5792adc82bc39a1f2891",
     "/assets/images/furnituredesign/3.jpg": "65068a23eeae91efdf1e0f5358ef65ca68cd65c1",
