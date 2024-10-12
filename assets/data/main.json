@@ -12,6 +12,13 @@
         },
         {
             "id":"0009",
+            "src": "/assets/images/fashion/Noushella.jpg",
+            "description": "",
+            "images": [],
+            "place":4
+        },
+        {
+            "id":"0009",
             "src": "/assets/images/architecture/Jan plaza/Jan plaza.jpg",
             "description": "",
             "images": [],
@@ -41,7 +48,7 @@
         ,
         {
             "id":"0003",
-            "src": "/assets/images/main/slider/3.webp",
+            "src": "/assets/images/artworks/cars.jpg",
             "description": "",
             "images": [],
             "place":5
