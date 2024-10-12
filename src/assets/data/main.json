@@ -8,7 +8,7 @@
             "src": "/assets/images/main/slider/1.webp",
             "description": "",
             "images": [],
-            "place":4
+            "place":5
         },
         {
             "id":"0009",
@@ -51,7 +51,7 @@
             "src": "/assets/images/artworks/cars.jpg",
             "description": "",
             "images": [],
-            "place":5
+            "place":6
         }
         ,
         {
@@ -67,7 +67,7 @@
             "src": "/assets/images/main/slider/5.webp",
             "description": "",
             "images": [],
-            "place":6
+            "place":8
         }
         ,
         {
@@ -75,7 +75,7 @@
             "src": "/assets/images/main/slider/6.webp",
             "description": "",
             "images": [],
-            "place":8
+            "place":9
         }
     ]
 }
