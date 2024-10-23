@@ -3,13 +3,7 @@
     "title": "Jalal Mashhadi Fard",
     "description": "Welcome to our website!",
     "images": [
-        {
-            "id":"0001",
-            "src": "/assets/images/main/slider/1.webp",
-            "description": "",
-            "images": [],
-            "place":5
-        },
+     
         {
             "id":"0009",
             "src": "/assets/images/fashion/Noushella.jpg",
