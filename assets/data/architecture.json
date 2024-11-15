@@ -115,30 +115,14 @@
             "id": "00023",
             "src": "/assets/images/architecture/final_kotahh_12.jpglookout.jpg",
             "title": "LOOKOUT/IN Cafe",
-            "description": "Look In redefines the café experience, inviting guests to journey within. Through the play of mirrors and reflections,the design transtorms each glance into a moment of intro spection, merging art with the soul ot the space.Client: Dear Mohammad Amin Jamshidi/Construction: Eng. Ali Mokhtar Pour/ Designer & Architect : Jalal Mashhadi Fard.",
+            "description": "Architect and interior designer : Jalal Mashhadi fard",
             "location": "Mashhad / Iran",
             "images": [
                 {
                     "src": "/assets/images/architecture/interior View.JPG",
                     "place": 1
                 },
-                {
-                    "src": "/assets/images/architecture/Exterior 1.JPG",
-                    "place": 2
-                },
-                {
-                    "src": "/assets/images/architecture/Exterior 3.JPG",
-                    "place": 3
-                },
-                {
-                    "src": "/assets/images/architecture/Exterior 4.JPG",
-                    "place": 4
-                },
-                {
-                    "src": "/assets/images/architecture/Exterior 5.JPG",
-                    "place": 5
-                },
-            ],
+    
             "place": 3
         },
         {
