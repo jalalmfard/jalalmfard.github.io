@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1749075687174,
+  "timestamp": 1749075909566,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -367,7 +367,7 @@
     "/assets/data/fashion.json": "9b16a22778a872d6667f0c7ed11b20331322c27b",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "acc1d561eb195beae8b6ec9f346b6154abb0bf83",
-    "/assets/data/main.json": "7870e282a01c18364ada7f3e84e3b220d4c8c4ce",
+    "/assets/data/main.json": "7cacb18a5ff315f9c3c99c547bee2c5fbd771f07",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
     "/assets/i18n/en.json": "4f9fd1dbef475aefaab135cb36865c17958ee127",
     "/assets/i18n/fa.json": "900ca73b626ddc11613d96db383f534772a03fdb",
