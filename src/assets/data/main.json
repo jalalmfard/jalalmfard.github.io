@@ -9,42 +9,70 @@
             "src": "/assets/images/fashion/Noushella.jpg",
             "description": "",
             "images": [],
-            "place":4
+            "place":8
         },
-       {
-            "id":"0025",
-            "src": "/assets/images/architecture/final_kotahh_12.jpglookout.jpg",
-            "description": "",
+        {
+            "id":"0031",
+            "src": "/assets/images/fashion/Look ouut.jpg",
+            "description": "Look Out/in Cafe- Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":1
+        },
+        {
+            "id":"0032",
+            "src": "/assets/images/fashion/Jan prize.jpg",
+            "description": "Special Mentions A+ Awards 2025 - Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":2
+        },
+        {
+            "id":"0033",
+            "src": "/assets/images/fashion/Feel Boutiqque .jpg",
+            "description": "Reviving an Omani House: Feel Boutique Plaza, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":3
+        },
+        {
+            "id":"0034",
+            "src": "/assets/images/fashion/lookout.jpg",
+            "description": "Look-in Café: A Maze of Reflections, Architect: Jalal Mashhadi Fard",
             "images": [],
             "place":5
         },
         {
-            "id":"0009",
-            "src": "/assets/images/architecture/Jan plaza/Jan plaza.jpg",
-            "description": "",
+            "id":"0035",
+            "src": "/assets/images/fashion/Jan 2.jpg",
+            "description": "The Architecture of “Jan”: A Poetic Reflection on Love and Light, Architect: Jalal Mashhadi Fard",
             "images": [],
-            "place":2
+            "place":6
+        },
+       {
+            "id":"0025",
+            "src": "/assets/images/architecture/Feelbb.jpg",
+            "description": "Reviving an Omani House: Feel Boutique Plaza, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":7
         },
         {
             "id":"0020",
             "src": "/assets/images/main/slider/jan.jpg",
             "description": "",
             "images": [],
-            "place":3
+            "place":10
         },
         {
             "id":"HIDDEN WAY EXHIBITION",
             "src": "/assets/images/main/slider/exhibittion.jpg",
             "description": "",
             "images": [],
-            "place":1
+            "place":4
         },
         {
             "id":"0002",
             "src": "/assets/images/main/slider/2.webp",
             "description": "",
             "images": [],
-            "place":3
+            "place":9
         }
         ,
         {
@@ -76,7 +104,7 @@
             "src": "/assets/images/main/slider/6.webp",
             "description": "",
             "images": [],
-            "place":9
+            "place":11
         }
     ]
 }
