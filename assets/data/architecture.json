@@ -5,56 +5,193 @@
     "images": [
         {
             "id": "0020",
-            "src": "/assets/images/architecture/Feel/Feel.jpg",
+            "src": "/assets/images/main/slider/1414.jpg",
             "title": "FEEL BOUTIQUE PLAZA",
-            "description": "A project by I.C.D.co - Designer & Architecture: Jalal Mashhadi Fard ",
+            "description": "Feel was conceived as a “third space” for the Omani community, bridging the gap between work and home. It is a place where the focus transcends the senses, fostering meaningful connections and experiences.
+
+In Feel Boutique Plaza, every design element stems from the project’s core concept, with each component influencing the others to form a cohesive and unified aesthetic. While the elements are designed independently, their harmony creates a singular, immersive atmosphere.
+
+Jalal Mashhadi Fard, in collaboration with Hootan Marhami, a Food & Beverage expert, crafted the furniture based on extensive research into the habits and preferences of Muscat’s residents. The design emphasizes social interaction within a specialty café setting, enhancing the experience of community and connection.
+
+The tiles used in the project, a nod to local materials, reinterpret traditional cultural motifs in a contemporary context. Jalal, along with Mohsen Mohammadian, developed a tile design that allows for the recreation of various traditional carpet patterns by arranging the same tile in different configurations.
+
+The architectural language of the project features half-arched forms inspired by traditional Arabic arches. These arches evolve into full forms only when framing significant views, guiding and focusing the viewer’s attention. Responding to this design philosophy, Dr. Hamed Abdi proposed incorporating a poetic element into the window coverings and separators. He suggested a verse from Hafez that perfectly aligns with the concept:
+“The porch of my eyes is your nest,
+Be modest and perch; it is your abode to rest.”
+(رواق منظر چشم من آشیانه توست / کرم نما و فرود آ که خانه خانه توست)
+
+The typographic graphics of these verses were designed by Sorour Eskandari, in close collaboration with the project’s designers, to seamlessly integrate with the overall aesthetic.
+
+F&B Consultant : HOUTAN MARHAMI
+Legacy Partner : Meysam Mirazizi
+Sculpture artist : Yasaman Alizadeh Moghaddam
+Graphic designer : Paria Hosseini
+Diagram specialist : Zohreh Bakhtiari
+Construction Supervisor :  Mohsen Mohammadian
+Architectural drafter: Amir Mohammad Baradaran Shoraka
+Head Architect : Jalal Mashhadifard ",
             "location": "Muscat - Oman",
             "images": [
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Facade .jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/01.jpg",
                     "place": 1
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Facade 2.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/02.jpg",
                     "place": 2
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Cafe 1.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/03.jpg",
                     "place": 3
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Cafe 7.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/04.jpg",
                     "place": 4
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel cafe Bar view .jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/05.jpg",
                     "place": 5
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel cafe.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/06.jpg",
                     "place": 6
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Collection2.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/07.jpg",
                     "place": 7
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feel Stair.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/08.jpg",
                     "place": 8
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Feelstudio.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/09.jpg",
                     "place": 9
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/Furniture.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/10.jpg",
                     "place": 10
                 },
                 {
-                    "src": "/assets/images/architecture/Feel/yogaroom.jpg",
+                    "src": "/assets/images/architecture/Feel/Feel New photo/11.jpg",
                     "place": 11
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/12.jpg",
+                    "place": 12
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/13.jpg",
+                    "place": 13
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/14.jpg",
+                    "place": 14
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/15.jpg",
+                    "place": 15
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/16.jpg",
+                    "place": 16
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/17.jpg",
+                    "place": 17
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/18.jpg",
+                    "place": 18
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/19.jpg",
+                    "place": 19
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/20.jpg",
+                    "place": 20
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/21.jpg",
+                    "place": 21
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/22.jpg",
+                    "place": 22
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/23.jpg",
+                    "place": 23
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/24.jpg",
+                    "place": 24
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/25.jpg",
+                    "place": 25
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/26.jpg",
+                    "place": 26
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/27.jpg",
+                    "place": 27
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/28.jpg",
+                    "place": 28
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/29.jpg",
+                    "place": 29
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/30.jpg",
+                    "place": 30
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/31.jpg",
+                    "place": 31
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/32.jpg",
+                    "place": 32
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/33.jpg",
+                    "place": 33
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/34.jpg",
+                    "place": 34
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/35.jpg",
+                    "place": 35
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/36.jpg",
+                    "place": 36
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/37.jpg",
+                    "place": 37
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/38.jpg",
+                    "place": 38
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/39.jpg",
+                    "place": 39
+                },
+                {
+                    "src": "/assets/images/architecture/Feel/Feel New photo/40.jpg",
+                    "place": 40
                 }
-                
             ],
             "place": 2
         },
@@ -113,7 +250,7 @@
         },
          {
             "id": "00023",
-            "src": "/assets/images/architecture/final_kotahh_12.jpglookout.jpg",
+            "src": "/assets/images/main/slider/1212.jpg",
             "title": "LOOKOUT/IN Cafe",
             "description": "Architect and interior designer : Jalal Mashhadi fard",
             "location": "Mashhad / Iran",
@@ -128,7 +265,7 @@
         },
          {
             "id": "0021",
-            "src": "/assets/images/architecture/Jan plaza/Jan plaza.jpg",
+            "src": "/assets/images/main/slider/1313.jpg",
             "title": "Jan Plazaa",
             "description": "The main architectural concept of Jan is the thought of light that splits the black heart of the earth and moves towards the light. So everything that is in it comes from the same thought and all the details in John express a specific narrative. Architect & Designer : Jalal Mashhadi Fard - Construction : Hossein Mashhadi Fard & Mohsen Mohammadina & Mojtaba Shahmoradi 2018-2023",
             "location": "Mashhad / Iran",
