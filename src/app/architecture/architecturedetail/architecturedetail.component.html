@@ -1,28 +1,23 @@
-<div class="card-container p-10">
-
-    <h1>{{selectedItem.title}}</h1>
-
-</div>
-<br>
-<div class="card-container p-10">
-    <p>
-        {{selectedItem.description}}
-    </p>
-</div>
-<br>
-
-<div *ngIf="selectedItem.images">
-    <div class="card-container" *ngFor="let slide of selectedItem.images">
-        <div id="frame">
-            <div id="border">
-                <img class="show-image" src="{{slide.src}}" alt="">
-
-            </div>
-        </div>
-        <div *ngIf="slide.description">
-            <button class="button-more" role="button">{{slide.description}}</button>
-        </div>
-        <br>
-        <br>
+<article class="project" *ngIf="selectedItem">
+  <header class="project-header">
+    <p class="eyebrow">Architecture · {{ selectedItem.location }}</p>
+    <h1>{{ selectedItem.title }}</h1>
+  </header>
+  <section class="recognition" *ngIf="selectedItem.awards?.length || selectedItem.publications?.length">
+    <div class="recognition-column" *ngIf="selectedItem.awards?.length">
+      <h2>Awards</h2>
+      <a class="recognition-item" *ngFor="let item of selectedItem.awards" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
     </div>
-</div>
+    <div class="recognition-column" *ngIf="selectedItem.publications?.length">
+      <h2>Publications</h2>
+      <a class="recognition-item" *ngFor="let item of selectedItem.publications" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
+    </div>
+  </section>
+  <section class="project-story"><p>{{ selectedItem.description }}</p></section>
+  <section class="project-gallery" *ngIf="selectedItem.images">
+    <figure *ngFor="let slide of selectedItem.images">
+      <img [src]="slide.src" [alt]="selectedItem.title" loading="lazy">
+      <figcaption *ngIf="slide.description">{{ slide.description }}</figcaption>
+    </figure>
+  </section>
+</article>
