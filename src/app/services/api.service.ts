@@ -62,6 +62,7 @@ export class ApiService {
   }
 
   async loadPageData(pagename: string) {
-    return this.download(`${window.location.origin}/assets/data/${pagename}.json`);
+    const dataUrl = new URL(`assets/data/${pagename}.json`, document.baseURI);
+    return this.download(dataUrl.toString());
   }
 }
