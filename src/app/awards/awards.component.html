@@ -1,0 +1,16 @@
+<section class="awards-page">
+  <header>
+    <p>Selected recognition</p>
+    <h1>Awards</h1>
+  </header>
+  <div class="awards-list">
+    <article *ngFor="let item of awards">
+      <span class="year">{{ item.year }}</span>
+      <div>
+        <h2>{{ item.award }}</h2>
+        <p>{{ item.recognition }}</p>
+      </div>
+      <strong>{{ item.project }}</strong>
+    </article>
+  </div>
+</section>
