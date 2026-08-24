@@ -1,0 +1,31 @@
+name: Portfolio Refresh Preview
+
+on:
+  push:
+    branches:
+      - codex/portfolio-refresh-2026
+
+permissions:
+  contents: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm install --force
+      - name: Build preview
+        run: npm run build -- --base-href /preview/portfolio-refresh-2026/
+      - name: Deploy preview
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          destination_dir: preview/portfolio-refresh-2026
+          keep_files: true
