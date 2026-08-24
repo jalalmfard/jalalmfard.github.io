@@ -1,6 +1,7 @@
 name: Portfolio Refresh Preview
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - codex/portfolio-refresh-2026
