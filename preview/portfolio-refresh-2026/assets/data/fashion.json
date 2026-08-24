@@ -9,6 +9,16 @@
             "title": "Noushella",
             "description": "Noushella, a luxury fashion brand for women, is the brainchild of its founder, Noush Navazani.Noush’s experience as a trained psychologist, together with her work in London’s fashion industry opened her eyes to the pressing need raise awareness of mental health challenges, and the positive ways in which mental outlook can be enhanced, no matter what a person’s psychological archetype.With that in mind, Noush and her creative director Jalal Mashhadi Fard, set about creating a launch collection that would represent each of the seven female archetypes in contemporary society, that were originally described by the leading psychologist Carl Jung.",
             "location": "noushella.com",
+            "awards": [
+                { "title": "Silver Winner — LoveLight Dress", "label": "NY Product Design Awards 2025", "url": "https://nydesignawards.com/winner-info.php?id=3329" },
+                { "title": "Honorable Mention — LoveLight Dress", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-94212-25" },
+                { "title": "Lumière Dress", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93916-25" }
+            ],
+            "publications": [
+                { "title": "Luxury London", "label": "Brand feature", "url": "https://luxurylondon.co.uk/style/hers/noushella-fashion-brand/" },
+                { "title": "Country & Town House", "label": "Launch feature", "url": "https://www.countryandtownhouse.com/style/fashion/noushella-launch-2024/" },
+                { "title": "Miss Europe Continental", "label": "Designer feature", "url": "https://www.misseuropecontinental.com/noushella-fashion-as-a-bridge-between-inner-identity-and-outer-expression/" }
+            ],
             "images": [
                 
             ]

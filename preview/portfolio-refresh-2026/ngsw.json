@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1787612391724,
+  "timestamp": 1787612553656,
   "index": "/preview/portfolio-refresh-2026/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/preview/portfolio-refresh-2026/favicon.ico",
         "/preview/portfolio-refresh-2026/index.html",
-        "/preview/portfolio-refresh-2026/main.4f214d9275b46928.js",
+        "/preview/portfolio-refresh-2026/main.24ad9bb4d00316aa.js",
         "/preview/portfolio-refresh-2026/manifest.webmanifest",
         "/preview/portfolio-refresh-2026/polyfills.5df72439364a7806.js",
         "/preview/portfolio-refresh-2026/runtime.8b75e6f8aa365329.js",
@@ -399,11 +399,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/preview/portfolio-refresh-2026/assets/data/architecture.json": "b3f73be8918b3c2614a424f935af20c65529b6f5",
+    "/preview/portfolio-refresh-2026/assets/data/architecture.json": "e620404f6481260978428b74e4e7ebec84793ffc",
     "/preview/portfolio-refresh-2026/assets/data/artreviews.json": "0dc5d69ec0f3af81649ca85a2b67ab30549c9a89",
     "/preview/portfolio-refresh-2026/assets/data/artworks.json": "2b8eef6b16268f2a482f68dd4e358d8cf5c29a1a",
     "/preview/portfolio-refresh-2026/assets/data/exhibitions.json": "6f72f9d89ab04c94b666639336dad1bad2cd0094",
-    "/preview/portfolio-refresh-2026/assets/data/fashion.json": "9b16a22778a872d6667f0c7ed11b20331322c27b",
+    "/preview/portfolio-refresh-2026/assets/data/fashion.json": "25e68fe81523655751cb3927809871e8cb05cc56",
     "/preview/portfolio-refresh-2026/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/preview/portfolio-refresh-2026/assets/data/logo.json": "0badfff88bd19f8dcba94d4433ef2cae5af33c75",
     "/preview/portfolio-refresh-2026/assets/data/main.json": "b104242d63def4ded001ed60df46e4004308c3ab",
@@ -764,8 +764,8 @@
     "/preview/portfolio-refresh-2026/assets/images/poster/images-0012/1.jpg": "a7d2aa6fb15ad1aac89efa3a1ba04e8d79fad193",
     "/preview/portfolio-refresh-2026/assets/images/poster/images-0013/1.jpg": "6a35365e648d494c6e5c9fe0176be7c022d0a840",
     "/preview/portfolio-refresh-2026/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
-    "/preview/portfolio-refresh-2026/index.html": "73a139e57ad7efbbeddd5359a330d31fb74d6caa",
-    "/preview/portfolio-refresh-2026/main.4f214d9275b46928.js": "74da845f26717315c9d5a0f5eed686c3f15d918b",
+    "/preview/portfolio-refresh-2026/index.html": "f175f13d93fd3e97fe7cb1f227c91dad54938e4f",
+    "/preview/portfolio-refresh-2026/main.24ad9bb4d00316aa.js": "b893573b747197dbfe5a13ba9fc4498d4c087d36",
     "/preview/portfolio-refresh-2026/manifest.webmanifest": "7a79aa64d1a7e608a38f4b65ba9f3331bd0a5482",
     "/preview/portfolio-refresh-2026/polyfills.5df72439364a7806.js": "b0ea6850cb63dc25c51190d4b81d6a34b30b8497",
     "/preview/portfolio-refresh-2026/runtime.8b75e6f8aa365329.js": "afc746169d9942e69cf04a3547487859d5a5e687",
