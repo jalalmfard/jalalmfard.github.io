@@ -1,0 +1,71 @@
+{
+    "name": "artreviews",
+    "title": "Jalal Mashhadi Fard - Artreviews",
+    "description": "Welcome to our website!",
+    "images": [
+        {
+            "id": "0001",
+            "src": "/assets/images/artreviews/1.jpg",
+            "title": "\"Naghshe-ajab\" Exhibition",
+            "description": "",
+            "location": "E1 Art Gallery - Shaghayegh Mohajeri",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/artreviews/images-0001/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 1
+        },
+        {
+            "id": "0002",
+            "src": "/assets/images/artreviews/2.jpg",
+            "title": "Trim",
+            "description": "",
+            "location": "Etemad Art Gallery - Negar zonoobi",
+            "isvideo": false,
+            "images": [
+                {
+                    "src": "/assets/images/artreviews/images-0002/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 2
+        },
+        {
+            "id": "0003",
+            "src": "/assets/images/artreviews/3.jpg",
+            "title": "Gradually becoming a tree",
+            "isvideo": false,
+            "description": "",
+            "location": "Tehran O gallery - Parsa Hosseinpour",
+            "images": [
+                {
+                    "src": "/assets/images/artreviews/images-0003/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 3
+        },
+        {
+            "id": "0004",
+            "src": "/assets/images/artreviews/4.jpg",
+            "title": "Be all eyes",
+            "isvideo": false,
+            "description": "",
+            "location": "Tehran O gallery - Aylar Dastgerdi",
+            "images": [
+                {
+                    "src": "/assets/images/artreviews/images-0004/1.jpg",
+                    "isvideo": false,
+                    "place": 1
+                }
+            ],
+            "place": 4
+        }
+    ]
+}
