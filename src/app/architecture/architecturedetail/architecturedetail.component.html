@@ -4,6 +4,7 @@
     <h1>{{ selectedItem.title }}</h1>
   </header>
   <section class="recognition" *ngIf="selectedItem.awards?.length || selectedItem.publications?.length">
+    <p class="recognition-intro">This project has been recognized and published by international and Iranian architecture platforms. Follow the links below to read the complete features and award citations.</p>
     <div class="recognition-column" *ngIf="selectedItem.awards?.length">
       <h2>Awards</h2>
       <a class="recognition-item" *ngFor="let item of selectedItem.awards" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>

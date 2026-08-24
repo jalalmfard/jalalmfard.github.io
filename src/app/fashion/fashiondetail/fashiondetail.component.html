@@ -4,6 +4,7 @@
     <h1>{{ selectedItem.title }}</h1>
   </header>
   <section class="recognition" *ngIf="selectedItem.awards?.length || selectedItem.publications?.length">
+    <p class="recognition-intro">The collection and its individual designs have been recognized by international design awards and featured by fashion and culture publications. Follow the links below for the complete coverage.</p>
     <div class="recognition-column" *ngIf="selectedItem.awards?.length">
       <h2>Awards</h2>
       <a class="recognition-item" *ngFor="let item of selectedItem.awards" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
@@ -14,10 +15,15 @@
     </div>
   </section>
   <section class="project-story"><p>{{ selectedItem.description }}</p></section>
-  <section class="project-gallery" *ngIf="selectedItem.images">
+  <section class="project-gallery" *ngIf="selectedItem.images?.length; else coverEditorial">
     <figure *ngFor="let slide of selectedItem.images">
       <img [src]="slide.src" [alt]="selectedItem.title" loading="lazy">
       <figcaption *ngIf="slide.description">{{ slide.description }}</figcaption>
     </figure>
   </section>
+  <ng-template #coverEditorial>
+    <section class="project-gallery" *ngIf="selectedItem.src">
+      <figure><img [src]="selectedItem.src" [alt]="selectedItem.title" loading="eager"></figure>
+    </section>
+  </ng-template>
 </article>
