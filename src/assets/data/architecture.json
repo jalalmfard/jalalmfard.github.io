@@ -184,13 +184,6 @@
       "title": "Sanabad apartment interior design",
       "description": "In this project, an attempt was made to show the architecture in the gentle spirit of the warm life of the family members, and the design of the details was done in coordination with the employer's furniture. One of the most important demands of the project employer is originality, splendor and minimal design.",
       "location": "Mashhad / Iran",
-      "awards": [
-        { "title": "Honorable Mention", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93978-25" }
-      ],
-      "publications": [
-        { "title": "Archello", "label": "Project feature", "url": "https://archello.com/project/look-inlook-out" },
-        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cafe/look-inout-mashhad-iran-by-jalal-mashhadi-fard-studio" }
-      ],
       "images": [
         {
           "src": "/assets/images/architecture/images-0001/1.webp",
@@ -244,12 +237,11 @@
       "description": "Architect and interior designer : Jalal Mashhadi fard",
       "location": "Mashhad / Iran",
       "awards": [
-        { "title": "Special Mention", "label": "Architizer A+Awards 2025", "url": "https://architizer.com/projects/jan-plaza/" }
+        { "title": "Honorable Mention", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93978-25" }
       ],
       "publications": [
-        { "title": "Architizer", "label": "Project & award profile", "url": "https://architizer.com/projects/jan-plaza/" },
-        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cultural-center/jan-plaza-mashhad-iran-by-jalal-mashhadi-fard" },
-        { "title": "Iranian Architect", "label": "Project 0536", "url": "https://iranian-architect.ir/project-0536" }
+        { "title": "Archello", "label": "Project feature", "url": "https://archello.com/project/look-inlook-out" },
+        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cafe/look-inout-mashhad-iran-by-jalal-mashhadi-fard-studio" }
       ],
       "images": [
         {
@@ -265,6 +257,14 @@
       "title": "Jan Plaza",
       "description": "The main architectural concept of Jan is the thought of light that splits the black heart of the earth and moves towards the light. So everything that is in it comes from the same thought and all the details in John express a specific narrative. Architect & Designer : Jalal Mashhadi Fard - Construction : Hossein Mashhadi Fard & Mohsen Mohammadina & Mojtaba Shahmoradi 2018-2023",
       "location": "Mashhad / Iran",
+      "awards": [
+        { "title": "Special Mention", "label": "Architizer A+Awards 2025", "url": "https://architizer.com/projects/jan-plaza/" }
+      ],
+      "publications": [
+        { "title": "Architizer", "label": "Project & award profile", "url": "https://architizer.com/projects/jan-plaza/" },
+        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cultural-center/jan-plaza-mashhad-iran-by-jalal-mashhadi-fard" },
+        { "title": "Iranian Architect", "label": "Project 0536", "url": "https://iranian-architect.ir/project-0536" }
+      ],
       "images": [
         {
           "src": "/assets/images/architecture/Jan plaza/IMG_1679.jpg",
