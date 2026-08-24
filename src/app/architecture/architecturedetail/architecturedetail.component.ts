@@ -12,6 +12,7 @@ export class ArchitectureDetailComponent {
    slides!: any[] ;
   data: any;
   selectedItem: any;
+  galleryImages: any[] = [];
   constructor(private setup: SetupService,private route: ActivatedRoute) {}
   async ngOnInit(): Promise<void> {
 
@@ -45,7 +46,25 @@ export class ArchitectureDetailComponent {
 // Function to search for an item by ID
 searchById(id: string): void {
   this.selectedItem = this.searchRecursive(this.data, id);
+  this.galleryImages = this.buildPublishedGallery(this.selectedItem);
   console.log('Selected Item:', this.selectedItem);
+}
+
+private buildPublishedGallery(item: any): any[] {
+  if (!item?.publishedGallery) {
+    return item?.images || [];
+  }
+
+  const { path, count, extensions = {} } = item.publishedGallery;
+  return Array.from({ length: count }, (_, index) => {
+    const imageNumber = index + 1;
+    const extension = extensions[imageNumber] || 'jpg';
+    return {
+      src: `${path}/${imageNumber}.${extension}`,
+      place: imageNumber,
+      description: `Published gallery image ${imageNumber} · Amazing Architecture`
+    };
+  });
 }
 
 // Recursive function to search for an item by ID
