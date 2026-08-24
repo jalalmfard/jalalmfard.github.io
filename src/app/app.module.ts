@@ -30,6 +30,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { AboutComponent } from './about/about.component';
 import { FashionComponent } from './fashion/fashion.component';
 import { FashionDetailComponent } from './fashion/fashiondetail/fashiondetail.component';
+import { AwardsComponent } from './awards/awards.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { FashionDetailComponent } from './fashion/fashiondetail/fashiondetail.co
     logoDetailComponent,
     AboutComponent,
     FashionComponent,
-    FashionDetailComponent
+    FashionDetailComponent,
+    AwardsComponent
   ],
   imports: [
     BrowserModule,
