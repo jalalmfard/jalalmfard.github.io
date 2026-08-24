@@ -5,6 +5,10 @@ on:
     branches:
       - codex/portfolio-refresh-2026
 
+concurrency:
+  group: portfolio-refresh-preview
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
