@@ -1,4 +1,5 @@
 name: Portfolio Refresh Preview
+# Editorial galleries refreshed
 
 on:
   workflow_dispatch:
