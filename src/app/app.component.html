@@ -4,17 +4,21 @@
       <strong>JalalMFard</strong>.com
     </a>
 
-    <nav class="foxnav" aria-label="Primary navigation">
+    <button class="menu-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen" aria-controls="primary-navigation">
+      <span>{{ menuOpen ? 'Close' : 'Menu' }}</span>
+    </button>
+
+    <nav class="foxnav" id="primary-navigation" [class.is-open]="menuOpen" aria-label="Primary navigation">
       <ul class="foxnav-items">
-        <li class="foxnav-item"><a class="item-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/architecture" routerLinkActive="active">Architecture</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/fashion" routerLinkActive="active">Fashion</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/artworks" routerLinkActive="active">Artworks</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/exhibitions" routerLinkActive="active">Exhibitions</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/furnituredesign" routerLinkActive="active">Furniture</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/creative-direction" routerLinkActive="active">Creative Direction</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/awards" routerLinkActive="active">Awards</a></li>
-        <li class="foxnav-item"><a class="item-link" routerLink="/about" routerLinkActive="active">About</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/architecture" routerLinkActive="active">Architecture</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/fashion" routerLinkActive="active">Fashion</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/artworks" routerLinkActive="active">Artworks</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/exhibitions" routerLinkActive="active">Exhibitions</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/furnituredesign" routerLinkActive="active">Furniture</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/creative-direction" routerLinkActive="active">Creative Direction</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/awards" routerLinkActive="active">Awards</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/about" routerLinkActive="active">About</a></li>
       </ul>
     </nav>
   </header>
