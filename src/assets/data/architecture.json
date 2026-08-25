@@ -354,8 +354,8 @@
       ],
       "title": "New Generation",
       "status": "In Progress",
-      "description": "New Generation is a residential project currently in development on Abuzar Seyed Street in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Seyed Street, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
-      "location": "Abuzar Seyed, Ahmadabad · Mashhad / Iran",
+      "description": "New Generation is a residential project currently in development on Abuzar Boulevard in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Boulevard, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
+      "location": "Abuzar Boulevard, Ahmadabad · Mashhad / Iran",
       "images": [
         { "src": "assets/images/architecture/new-generation/facade.jpg", "place": 1, "description": "Main façade study" },
         { "src": "assets/images/architecture/new-generation/bedroom.jpg", "place": 2, "description": "Private master suite" },
@@ -365,6 +365,25 @@
         { "src": "assets/images/architecture/new-generation/module-diagram.jpg", "place": 6, "description": "Perforated façade module system" }
       ],
       "place": 4.5
+    },
+    {
+      "id": "tobe",
+      "src": "assets/images/architecture/tobe/cover.jpg",
+      "title": "ToBe",
+      "status": "Concept Design",
+      "description": "ToBe is a social café conceived around the tension between being and not being—and the shared space in which we become. The identity begins with two dark circular forms and a warm illuminated centre: me, you and the collective we. This elemental diagram is translated into an interior organised around encounter, reflection and changing atmosphere.\n\nA long communal table becomes the project’s social spine. Warm backlit planes meet cool blue reflections, while brushed stainless steel, mirrored surfaces, smoked translucent seating and glass blocks multiply people, light and movement. The space shifts character from morning to night without losing its restrained material language.\n\nCreative direction, identity and spatial concept are developed as one continuous system. Graphic elements, lighting, material palette and architecture all express the same proposition: between being and not being, we become.\n\nProject: ToBe Social Café\nArchitecture and creative direction: Jalal Mashhadi Fard\nStatus: Concept Design",
+      "location": "Architecture & Creative Direction",
+      "images": [
+        { "src": "assets/images/architecture/tobe/cover.jpg", "place": 1, "description": "Main interior concept" },
+        { "src": "assets/images/architecture/tobe/identity.jpg", "place": 2, "description": "ToBe identity" },
+        { "src": "assets/images/architecture/tobe/concept.jpg", "place": 3, "description": "Me, you and we · concept diagram" },
+        { "src": "assets/images/architecture/tobe/duality.jpg", "place": 4, "description": "To be / not to be" },
+        { "src": "assets/images/architecture/tobe/encounter.jpg", "place": 5, "description": "Social encounter and reflection" },
+        { "src": "assets/images/architecture/tobe/materials.jpg", "place": 6, "description": "Material and lighting palette" },
+        { "src": "assets/images/architecture/tobe/day-night.jpg", "place": 7, "description": "Day and night atmospheres" },
+        { "src": "assets/images/architecture/tobe/interior.jpg", "place": 8, "description": "Spatial concept" }
+      ],
+      "place": 4.6
     },
     {
       "id": "0003",

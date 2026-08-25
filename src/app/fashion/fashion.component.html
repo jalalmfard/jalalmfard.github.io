@@ -23,7 +23,7 @@
                             <img *ngFor="let cover of slide.coverImages" [src]="cover" [alt]="slide.title">
                         </div>
                         <ng-template #singleCover>
-                            <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title">
+                            <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title" [style.object-position]="slide.coverPosition || null">
                             <div *ngIf="!slide.src" class="placeholder-mark" aria-hidden="true">J</div>
                         </ng-template>
                     </div>

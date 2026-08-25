@@ -64,6 +64,25 @@
       "isvideo": false,
       "images": [],
       "place": 5
+    },
+    {
+      "id": "tobe",
+      "src": "assets/images/architecture/tobe/identity.jpg",
+      "title": "ToBe",
+      "description": "Creative direction and identity for a social café by Jalal Mashhadi Fard. The mark brings me and you into a luminous collective we, translating the idea ‘between being and not being, we become’ into identity, material, light and spatial experience.",
+      "location": "Brand Identity & Spatial Creative Direction",
+      "isvideo": false,
+      "images": [
+        { "src": "assets/images/architecture/tobe/identity.jpg", "description": "ToBe identity", "place": 1 },
+        { "src": "assets/images/architecture/tobe/concept.jpg", "description": "Me, you and we", "place": 2 },
+        { "src": "assets/images/architecture/tobe/duality.jpg", "description": "To be / not to be", "place": 3 },
+        { "src": "assets/images/architecture/tobe/encounter.jpg", "description": "Campaign direction", "place": 4 },
+        { "src": "assets/images/architecture/tobe/materials.jpg", "description": "Material direction", "place": 5 },
+        { "src": "assets/images/architecture/tobe/day-night.jpg", "description": "Day and night", "place": 6 },
+        { "src": "assets/images/architecture/tobe/interior.jpg", "description": "Interior concept", "place": 7 },
+        { "src": "assets/images/architecture/tobe/cover.jpg", "description": "Social interior", "place": 8 }
+      ],
+      "place": 6
     }
   ]
 }

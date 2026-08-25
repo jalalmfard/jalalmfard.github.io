@@ -6,6 +6,7 @@
         {
             "id": "lumiere",
             "src": "assets/images/fashion/lumiere/campaign-cover.jpg",
+            "coverPosition": "center 64%",
             "title": "Lumière Dress",
             "subtitle": "Hestia Collection · NOUSHELLA",
             "designerCredit": "The Lumière Dress was designed by Jalal Mashhadi Fard for NOUSHELLA.",
@@ -31,6 +32,34 @@
                 { "src": "assets/images/fashion/lumiere/studio-detail-side.jpg", "description": "Material and construction detail" }
             ],
             "publications": []
+        },
+        {
+            "id": "embodied-archetypes",
+            "src": "assets/images/embodied-archetypes/01-cover.jpg",
+            "title": "Embodied Archetypes",
+            "subtitle": "A study in wearable identity · NOUSHELLA",
+            "designerCredit": "The garments and accompanying visual works were shaped and illustrated by Jalal Mashhadi Fard for NOUSHELLA.",
+            "description": "Embodied Archetypes reflects on how clothing can hold psychological shape. Each piece begins not with a trend, but with a structure drawn from memory, emotion and symbolic form. Grounded in Carl Jung’s thought, the exhibition traces how identity may find presence through what is worn—between surface and soul, where form becomes a quiet echo of the self.\n\nThe project brings seven female archetypes into dialogue through garments and mixed-media works, developed as an ongoing inquiry into feminine form, intuition and identity. Presented at Intent Gallery in Downtown Dubai from 5 September through November 2025.",
+            "location": "Intent Gallery · Downtown Dubai · 2025",
+            "images": [
+                { "src": "assets/images/embodied-archetypes/01-cover.jpg", "description": "Embodied Archetypes · exhibition identity" },
+                { "src": "assets/images/embodied-archetypes/02-statement.jpg", "description": "A study in wearable identity" },
+                { "src": "assets/images/embodied-archetypes/03-persephone-art.jpg", "description": "Persephone · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/04-persephone-garment.jpg", "description": "Persephone Collection · Cora Dress" },
+                { "src": "assets/images/embodied-archetypes/08-hestia-art.jpg", "description": "Hestia · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/09-hestia-garment.jpg", "description": "Hestia Collection" },
+                { "src": "assets/images/embodied-archetypes/13-artemis-art.jpg", "description": "Artemis · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/14-artemis-garment.jpg", "description": "Artemis Collection" },
+                { "src": "assets/images/embodied-archetypes/18-aphrodite-art.jpg", "description": "Aphrodite · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/19-aphrodite-garment.jpg", "description": "Aphrodite Collection · LoveLight Dress" },
+                { "src": "assets/images/embodied-archetypes/23-hera-art.jpg", "description": "Hera · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/24-hera-garment.jpg", "description": "Hera Collection · Bract Camisole" },
+                { "src": "assets/images/embodied-archetypes/28-demeter-art.jpg", "description": "Demeter · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/29-demeter-garment.jpg", "description": "Demeter Collection · Magnolia Suit" },
+                { "src": "assets/images/embodied-archetypes/33-athena-art.jpg", "description": "Athena · mixed media by Jalal Mashhadi Fard" },
+                { "src": "assets/images/embodied-archetypes/34-athena-garment.jpg", "description": "Athena Collection" }
+            ],
+            "place": 3
         },
         {
             "id": "jewelry",

@@ -4,6 +4,23 @@
     "description": "Welcome to our website!",
     "images": [
         {
+            "id": "embodied-archetypes",
+            "src": "assets/images/embodied-archetypes/03-persephone-art.jpg",
+            "title": "Embodied Archetypes",
+            "description": "Seven mixed-media works on cardboard by Jalal Mashhadi Fard, created in dialogue with NOUSHELLA garments for the 2025 exhibition Embodied Archetypes. The works translate Jungian female archetypes into line, gesture, material and wearable form, occupying the threshold between image, body and identity.",
+            "location": "Mixed media on cardboard · 2025",
+            "images": [
+                { "src": "assets/images/embodied-archetypes/03-persephone-art.jpg", "description": "Persephone Archetype · 29.7 × 42 cm · Limited Edition" },
+                { "src": "assets/images/embodied-archetypes/08-hestia-art.jpg", "description": "Hestia Archetype · 2025" },
+                { "src": "assets/images/embodied-archetypes/13-artemis-art.jpg", "description": "Artemis Archetype · 2025" },
+                { "src": "assets/images/embodied-archetypes/18-aphrodite-art.jpg", "description": "Aphrodite Archetype · 2025" },
+                { "src": "assets/images/embodied-archetypes/23-hera-art.jpg", "description": "Hera Archetype · 2025" },
+                { "src": "assets/images/embodied-archetypes/28-demeter-art.jpg", "description": "Demeter Archetype · 2025" },
+                { "src": "assets/images/embodied-archetypes/33-athena-art.jpg", "description": "Athena Archetype · 2025" }
+            ],
+            "place": 1
+        },
+        {
             "id": "Jan1",
             "src": "assets/images/main/slider/jan.jpg",
             "title": "Jan series",
