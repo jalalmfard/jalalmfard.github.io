@@ -1,0 +1,124 @@
+{
+    "name": "home",
+    "title": "Jalal Mashhadi Fard",
+    "description": "Welcome to our website!",
+    "images": [
+     
+        {
+            "id":"0009",
+            "src": "/assets/images/fashion/Noushella.jpg",
+            "mobilePosition": "50% 50%",
+            "description": "",
+            "images": [],
+            "place":8
+        },
+        {
+            "id":"0031",
+            "src": "/assets/images/main/slider/1212.jpg",
+            "mobilePosition": "50% 54%",
+            "description": "Look Out/in Cafe- Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":1
+        },
+        {
+            "id":"0032",
+            "src": "/assets/images/main/slider/1313.jpg",
+            "mobilePosition": "34% 50%",
+            "description": "Special Mentions A+ Awards 2025 - Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":2
+        },
+        {
+            "id":"0033",
+            "src": "/assets/images/main/slider/1414.jpg",
+            "mobilePosition": "50% 55%",
+            "description": "Reviving an Omani House: Feel Boutique Plaza, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":3
+        },
+        {
+            "id":"0034",
+            "src": "/assets/images/main/slider/lookout.jpg",
+            "mobilePosition": "27% 50%",
+            "description": "Look-in Café: A Maze of Reflections, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":5
+        },
+        {
+            "id":"0035",
+            "src": "/assets/images/main/slider/1515.jpg",
+            "mobilePosition": "50% 50%",
+            "description": "The Architecture of “Jan”: A Poetic Reflection on Love and Light, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":6
+        },
+       {
+            "id":"0025",
+            "src": "/assets/images/main/slider/Feelbb.jpg",
+            "mobilePosition": "50% 50%",
+            "description": "Reviving an Omani House: Feel Boutique Plaza, Architect: Jalal Mashhadi Fard",
+            "images": [],
+            "place":7
+        },
+        {
+            "id":"0020",
+            "src": "/assets/images/main/slider/jan.jpg",
+            "mobilePosition": "50% 50%",
+            "description": "",
+            "images": [],
+            "place":10
+        },
+        {
+            "id":"HIDDEN WAY EXHIBITION",
+            "src": "/assets/images/main/slider/exhibittion.jpg",
+            "mobilePosition": "42% 50%",
+            "description": "",
+            "images": [],
+            "place":4
+        },
+        {
+            "id":"0002",
+            "src": "/assets/images/main/slider/2.webp",
+            "mobilePosition": "42% 50%",
+            "description": "",
+            "images": [],
+            "place":9
+        }
+        ,
+        {
+            "id":"0003",
+            "src": "/assets/images/artworks/cars.jpg",
+            "mobilePosition": "50% 50%",
+            "description": "",
+            "images": [],
+            "place":12
+        }
+        ,
+        {
+            "id":"0004",
+            "src": "/assets/images/main/slider/4.webp",
+            "mobilePosition": "50% 50%",
+            "description": "",
+            "images": [],
+            "place":13
+        }
+        ,
+        {
+            "id":"0005",
+            "src": "/assets/images/main/slider/5.webp",
+            "mobilePosition": "30% 50%",
+            "description": "",
+            "images": [],
+            "place":14
+        }
+        ,
+        {
+            "id":"0006",
+            "src": "/assets/images/main/slider/6.webp",
+            "mobilePosition": "45% 50%",
+            "description": "",
+            "images": [],
+            "place":11
+        }
+    ]
+}
