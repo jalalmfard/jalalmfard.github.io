@@ -13,13 +13,18 @@
             <div class="location">
                 {{slide.location}}  
             </div>
+            <div class="project-status" *ngIf="slide.status">{{ slide.status }}</div>
         </div>
 
         <div>
             <div class="image">
                 <div id="frame">
                     <div id="border">
-                        <img class="project-cover" [src]="slide.src" [alt]="slide.title" loading="lazy">
+                        <div class="split-cover" *ngIf="slide.coverImages?.length === 2; else singleCover">
+                            <img [src]="slide.coverImages[0]" [alt]="slide.title + ' façade'" loading="lazy">
+                            <img [src]="slide.coverImages[1]" [alt]="slide.title + ' interior'" loading="lazy">
+                        </div>
+                        <ng-template #singleCover><img class="project-cover" [src]="slide.src" [alt]="slide.title" loading="lazy"></ng-template>
                     </div>
                 </div>
             </div>

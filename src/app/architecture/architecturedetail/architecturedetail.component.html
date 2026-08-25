@@ -1,6 +1,6 @@
 <article class="project" *ngIf="selectedItem">
   <header class="project-header">
-    <p class="eyebrow">Architecture · {{ selectedItem.location }}</p>
+    <p class="eyebrow">Architecture · {{ selectedItem.location }}<span *ngIf="selectedItem.status"> · {{ selectedItem.status }}</span></p>
     <h1>{{ selectedItem.title }}</h1>
   </header>
   <section class="recognition" *ngIf="selectedItem.awards?.length || selectedItem.publications?.length">

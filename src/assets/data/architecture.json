@@ -346,6 +346,27 @@
       "place": 4
     },
     {
+      "id": "new-generation",
+      "src": "assets/images/architecture/new-generation/facade.jpg",
+      "coverImages": [
+        "assets/images/architecture/new-generation/facade.jpg",
+        "assets/images/architecture/new-generation/bedroom.jpg"
+      ],
+      "title": "New Generation",
+      "status": "In Progress",
+      "description": "New Generation is a residential project currently in development on Abuzar Seyed Street in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Seyed Street, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
+      "location": "Abuzar Seyed, Ahmadabad · Mashhad / Iran",
+      "images": [
+        { "src": "assets/images/architecture/new-generation/facade.jpg", "place": 1, "description": "Main façade study" },
+        { "src": "assets/images/architecture/new-generation/bedroom.jpg", "place": 2, "description": "Private master suite" },
+        { "src": "assets/images/architecture/new-generation/entrance.jpg", "place": 3, "description": "Entrance and shared threshold" },
+        { "src": "assets/images/architecture/new-generation/concept.jpg", "place": 4, "description": "From quantity to quality · concept diagram" },
+        { "src": "assets/images/architecture/new-generation/facade-diagram.jpg", "place": 5, "description": "Façade organisation and privacy layers" },
+        { "src": "assets/images/architecture/new-generation/module-diagram.jpg", "place": 6, "description": "Perforated façade module system" }
+      ],
+      "place": 4.5
+    },
+    {
       "id": "0003",
       "src": "/assets/images/architecture/3.webp",
       "title": "Master room",
