@@ -15,6 +15,22 @@
     </div>
   </section>
   <section class="project-story"><p>{{ selectedItem.description }}</p></section>
+  <section class="jewelry-collections" *ngIf="selectedItem.collections?.length; else standardGallery">
+    <article class="jewelry-collection" *ngFor="let collection of selectedItem.collections; let i = index">
+      <header class="collection-header">
+        <span>{{ (i + 1).toString().padStart(2, '0') }}</span>
+        <h2>{{ collection.title }}</h2>
+        <small>Ring · Earrings</small>
+      </header>
+      <div class="collection-pieces">
+        <figure *ngFor="let piece of collection.pieces">
+          <div class="jewelry-image"><img [src]="piece.src" [alt]="collection.title + ' ' + piece.type" loading="lazy"></div>
+          <figcaption>{{ piece.type }}</figcaption>
+        </figure>
+      </div>
+    </article>
+  </section>
+  <ng-template #standardGallery>
   <section class="project-gallery" *ngIf="selectedItem.images?.length; else coverEditorial">
     <figure *ngFor="let slide of selectedItem.images">
       <img [src]="slide.src" [alt]="selectedItem.title" loading="lazy">
@@ -25,5 +41,6 @@
     <section class="project-gallery" *ngIf="selectedItem.src">
       <figure><img [src]="selectedItem.src" [alt]="selectedItem.title" loading="eager"></figure>
     </section>
+  </ng-template>
   </ng-template>
 </article>
