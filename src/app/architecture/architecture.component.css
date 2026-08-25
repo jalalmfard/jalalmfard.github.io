@@ -25,10 +25,15 @@
   border: 0;
   border-radius: 0;
 }
+.split-cover { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; height: 100%; }
+.split-cover img { display: block; width: 100%; height: 100%; object-fit: cover; min-width: 0; }
+.split-cover img:first-child { object-position: center 42%; }
+.split-cover img:last-child { object-position: 54% center; }
 
 :host ::ng-deep .main { overflow: visible; }
 :host ::ng-deep .title { letter-spacing: -.025em; font-weight: 400; }
 :host ::ng-deep .location { color: #77756f; }
+.project-status { display: inline-block; margin-top: 14px; padding: 7px 10px; background: #eee9df; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: #5f5b52; }
 
 @media (max-width: 768px) {
   .main > div:last-child {

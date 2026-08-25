@@ -23,7 +23,7 @@
         },
         {
             "id": "jewelry",
-            "src": "/assets/images/jewelry/artemis/earrings.jpg",
+            "src": "assets/images/jewelry/artemis/earrings.jpg",
             "title": "Jewelry",
             "description": "Seven jewelry collections developed as complete design families. Each collection brings together a ring and a pair of earrings through a shared geometry, material language and mythological identity.",
             "location": "Seven collections · Rings & Earrings",
@@ -32,56 +32,56 @@
                     "id": "artemis",
                     "title": "Artemis",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/artemis/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/artemis/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/artemis/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/artemis/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "athena",
                     "title": "Athena",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/athena/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/athena/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/athena/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/athena/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "aphrodite",
                     "title": "Aphrodite",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/aphrodite/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/aphrodite/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/aphrodite/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/aphrodite/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "demeter",
                     "title": "Demeter",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/demeter/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/demeter/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/demeter/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/demeter/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "hestia",
                     "title": "Hestia",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/hestia/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/hestia/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/hestia/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/hestia/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "hera",
                     "title": "Hera",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/hera/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/hera/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/hera/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/hera/earrings.jpg" }
                     ]
                 },
                 {
                     "id": "persephone",
                     "title": "Persephone",
                     "pieces": [
-                        { "type": "Ring", "src": "/assets/images/jewelry/persephone/ring.jpg" },
-                        { "type": "Earrings", "src": "/assets/images/jewelry/persephone/earrings.jpg" }
+                        { "type": "Ring", "src": "assets/images/jewelry/persephone/ring.jpg" },
+                        { "type": "Earrings", "src": "assets/images/jewelry/persephone/earrings.jpg" }
                     ]
                 }
             ],
