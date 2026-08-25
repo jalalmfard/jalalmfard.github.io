@@ -64,6 +64,7 @@ export class ApiService {
   async loadPageData(pagename: string) {
     const dataUrl = new URL(`assets/data/${pagename}.json`, document.baseURI);
     dataUrl.searchParams.set('ngsw-bypass', 'true');
+    dataUrl.searchParams.set('v', Date.now().toString());
     return this.download(dataUrl.toString());
   }
 }
