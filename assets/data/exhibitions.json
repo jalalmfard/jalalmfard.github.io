@@ -4,6 +4,26 @@
     "description": "Welcome to our website!",
     "images": [
         {
+            "id": "embodied-archetypes",
+            "src": "assets/images/embodied-archetypes/01-cover.jpg",
+            "title": "Embodied Archetypes",
+            "description": "A study in wearable identity presented by NOUSHELLA at Intent Gallery. The exhibition explores how clothing can hold psychological shape through seven female archetypes. Garments and accompanying mixed-media works were developed in dialogue, shaped and illustrated by Jalal Mashhadi Fard. Opening 5 September and continuing through November 2025.",
+            "location": "Intent Gallery · Downtown Dubai · UAE",
+            "isvideo": false,
+            "images": [
+                { "src": "assets/images/embodied-archetypes/01-cover.jpg", "description": "Exhibition identity" },
+                { "src": "assets/images/embodied-archetypes/02-statement.jpg", "description": "Curatorial statement" },
+                { "src": "assets/images/embodied-archetypes/03-persephone-art.jpg", "description": "Persephone" },
+                { "src": "assets/images/embodied-archetypes/08-hestia-art.jpg", "description": "Hestia" },
+                { "src": "assets/images/embodied-archetypes/13-artemis-art.jpg", "description": "Artemis" },
+                { "src": "assets/images/embodied-archetypes/18-aphrodite-art.jpg", "description": "Aphrodite" },
+                { "src": "assets/images/embodied-archetypes/23-hera-art.jpg", "description": "Hera" },
+                { "src": "assets/images/embodied-archetypes/28-demeter-art.jpg", "description": "Demeter" },
+                { "src": "assets/images/embodied-archetypes/33-athena-art.jpg", "description": "Athena" }
+            ],
+            "place": 1
+        },
+        {
             "id": "0001",
             "src": "/assets/images/exhibitions/1.jpg",
             "title": "Harlow",
