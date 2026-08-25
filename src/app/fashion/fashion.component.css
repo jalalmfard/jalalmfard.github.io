@@ -1,1 +1,23 @@
-sed: can't read /workspace/scratch/e2190f894888/site-refresh/src/app/fashion/fashion.component.css: No such file or directory
+.image-placeholder #border {
+    min-height: min(72vh, 760px);
+    display: grid;
+    place-items: center;
+    background: linear-gradient(145deg, #181818, #4a4038);
+}
+
+.placeholder-mark {
+    color: #d8c6a8;
+    font-family: Georgia, serif;
+    font-size: clamp(96px, 18vw, 240px);
+    font-weight: 400;
+    line-height: 1;
+}
+
+#border { aspect-ratio: 16 / 10; overflow: hidden; background: #f7f7f5; }
+#border > img.image { width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+.split-cover { width: 100%; height: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #ecebe7; }
+.split-cover img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
+@media (max-width: 700px) {
+  #border { aspect-ratio: 4 / 3; }
+  #border > img.image { object-position: center 44%; }
+}
