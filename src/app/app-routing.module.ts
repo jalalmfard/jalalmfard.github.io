@@ -18,54 +18,36 @@ import { posterDetailComponent } from './poster/posterdetail/posterdetail.compon
 import { AboutComponent } from './about/about.component';
 import { FashionComponent } from './fashion/fashion.component';
 import { FashionDetailComponent } from './fashion/fashiondetail/fashiondetail.component';
+import { AwardsComponent } from './awards/awards.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-
   { path: 'architecture', component: ArchitectureComponent },
   { path: 'architecture/:id', component: ArchitectureDetailComponent },
-
-
   { path: 'artreviews', component: ArtreviewsComponent },
   { path: 'artreviews/:id', component: ArtreviewsDetailComponent },
-
-
   { path: 'fashion', component: FashionComponent },
   { path: 'fashion/:id', component: FashionDetailComponent },
-
-
   { path: 'artworks', component: ArtworksComponent },
   { path: 'artworks/:id', component: ArtworksDetailComponent },
-
-
   { path: 'exhibitions', component: ExhibitionsComponent },
   { path: 'exhibitions/:id', component: ExhibitionsDetailComponent },
-
-
-
   { path: 'furnituredesign', component: FurnituredesignComponent },
   { path: 'furnituredesign/:id', component: furnituredesignDetailComponent },
-
-
-  { path: 'logo', component: LogoComponent },
+  { path: 'creative-direction', component: LogoComponent },
+  { path: 'creative-direction/:id', component: logoDetailComponent },
+  { path: 'logo', redirectTo: 'creative-direction', pathMatch: 'full' },
   { path: 'logo/:id', component: logoDetailComponent },
-
+  { path: 'awards', component: AwardsComponent },
   { path: 'poster', component: PosterComponent },
   { path: 'poster/:id', component: posterDetailComponent },
-
   { path: 'about', component: AboutComponent },
-
   { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      initialNavigation: 'enabledBlocking',
-    }),
-  ],
+  imports: [RouterModule.forRoot(routes, { initialNavigation: 'enabledBlocking' })],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

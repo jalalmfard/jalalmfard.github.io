@@ -1,72 +1,31 @@
 <div class="content" role="main">
-  <nav class="foxnav mt-3 text-center">
-    <ul class="foxnav-items">
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/']">Home</a>
-      </li>
+  <header class="site-header">
+    <a class="wordmark" [routerLink]="['/']" aria-label="JalalMFard.com — Home">
+      <strong>JalalMFard</strong>.com
+    </a>
 
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/architecture']">
-          <span>Architecture & Interior design</span>
-        </a>
-      </li>
+    <nav class="foxnav" aria-label="Primary navigation">
+      <ul class="foxnav-items">
+        <li class="foxnav-item"><a class="item-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/architecture" routerLinkActive="active">Architecture</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/fashion" routerLinkActive="active">Fashion</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/artworks" routerLinkActive="active">Artworks</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/exhibitions" routerLinkActive="active">Exhibitions</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/furnituredesign" routerLinkActive="active">Furniture</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/creative-direction" routerLinkActive="active">Creative Direction</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/awards" routerLinkActive="active">Awards</a></li>
+        <li class="foxnav-item"><a class="item-link" routerLink="/about" routerLinkActive="active">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/fashion']">
-          <span>Fashion</span>
-        </a>
-      </li>
-      
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/artworks']">
-          <span>Artworks</span>
-        </a>
-      </li>
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/exhibitions']">
-          <span>Exhibitions</span>
-        </a>
-      </li>
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/furnituredesign']">
-          <span>Furniture design</span>
-        </a>
-      </li>
-
-
-
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/logo']">
-          <span>Logo</span>
-        </a>
-      </li>
-      <li class="foxnav-item">
-        <a class="item-link" [routerLink]="['/about']">
-          <span>About</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="main-content">
-    <router-outlet></router-outlet>
-  </div>
+  <main class="main-content"><router-outlet></router-outlet></main>
 
   <footer class="footer">
-    <div>
-      <img
-        src="/assets/images/jalal-arteza.png"
-        class="sign"
-        alt="JalalMFard"
-      />
-    </div>
-    <span> © 2025 JalalMFard LLC.</span>
-    <a href="https://www.instagram.com/JalalMfard/">
-      <img
-        class="instagram"
-        src="/assets/images/instagram.svg"
-        alt="instagram"
-      />
+    <img src="/assets/images/jalal-arteza.png" class="sign" alt="Jalal Mashhadi Fard signature" />
+    <span>© 2026 Jalal Mashhadi Fard</span>
+    <a href="https://www.instagram.com/JalalMfard/" target="_blank" rel="noreferrer" aria-label="Instagram">
+      <img class="instagram" src="/assets/images/instagram.svg" alt="" />
     </a>
   </footer>
 </div>

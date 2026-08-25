@@ -16,10 +16,11 @@
         </div>
 
         <div>
-            <div class="image">
+            <div class="image" [class.image-placeholder]="!slide.src">
                 <div id="frame">
                     <div id="border">
-                        <img class="image" [src]="slide.src">
+                        <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title">
+                        <div *ngIf="!slide.src" class="placeholder-mark" aria-hidden="true">J</div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,17 @@
+<section class="awards-page">
+  <header>
+    <p>Selected recognition</p>
+    <h1>Awards</h1>
+  </header>
+  <div class="awards-list">
+    <a class="award-row" *ngFor="let item of awards" [href]="item.url || null" [attr.target]="item.url ? '_blank' : null" [attr.rel]="item.url ? 'noopener noreferrer' : null">
+      <span class="year">{{ item.year }}</span>
+      <div>
+        <h2>{{ item.award }}</h2>
+        <p>{{ item.recognition }}</p>
+      </div>
+      <strong>{{ item.project }}</strong>
+      <span class="arrow" *ngIf="item.url">↗</span>
+    </a>
+  </div>
+</section>

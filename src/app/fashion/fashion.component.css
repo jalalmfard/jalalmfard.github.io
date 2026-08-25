@@ -1,0 +1,14 @@
+.image-placeholder #border {
+    min-height: min(72vh, 760px);
+    display: grid;
+    place-items: center;
+    background: linear-gradient(145deg, #181818, #4a4038);
+}
+
+.placeholder-mark {
+    color: #d8c6a8;
+    font-family: Georgia, serif;
+    font-size: clamp(96px, 18vw, 240px);
+    font-weight: 400;
+    line-height: 1;
+}
