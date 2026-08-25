@@ -1,5 +1,5 @@
 name: Portfolio Refresh Preview
-# Editorial galleries and image paths refreshed
+# Editorial galleries, image paths, and Keluchick refreshed
 
 on:
   workflow_dispatch:
