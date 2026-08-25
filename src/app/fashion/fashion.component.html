@@ -16,11 +16,16 @@
         </div>
 
         <div>
-            <div class="image" [class.image-placeholder]="!slide.src">
+            <div class="image" [class.image-placeholder]="!slide.src && !slide.coverImages?.length">
                 <div id="frame">
                     <div id="border">
-                        <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title">
-                        <div *ngIf="!slide.src" class="placeholder-mark" aria-hidden="true">J</div>
+                        <div class="split-cover" *ngIf="slide.coverImages?.length; else singleCover">
+                            <img *ngFor="let cover of slide.coverImages" [src]="cover" [alt]="slide.title">
+                        </div>
+                        <ng-template #singleCover>
+                            <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title">
+                            <div *ngIf="!slide.src" class="placeholder-mark" aria-hidden="true">J</div>
+                        </ng-template>
                     </div>
                 </div>
             </div>

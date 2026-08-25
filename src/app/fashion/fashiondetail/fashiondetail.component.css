@@ -35,3 +35,5 @@ h1 { margin: 0; font-size: clamp(48px, 10vw, 150px); font-weight: 500; letter-sp
   .collection-pieces { grid-template-columns: 1fr; gap: 28px; }
   .jewelry-image { aspect-ratio: 4 / 5; }
 }
+.designer-credit { margin: 1.25rem 0 2.5rem; padding: 1rem 1.25rem; background: #f4f3ef; color: #242424; font-size: .9rem; letter-spacing: .02em; }
+.project-story-fa { margin-top: 2rem !important; max-width: 760px; line-height: 2 !important; }
