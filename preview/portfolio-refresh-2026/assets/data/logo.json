@@ -1,0 +1,69 @@
+{
+  "name": "creative-direction",
+  "title": "Jalal Mashhadi Fard — Creative Direction",
+  "description": "Selected creative direction, exhibition, and identity projects.",
+  "images": [
+    {
+      "id": "0004",
+      "src": "/assets/images/architecture/Feel/POSTER2.jpg",
+      "title": "Hiddenway",
+      "description": "Exhibition concept and creative direction by Jalal Mashhadi Fard, in collaboration with Yasin Torki and Yasaman Alizadeh.",
+      "location": "Foundry, Dubai",
+      "isvideo": false,
+      "images": [
+        {
+          "src": "/assets/images/architecture/Feel/Hiddenwayyy1.jpg",
+          "isvideo": false,
+          "place": 1
+        }
+      ],
+      "place": 1
+    },
+    {
+      "id": "0001",
+      "src": "/assets/images/exhibitions/1.jpg",
+      "title": "Harlow",
+      "description": "Creative direction by Jalal Mashhadi Fard for artist Majid Gooran.",
+      "location": "E1 Art Gallery, Tehran",
+      "isvideo": false,
+      "images": [
+        {
+          "src": "/assets/images/exhibitions/images-0001/1.jpg",
+          "isvideo": false,
+          "place": 1
+        }
+      ],
+      "place": 2
+    },
+    {
+      "id": "0005",
+      "src": "/assets/images/architecture/Feel/Soulscpaes.jpg",
+      "title": "Soulscapes",
+      "description": "Creative direction and curatorial presentation by Jalal Mashhadi Fard.",
+      "location": "FEEL Expression, Muscat",
+      "isvideo": false,
+      "images": [],
+      "place": 3
+    },
+    {
+      "id": "0006",
+      "src": "/assets/images/architecture/Feel/feelfannPoster1may.jpg",
+      "title": "Feel the Fann 01",
+      "description": "Creative direction by Jalal Mashhadi Fard.",
+      "location": "FEEL Expression, Muscat",
+      "isvideo": false,
+      "images": [],
+      "place": 4
+    },
+    {
+      "id": "0007",
+      "src": "/assets/images/exhibitions/Feelthe fann02.jpg",
+      "title": "Feel the Fann 02",
+      "description": "Creative direction by Jalal Mashhadi Fard.",
+      "location": "FEEL Expression, Muscat",
+      "isvideo": false,
+      "images": [],
+      "place": 5
+    }
+  ]
+}
