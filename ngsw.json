@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1787619589083,
+  "timestamp": 1787663281485,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.e279e652c773ef6d.js",
+        "/main.8540dc6700d29c07.js",
         "/manifest.webmanifest",
         "/polyfills.5df72439364a7806.js",
         "/runtime.8b75e6f8aa365329.js",
-        "/styles.75a6b80e32d78007.css"
+        "/styles.4cdeb05cf0b686a3.css"
       ],
       "patterns": []
     },
@@ -511,7 +511,7 @@
     "/assets/data/fashion.json": "ccffc0ec856e7aae9a58f9f8013d963eb2d05538",
     "/assets/data/furnituredesign.json": "8b562ef090585f72f3725df8362423b887bfd149",
     "/assets/data/logo.json": "0badfff88bd19f8dcba94d4433ef2cae5af33c75",
-    "/assets/data/main.json": "b104242d63def4ded001ed60df46e4004308c3ab",
+    "/assets/data/main.json": "ee9f5ed1cf060887eadee9f1855777e269d0a452",
     "/assets/data/poster.json": "103e50ae0b0da65592b1c3329d4fa0197a7c7234",
     "/assets/i18n/en.json": "4f9fd1dbef475aefaab135cb36865c17958ee127",
     "/assets/i18n/fa.json": "900ca73b626ddc11613d96db383f534772a03fdb",
@@ -974,12 +974,12 @@
     "/assets/images/publications/amazing-architecture/look-in-out/9.jpg": "299eec1394ded18d94d231a565644c5013378429",
     "/assets/images/publications/amazing-architecture/look-in-out/cover.jpg": "525394f4d8d3f73944f10e261e4c89280bb3791c",
     "/favicon.ico": "99c8fe643817d4e4d5deacec97ce69f419e32b6c",
-    "/index.html": "7b19fc1999e5064d0796748c3b169a68dbeea978",
-    "/main.e279e652c773ef6d.js": "484dccd930d5475cd678220bb9ab43654f75c4cc",
+    "/index.html": "d337c57492e3ed709e01dc977b2a9c3dfe8aced3",
+    "/main.8540dc6700d29c07.js": "f2f405ab28b7325792ebfec08add0b1187ccfdab",
     "/manifest.webmanifest": "7a79aa64d1a7e608a38f4b65ba9f3331bd0a5482",
     "/polyfills.5df72439364a7806.js": "b0ea6850cb63dc25c51190d4b81d6a34b30b8497",
     "/runtime.8b75e6f8aa365329.js": "afc746169d9942e69cf04a3547487859d5a5e687",
-    "/styles.75a6b80e32d78007.css": "aa8a4531094fb3330795ad18ed92a43e2dce8e65"
+    "/styles.4cdeb05cf0b686a3.css": "b07343bb16d7492ff85c034237fa0d07e944e4c4"
   },
   "navigationUrls": [
     {
