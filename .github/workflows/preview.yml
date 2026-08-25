@@ -1,5 +1,5 @@
 name: Portfolio Refresh Preview
-# Editorial galleries, Keluchick, and cache refresh published
+# Keluchick two-figure cover published
 
 on:
   workflow_dispatch:
