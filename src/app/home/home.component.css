@@ -1,4 +1,14 @@
-.text-center
-{
-    text-align: center;
+.text-center { text-align: center; }
+
+:host { display: block; }
+
+@media (max-width: 900px) {
+  :host ::ng-deep .card-container { width: calc(100% - 32px); }
+  :host ::ng-deep .title-main { font-size: clamp(16px, 3vw, 22px); letter-spacing: .04em; }
+}
+
+@media (max-width: 560px) {
+  :host ::ng-deep .p-10 { padding: 12px 0; }
+  :host ::ng-deep .mb-10 { margin-bottom: 20px; }
+  :host ::ng-deep .title-main { font-size: 14px; white-space: nowrap; }
 }

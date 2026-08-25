@@ -1,5 +1,5 @@
 name: Portfolio Refresh Preview
-# Keluchick two-figure cover published
+# Mobile and tablet responsive preview
 
 on:
   workflow_dispatch:

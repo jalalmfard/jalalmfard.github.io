@@ -70,4 +70,8 @@ export class ImageSliderComponent implements OnInit, OnDestroy {
       return '';
     }
   }
+
+  getCurrentSlidePosition(): string {
+    return this.slides[this.currentIndex]?.mobilePosition || '50% 50%';
+  }
 }
