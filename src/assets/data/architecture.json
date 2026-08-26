@@ -367,6 +367,37 @@
       "place": 4.5
     },
     {
+      "id": "homay-wellness-center",
+      "src": "assets/images/architecture/homay-wellness-center/01-overview.jpg",
+      "title": "Homay Wellness Center",
+      "status": "Design Stage · Unbuilt",
+      "description": "Homay Wellness Center is conceived as a landmark destination where sport, health, hospitality and landscape form one continuous experience. Set within a mountainous terrain, the proposal follows the contours of the site through a family of curved volumes, planted roofs and a multi-level movement loop.\n\nThe programme brings together a professional gym, indoor and outdoor pools, a luxury restaurant and VIP club, a hotel and café, and a medical health centre. Rather than separating these functions into isolated buildings, the architecture links them through terraces, bridges and walking routes, allowing movement, views and landscape to become the connective tissue of the project.\n\nA flowing timber screen wraps the glazed volumes, filtering sun and views while giving the complex a unified identity. The buildings step with the slope, preserving panoramic views and creating a sequence of interior and exterior spaces for exercise, recovery, dining and rest.\n\nProject: Homay Wellness Center\nArchitect: Jalal Mashhadi Fard Studio\nClient: Mr. Ali Tabrizi\nStatus: Design Stage · Unbuilt",
+      "location": "Wellness, Sports & Lifestyle Complex",
+      "images": [
+        { "src": "assets/images/architecture/homay-wellness-center/01-overview.jpg", "place": 1, "description": "Concept and development proposal" },
+        { "src": "assets/images/architecture/homay-wellness-center/02-program.jpg", "place": 2, "description": "Programme and site organisation" },
+        { "src": "assets/images/architecture/homay-wellness-center/03-gym-diagram.jpg", "place": 3, "section": "Gym", "description": "Professional gym within the connected wellness landscape" },
+        { "src": "assets/images/architecture/homay-wellness-center/04-gym.jpg", "place": 4, "description": "Gym overlooking the mountain landscape" },
+        { "src": "assets/images/architecture/homay-wellness-center/05-pool-diagram.jpg", "place": 5, "section": "Pool", "description": "Indoor and outdoor pool programme" },
+        { "src": "assets/images/architecture/homay-wellness-center/06-pool.jpg", "place": 6, "description": "Pool terraces and recovery spaces" },
+        { "src": "assets/images/architecture/homay-wellness-center/07-pool-interior.jpg", "place": 7, "description": "Interior pool with panoramic views" },
+        { "src": "assets/images/architecture/homay-wellness-center/08-fnb-diagram.jpg", "place": 8, "section": "F&B", "description": "Luxury restaurant and VIP club programme" },
+        { "src": "assets/images/architecture/homay-wellness-center/09-restaurant.jpg", "place": 9, "description": "Restaurant at night" },
+        { "src": "assets/images/architecture/homay-wellness-center/10-restaurant-spaces.jpg", "place": 10, "description": "Restaurant, lounge and bar spaces" },
+        { "src": "assets/images/architecture/homay-wellness-center/11-restaurant-terrace.jpg", "place": 11, "description": "Restaurant terrace overlooking the site" },
+        { "src": "assets/images/architecture/homay-wellness-center/12-movement-loop.jpg", "place": 12, "section": "Movement Loop", "description": "Walking and running loop connecting the programme" },
+        { "src": "assets/images/architecture/homay-wellness-center/13-path-study.jpg", "place": 13, "description": "Circulation and adaptive reuse study" },
+        { "src": "assets/images/architecture/homay-wellness-center/14-hotel-diagram.jpg", "place": 14, "section": "Hotel", "description": "Hotel and café programme" },
+        { "src": "assets/images/architecture/homay-wellness-center/15-hotel-room.jpg", "place": 15, "description": "Guest room with filtered mountain view" },
+        { "src": "assets/images/architecture/homay-wellness-center/16-hotel-plan.jpg", "place": 16, "description": "Hotel organisation around a planted courtyard" },
+        { "src": "assets/images/architecture/homay-wellness-center/17-health-diagram.jpg", "place": 17, "section": "Health Center", "description": "Medical health, beauty, yoga and recovery programme" },
+        { "src": "assets/images/architecture/homay-wellness-center/18-health-center.jpg", "place": 18, "description": "Treatment and recovery interior" },
+        { "src": "assets/images/architecture/homay-wellness-center/19-summary.jpg", "place": 19, "description": "Architecture, landscape and movement studies" },
+        { "src": "assets/images/architecture/homay-wellness-center/20-final-overview.jpg", "place": 20, "description": "Final exterior overview" }
+      ],
+      "place": 4.55
+    },
+    {
       "id": "tobe",
       "src": "assets/images/architecture/tobe/cover.jpg",
       "title": "ToBe",

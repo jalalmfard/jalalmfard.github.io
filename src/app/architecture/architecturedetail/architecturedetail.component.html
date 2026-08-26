@@ -17,6 +17,7 @@
   <section class="project-story"><p>{{ selectedItem.description }}</p></section>
   <section class="project-gallery" *ngIf="galleryImages.length">
     <figure *ngFor="let slide of galleryImages">
+      <h2 class="gallery-section" *ngIf="slide.section">{{ slide.section }}</h2>
       <img [src]="slide.src" [alt]="selectedItem.title" loading="lazy">
       <figcaption *ngIf="slide.description">{{ slide.description }}</figcaption>
     </figure>
