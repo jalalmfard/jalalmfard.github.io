@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { SetupService } from '../services/setup.service';
 
-interface Preview { id:string; title:string; src:string; coverImages?:string[]; coverPosition?:string; }
+interface Preview { id:string; title:string; src:string; summary:string; coverImages?:string[]; coverPosition?:string; }
 interface Section { key:string; index:string; title:string; route:string; projects:Preview[]; }
 
 @Component({selector:'app-home',templateUrl:'./home.component.html',styleUrls:['./home.component.css']})
@@ -30,8 +30,12 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.make('exhibitions','04','Exhibitions','/exhibitions',exhibitions?.images,7)
     ].filter(s=>s.projects.length);
     this.sections.forEach(s=>{this.selected[s.key]=0;this.previous[s.key]=0;this.turning[s.key]=false;});
-    if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+    if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
       this.timers.push(window.setInterval(()=>this.currentAward=(this.currentAward+1)%this.awards.length,3400));
+      this.sections.forEach((section,index)=>this.timers.push(window.setInterval(
+        ()=>this.select(section,(this.selected[section.key]+1)%section.projects.length),4000+(index*260)
+      )));
+    }
   }
   ngOnDestroy():void{this.timers.forEach(t=>window.clearTimeout(t));}
   featured(s:Section):Preview{return s.projects[this.selected[s.key]||0];}
@@ -45,7 +49,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     const projects=[...(source||[])].sort((a,b)=>(a.place??999)-(b.place??999)).map(p=>{
       const covers=(p.coverImages||[]).map((x:string)=>this.path(x));
       const src=p.src||covers[0]||p.images?.find((x:any)=>x.src)?.src;
-      return{id:p.id,title:p.title,src:this.path(src),coverImages:covers,coverPosition:p.coverPosition};
+      const clean=(p.description||'').split('\n')[0].replace(/\s+/g,' ').trim();
+      const summary=clean.length>175?`${clean.slice(0,172)}…`:clean;
+      return{id:p.id,title:p.title,src:this.path(src),summary,coverImages:covers,coverPosition:p.coverPosition};
     }).filter(p=>p.id&&p.title&&p.src).slice(0,limit);
     return{key,index,title,route,projects};
   }

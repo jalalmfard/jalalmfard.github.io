@@ -11,7 +11,8 @@
           <ng-template #single><img [src]="featured(section).src" [alt]="featured(section).title" [style.object-position]="featured(section).coverPosition||'50% 50%'"></ng-template>
         </div>
         <div class="cover image-old" *ngIf="turning[section.key]"><img [src]="previousFeatured(section).src" alt=""></div>
-        <span class="featured-title">{{featured(section).title}}</span><span class="open-project">Open project ↗</span>
+        <div class="featured-copy"><span class="featured-title">{{featured(section).title}}</span><p *ngIf="featured(section).summary">{{featured(section).summary}}</p></div>
+        <span class="open-project">Open project ↗</span>
       </a>
       <nav class="project-index" [attr.aria-label]="section.title+' projects'">
         <a *ngFor="let project of section.projects;let pi=index" [routerLink]="[section.route,project.id]"
