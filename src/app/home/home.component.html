@@ -4,16 +4,19 @@
     <p>Architect · Artist · Creative Director · Designer</p>
   </header>
   <section class="discipline-grid" aria-label="Explore the portfolio">
-    <a class="discipline discipline--architecture" [routerLink]="architecture.route">
-      <img [src]="image(architecture)" [style.object-position]="imagePosition(architecture)" alt="Selected architecture project">
+    <a class="discipline discipline--architecture" [class.is-turning]="architecture.turning" [routerLink]="architecture.route">
+      <img class="image-new" [src]="image(architecture)" [style.object-position]="imagePosition(architecture)" alt="Selected architecture project">
+      <img class="image-old" *ngIf="architecture.turning" [src]="previousImage(architecture)" [style.object-position]="previousImagePosition(architecture)" alt="">
       <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">01</span><span><strong>{{ architecture.title }}</strong><small>{{ architecture.subtitle }}</small></span><span class="arrow">↗</span></span>
     </a>
-    <a class="discipline discipline--small" [routerLink]="fashion.route">
-      <img [src]="image(fashion)" [style.object-position]="imagePosition(fashion)" alt="Selected fashion work">
+    <a class="discipline discipline--small" [class.is-turning]="fashion.turning" [routerLink]="fashion.route">
+      <img class="image-new" [src]="image(fashion)" [style.object-position]="imagePosition(fashion)" alt="Selected fashion and jewelry work">
+      <img class="image-old" *ngIf="fashion.turning" [src]="previousImage(fashion)" [style.object-position]="previousImagePosition(fashion)" alt="">
       <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">02</span><span><strong>{{ fashion.title }}</strong><small>{{ fashion.subtitle }}</small></span><span class="arrow">↗</span></span>
     </a>
-    <a class="discipline discipline--small" [routerLink]="art.route">
-      <img [src]="image(art)" [style.object-position]="imagePosition(art)" alt="Selected artwork and exhibition">
+    <a class="discipline discipline--small" [class.is-turning]="art.turning" [routerLink]="art.route">
+      <img class="image-new" [src]="image(art)" [style.object-position]="imagePosition(art)" alt="Selected artwork and exhibition">
+      <img class="image-old" *ngIf="art.turning" [src]="previousImage(art)" [style.object-position]="previousImagePosition(art)" alt="">
       <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">03</span><span><strong>{{ art.title }}</strong><small>{{ art.subtitle }}</small></span><span class="arrow">↗</span></span>
     </a>
   </section>

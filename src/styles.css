@@ -725,3 +725,19 @@ img.project-cover {
   .main #frame, .main #border, .main img, .main video, img.project-cover { border-radius: 13px; }
   .button-more { min-height: 42px; border-radius: 12px; }
 }
+
+/* Homepage editorial sheet transition */
+app-home .discipline{perspective:1200px}
+app-home .discipline img{z-index:0;animation:none;backface-visibility:hidden}
+app-home .discipline .image-new{z-index:0}
+app-home .discipline .image-old{z-index:1;transform-origin:left center}
+app-home .discipline.is-turning .image-old{animation:sheet-turn .78s cubic-bezier(.55,.05,.24,1) both}
+app-home .discipline.is-turning .image-new{animation:new-sheet .78s cubic-bezier(.22,.61,.36,1) both}
+app-home .discipline::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.22) 49%,transparent 57%);transform:translateX(-80%)}
+app-home .discipline.is-turning::after{animation:paper-sheen .78s ease both}
+app-home .shade{z-index:3}
+app-home .discipline-copy{z-index:4}
+@keyframes sheet-turn{0%{clip-path:inset(0);transform:scale(1.002);filter:brightness(1)}55%{filter:brightness(1.05)}100%{clip-path:inset(0 0 0 100%);transform:translateX(1.2%) scale(1.012);filter:brightness(.92)}}
+@keyframes new-sheet{from{transform:scale(1.016);filter:brightness(.96)}to{transform:scale(1.002);filter:brightness(1)}}
+@keyframes paper-sheen{0%{opacity:0;transform:translateX(-80%)}36%{opacity:.5}100%{opacity:0;transform:translateX(80%)}}
+@media(prefers-reduced-motion:reduce){app-home .discipline img,app-home .discipline::after{animation:none!important}}
