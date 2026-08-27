@@ -31,8 +31,16 @@ export class HomeComponent implements OnInit, OnDestroy {
   private load(src:string):Promise<void>{if(typeof Image==='undefined'||!src)return Promise.resolve();return new Promise(resolve=>{const image=new Image();image.onload=()=>resolve();image.onerror=()=>resolve();image.src=src;if(image.complete)resolve();});}
   private preload(src:string):void{this.load(src);}
   private make(key:string,index:string,title:string,route:string,source:any[]=[],limit:number):Section{
-    const projects=[...(source||[])].sort((a,b)=>(a.place??999)-(b.place??999)).map(p=>{const covers=(p.coverImages||[]).map((x:string)=>this.path(x));const full=p.images?.find((x:any)=>x.src)?.src;const src=p.homeImage||full||p.src||covers[0];const clean=(p.description||'').split('\n')[0].replace(/\s+/g,' ').trim();const summary=clean.length>150?`${clean.slice(0,147)}…`:clean;const meta=[p.location,p.year].filter(Boolean).join(' · ');return{id:p.id,title:p.title,src:this.path(src),summary,meta,coverImages:covers,coverPosition:p.coverPosition};}).filter(p=>p.id&&p.title&&p.src).slice(0,limit);
+    const projects=[...(source||[])].sort((a,b)=>(a.place??999)-(b.place??999)).map(p=>{const covers=(p.coverImages||[]).map((x:string)=>this.path(x));const src=this.homeImage(key,p)||covers[0];const clean=(p.description||'').split('\n')[0].replace(/\s+/g,' ').trim();const summary=clean.length>150?`${clean.slice(0,147)}…`:clean;const meta=[p.location,p.year].filter(Boolean).join(' · ');return{id:p.id,title:p.title,src:this.path(src),summary,meta,coverImages:covers,coverPosition:p.coverPosition};}).filter(p=>p.id&&p.title&&p.src).slice(0,limit);
     return{key,index,title,route,projects};
   }
   private path(src:string):string{return !src?'':src.startsWith('/')?src:`/${src}`;}
+  private homeImage(section:string,p:any):string{
+    const selected:Record<string,string>={
+      'architecture:0020':'assets/images/main/slider/1414.jpg',
+      'architecture:0021':'assets/images/main/slider/1515.jpg',
+      'fashion:embodied-archetypes':'assets/images/embodied-archetypes/29-demeter-garment.jpg'
+    };
+    return selected[`${section}:${p.id}`]||p.homeImage||p.src||p.images?.find((image:any)=>image.src)?.src;
+  }
 }
