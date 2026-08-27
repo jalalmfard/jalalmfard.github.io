@@ -2,9 +2,9 @@
 header p { color: #777; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; }
 h1 { margin: 18px 0 72px; font-size: clamp(68px, 12vw, 160px); line-height: .9; letter-spacing: -.06em; font-weight: 300; }
 .awards-list { display: grid; gap: 10px; border: 0; }
-.award-row { position: relative; display: grid; grid-template-columns: 90px 1fr minmax(140px, auto); gap: 32px; align-items: baseline; padding: 30px 42px 30px 24px; border: 0; color: inherit; text-decoration: none; background: #fffefa; box-shadow: 0 14px 38px rgba(36,31,21,.07); transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s ease; }
+.award-row { position: relative; display: grid; grid-template-columns: 90px 1fr minmax(140px, auto); gap: 32px; align-items: baseline; padding: 30px 42px 30px 24px; border: 0; border-radius: 20px; color: inherit; text-decoration: none; background: #eef0f3; box-shadow: -8px -8px 20px rgba(255,255,255,.84), 8px 8px 20px rgba(151,158,169,.18); transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s ease; }
 .award-row:nth-child(even) { transform: translateX(10px); }
-.award-row:hover { transform: translate(4px,-3px); box-shadow: 0 24px 54px rgba(36,31,21,.11); }
+.award-row:hover { transform: translate(4px,-3px); box-shadow: -10px -10px 24px rgba(255,255,255,.88), 12px 12px 26px rgba(151,158,169,.22); }
 .year, .award-row p { color: #777; font-size: 13px; }
 h2 { margin: 0 0 6px; font-size: clamp(20px, 3vw, 34px); font-weight: 400; }
 .award-row strong { font-size: 13px; font-weight: 400; text-align: right; }

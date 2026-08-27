@@ -6,11 +6,11 @@ h1 { margin: 28px 0 48px; font-size: clamp(58px, 10vw, 148px); line-height: .86;
 .about-grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(250px, .7fr); gap: clamp(40px, 8vw, 120px); margin: 12vh 0; }
 .statement { font-size: clamp(18px, 1.65vw, 25px); line-height: 1.55; }
 .statement p + p { margin-top: 24px; }
-.contact-card { align-self: start; padding: 28px; background: #f4f3ef; box-shadow: 0 18px 55px rgba(0,0,0,.08); display: grid; gap: 14px; }
+.contact-card { align-self: start; padding: 28px; border-radius: 22px; background: #eef0f3; box-shadow: -10px -10px 24px rgba(255,255,255,.86), 10px 10px 24px rgba(151,158,169,.20); display: grid; gap: 14px; }
 .contact-card .section-label { margin-bottom: 10px; }
 .contact-card a { color: #111; text-decoration: none; width: fit-content; border-bottom: 1px solid rgba(0,0,0,.25); }
-.cv-sections { border-top: 1px solid #d8d8d4; }
-.cv-sections > section { display: grid; grid-template-columns: minmax(180px, .45fr) 1fr; gap: 32px; padding: 38px 0; border-bottom: 1px solid #d8d8d4; }
+.cv-sections { display: grid; gap: 18px; border: 0; }
+.cv-sections > section { display: grid; grid-template-columns: minmax(180px, .45fr) 1fr; gap: 32px; padding: 30px; border: 0; border-radius: 22px; background: #eef0f3; box-shadow: -8px -8px 20px rgba(255,255,255,.82), 8px 8px 20px rgba(151,158,169,.18); }
 .cv-sections ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; line-height: 1.45; }
 .cv-sections li span { display: inline-block; width: 58px; color: #888; font-size: 12px; }
 .cv-sections p:not(.section-label) { margin: 0; line-height: 1.6; max-width: 760px; }
@@ -21,5 +21,5 @@ h1 { margin: 28px 0 48px; font-size: clamp(58px, 10vw, 148px); line-height: .86;
   .intro { margin-left: 0; }
   .about-grid { grid-template-columns: 1fr; margin: 72px 0; gap: 40px; }
   .contact-card { padding: 22px; }
-  .cv-sections > section { grid-template-columns: 1fr; gap: 18px; padding: 30px 0; }
+  .cv-sections > section { grid-template-columns: 1fr; gap: 18px; padding: 22px; border-radius: 18px; }
 }
