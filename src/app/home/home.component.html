@@ -1,26 +1,26 @@
 <main class="home">
   <header class="intro"><h1><strong>Jalal</strong> Mashhadi Fard</h1><p>Architect · Artist · Creative Director · Designer</p></header>
-  <section *ngFor="let section of sections;let si=index" class="project-section" [class.primary]="si===0" [class.reverse]="si%2">
-    <header class="section-head"><span>{{section.index}}</span><h2>{{section.title}}</h2><a [routerLink]="section.route">View all ↗</a></header>
-    <div class="project-stage">
-      <a class="featured" [class.is-turning]="turning[section.key]" [routerLink]="[section.route,featured(section).id]">
-        <div class="cover image-new" [class.split]="featured(section).coverImages?.length">
-          <ng-container *ngIf="featured(section).coverImages?.length;else single">
-            <img *ngFor="let image of featured(section).coverImages" [src]="image" [alt]="featured(section).title">
-          </ng-container>
-          <ng-template #single><img [src]="featured(section).src" [alt]="featured(section).title" [style.object-position]="featured(section).coverPosition||'50% 50%'"></ng-template>
-        </div>
-        <div class="cover image-old" *ngIf="turning[section.key]"><img [src]="previousFeatured(section).src" alt=""></div>
-        <div class="featured-copy"><span class="featured-title">{{featured(section).title}}</span><p *ngIf="featured(section).summary">{{featured(section).summary}}</p></div>
-        <span class="open-project">Open project ↗</span>
+  <ng-container *ngIf="sections[0] as architecture">
+    <section class="architecture-feature">
+      <header class="section-head"><span>{{architecture.index}}</span><h2>{{architecture.title}}</h2><a [routerLink]="architecture.route">Index ↗</a></header>
+      <a class="architecture-image" [routerLink]="[architecture.route,featured(architecture).id]">
+        <img class="frame current" [class.entering]="transitioning[architecture.key]" [src]="featured(architecture).src" [alt]="featured(architecture).title" [style.object-position]="featured(architecture).coverPosition||'50% 50%'">
+        <img class="frame departing" *ngIf="transitioning[architecture.key]" [src]="previousFeatured(architecture).src" alt=""><span class="project-mark">View project ↗</span>
       </a>
-      <nav class="project-index" [attr.aria-label]="section.title+' projects'">
-        <a *ngFor="let project of section.projects;let pi=index" [routerLink]="[section.route,project.id]"
-          [class.active]="selected[section.key]===pi" (mouseenter)="select(section,pi)" (focus)="select(section,pi)">
-          <img [src]="project.src" [alt]="project.title"><span class="project-number">{{pi+1}}</span><span class="project-name">{{project.title}}</span>
-        </a>
-      </nav>
-    </div>
+      <div class="architecture-copy"><div><span class="eyebrow">Selected project</span><h3>{{featured(architecture).title}}</h3><small>{{featured(architecture).meta}}</small></div><p>{{featured(architecture).summary}}</p><nav class="project-dots" aria-label="Architecture projects"><button *ngFor="let project of architecture.projects;let pi=index" type="button" [class.active]="selected[architecture.key]===pi" (click)="select(architecture,pi)" [attr.aria-label]="project.title"><i></i><span>{{project.title}}</span></button></nav></div>
+    </section>
+  </ng-container>
+  <section class="discipline-grid">
+    <article *ngFor="let section of sections | slice:1" class="discipline-card">
+      <header class="section-head"><span>{{section.index}}</span><h2>{{section.title}}</h2><a [routerLink]="section.route">Index ↗</a></header>
+      <a class="compact-image" [routerLink]="[section.route,featured(section).id]">
+        <ng-container *ngIf="featured(section).coverImages?.length;else compactSingle"><span class="split-cover current" [class.entering]="transitioning[section.key]"><img *ngFor="let image of featured(section).coverImages" [src]="image" [alt]="featured(section).title"></span></ng-container>
+        <ng-template #compactSingle><img class="frame current" [class.entering]="transitioning[section.key]" [src]="featured(section).src" [alt]="featured(section).title" [style.object-position]="featured(section).coverPosition||'50% 50%'"></ng-template>
+        <img class="frame departing" *ngIf="transitioning[section.key]" [src]="previousFeatured(section).src" alt="">
+      </a>
+      <div class="compact-copy"><div><h3>{{featured(section).title}}</h3><small>{{featured(section).meta}}</small></div><p>{{featured(section).summary}}</p></div>
+      <nav class="project-dots" [attr.aria-label]="section.title+' projects'"><button *ngFor="let project of section.projects;let pi=index" type="button" [class.active]="selected[section.key]===pi" (click)="select(section,pi)" [attr.aria-label]="project.title"><i></i><span>{{project.title}}</span></button></nav>
+    </article>
   </section>
   <a class="awards-strip" routerLink="/awards"><span>Awards</span><strong>{{awards[currentAward]}}</strong><small>{{currentAward+1}} / {{awards.length}}</small></a>
 </main>
