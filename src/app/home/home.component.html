@@ -1,13 +1,24 @@
-<div class="card-container p-10 mb-10 text-center">
-  <p class="title-main"><b>J a l a l</b> M a s h h a d i F a r d</p>
-</div>
-
-<div class="card-container">
-  <app-spinner></app-spinner>
-  <image-slider [slides]="slides"></image-slider>
-</div>
-
-<!-- <p>{{'compA' | translate}}</p>
-
-  <p>{{'compB' | translate}}</p>
-  <app-select-language></app-select-language> -->
+<main class="home" aria-label="Jalal Mashhadi Fard portfolio disciplines">
+  <header class="home-intro">
+    <h1><strong>Jalal</strong> Mashhadi Fard</h1>
+    <p>Architect · Artist · Creative Director · Designer</p>
+  </header>
+  <section class="discipline-grid" aria-label="Explore the portfolio">
+    <a class="discipline discipline--architecture" [routerLink]="architecture.route">
+      <img [src]="image(architecture)" [style.object-position]="imagePosition(architecture)" alt="Selected architecture project">
+      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">01</span><span><strong>{{ architecture.title }}</strong><small>{{ architecture.subtitle }}</small></span><span class="arrow">↗</span></span>
+    </a>
+    <a class="discipline discipline--small" [routerLink]="fashion.route">
+      <img [src]="image(fashion)" [style.object-position]="imagePosition(fashion)" alt="Selected fashion work">
+      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">02</span><span><strong>{{ fashion.title }}</strong><small>{{ fashion.subtitle }}</small></span><span class="arrow">↗</span></span>
+    </a>
+    <a class="discipline discipline--small" [routerLink]="art.route">
+      <img [src]="image(art)" [style.object-position]="imagePosition(art)" alt="Selected artwork and exhibition">
+      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">03</span><span><strong>{{ art.title }}</strong><small>{{ art.subtitle }}</small></span><span class="arrow">↗</span></span>
+    </a>
+  </section>
+  <a class="awards-strip" routerLink="/awards" aria-label="View all awards">
+    <span class="awards-label">Awards</span><span class="award-title">{{ awards[currentAward] }}</span><span class="awards-count">{{ currentAward + 1 }} / {{ awards.length }}</span>
+  </a>
+  <nav class="art-subnav" aria-label="Art sections"><a routerLink="/artworks">Artworks</a><a routerLink="/exhibitions">Exhibitions</a></nav>
+</main>
