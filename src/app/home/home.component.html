@@ -3,14 +3,14 @@
     <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.is-changing]="card.changing" [routerLink]="card.route">
       <img class="portal-image current" [src]="current(card)" [alt]="card.title">
       <img *ngIf="card.changing" class="portal-image previous" [src]="old(card)" alt="">
-      <span class="veil"></span>
-      <span class="glass-label">{{card.title}}<i>↗</i></span>
+      <span class="glass-surface"></span>
+      <span class="portal-title">{{card.title}}<i>↗</i></span>
     </a>
   </section>
 
   <a class="awards-rail" routerLink="/awards" aria-label="Awards and recognition">
     <span class="awards-label">Awards</span>
-    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let mark of awardMarks"><strong>{{mark}}</strong><i>✦</i></ng-container><ng-container *ngFor="let mark of awardMarks"><strong>{{mark}}</strong><i>✦</i></ng-container></span></span>
+    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b>{{award.mark}}</b><small>{{award.name}}</small></span></ng-container><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b>{{award.mark}}</b><small>{{award.name}}</small></span></ng-container></span></span>
     <span class="awards-arrow">↗</span>
   </a>
 </main>
