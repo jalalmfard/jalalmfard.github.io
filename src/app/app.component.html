@@ -1,4 +1,12 @@
-<div class="content" role="main">
+<div class="site-intro" *ngIf="showIntro" [class.is-leaving]="introLeaving" aria-hidden="true">
+  <div class="signature-write">
+    <img src="/assets/images/jalal-arteza.png" alt="">
+    <span class="signature-dot-cover"></span>
+  </div>
+  <span class="intro-name">Jalal Mashhadi Fard</span>
+</div>
+
+<div class="content" role="main" [class.content-ready]="!showIntro">
   <header class="site-header">
     <a class="wordmark" [routerLink]="['/']" aria-label="JalalMFard.com — Home">
       <strong>JalalMFard</strong>.com

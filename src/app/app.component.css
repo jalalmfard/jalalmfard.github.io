@@ -1,6 +1,47 @@
 :host { display: block; width: 100%; }
 a { color: inherit; }
 
+.site-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  background: #eef0f3;
+  transition: opacity .65s ease, visibility .65s ease;
+}
+.site-intro.is-leaving { opacity: 0; visibility: hidden; }
+.signature-write { position: relative; width: clamp(120px, 15vw, 180px); }
+.signature-write img {
+  display: block;
+  width: 100%;
+  height: auto;
+  clip-path: inset(0 100% 0 0);
+  animation: write-signature 1.65s cubic-bezier(.32,.02,.18,1) .18s forwards;
+}
+.signature-dot-cover {
+  position: absolute;
+  left: 68%;
+  top: 51%;
+  width: 27%;
+  height: 28%;
+  background: #eef0f3;
+  animation: place-dot .24s ease 1.7s forwards;
+}
+.intro-name {
+  margin-top: 16px;
+  color: rgba(23,24,27,.48);
+  font-size: 8px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: intro-name .45s ease 1.85s forwards;
+}
+@keyframes write-signature { to { clip-path: inset(0); } }
+@keyframes place-dot { to { opacity: 0; transform: scale(.7); } }
+@keyframes intro-name { to { opacity: 1; } }
+
 .site-header {
   box-sizing: border-box;
   width: min(1280px, calc(100% - 48px));
@@ -157,4 +198,7 @@ a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   .foxnav, .item-link { transition: none; }
+  .signature-write img { clip-path: none; animation: none; }
+  .signature-dot-cover { display: none; }
+  .intro-name { opacity: 1; animation: none; }
 }

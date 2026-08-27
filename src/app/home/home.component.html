@@ -1,27 +1,25 @@
-<main class="home" aria-label="Jalal Mashhadi Fard portfolio disciplines">
-  <header class="home-intro">
-    <h1><strong>Jalal</strong> Mashhadi Fard</h1>
-    <p>Architect · Artist · Creative Director · Designer</p>
-  </header>
-  <section class="discipline-grid" aria-label="Explore the portfolio">
-    <a class="discipline discipline--architecture" [class.is-turning]="architecture.turning" [routerLink]="architecture.route">
-      <img class="image-new" [src]="image(architecture)" [style.object-position]="imagePosition(architecture)" alt="Selected architecture project">
-      <img class="image-old" *ngIf="architecture.turning" [src]="previousImage(architecture)" [style.object-position]="previousImagePosition(architecture)" alt="">
-      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">01</span><span><strong>{{ architecture.title }}</strong><small>{{ architecture.subtitle }}</small></span><span class="arrow">↗</span></span>
-    </a>
-    <a class="discipline discipline--small" [class.is-turning]="fashion.turning" [routerLink]="fashion.route">
-      <img class="image-new" [src]="image(fashion)" [style.object-position]="imagePosition(fashion)" alt="Selected fashion and jewelry work">
-      <img class="image-old" *ngIf="fashion.turning" [src]="previousImage(fashion)" [style.object-position]="previousImagePosition(fashion)" alt="">
-      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">02</span><span><strong>{{ fashion.title }}</strong><small>{{ fashion.subtitle }}</small></span><span class="arrow">↗</span></span>
-    </a>
-    <a class="discipline discipline--small" [class.is-turning]="art.turning" [routerLink]="art.route">
-      <img class="image-new" [src]="image(art)" [style.object-position]="imagePosition(art)" alt="Selected artwork and exhibition">
-      <img class="image-old" *ngIf="art.turning" [src]="previousImage(art)" [style.object-position]="previousImagePosition(art)" alt="">
-      <span class="shade"></span><span class="discipline-copy"><span class="discipline-index">03</span><span><strong>{{ art.title }}</strong><small>{{ art.subtitle }}</small></span><span class="arrow">↗</span></span>
-    </a>
+<main class="home">
+  <header class="intro"><h1><strong>Jalal</strong> Mashhadi Fard</h1><p>Architect · Artist · Creative Director · Designer</p></header>
+  <section *ngFor="let section of sections;let si=index" class="project-section" [class.primary]="si===0" [class.reverse]="si%2">
+    <header class="section-head"><span>{{section.index}}</span><h2>{{section.title}}</h2><a [routerLink]="section.route">View all ↗</a></header>
+    <div class="project-stage">
+      <a class="featured" [class.is-turning]="turning[section.key]" [routerLink]="[section.route,featured(section).id]">
+        <div class="cover image-new" [class.split]="featured(section).coverImages?.length">
+          <ng-container *ngIf="featured(section).coverImages?.length;else single">
+            <img *ngFor="let image of featured(section).coverImages" [src]="image" [alt]="featured(section).title">
+          </ng-container>
+          <ng-template #single><img [src]="featured(section).src" [alt]="featured(section).title" [style.object-position]="featured(section).coverPosition||'50% 50%'"></ng-template>
+        </div>
+        <div class="cover image-old" *ngIf="turning[section.key]"><img [src]="previousFeatured(section).src" alt=""></div>
+        <span class="featured-title">{{featured(section).title}}</span><span class="open-project">Open project ↗</span>
+      </a>
+      <nav class="project-index" [attr.aria-label]="section.title+' projects'">
+        <a *ngFor="let project of section.projects;let pi=index" [routerLink]="[section.route,project.id]"
+          [class.active]="selected[section.key]===pi" (mouseenter)="select(section,pi)" (focus)="select(section,pi)">
+          <img [src]="project.src" [alt]="project.title"><span class="project-number">{{pi+1}}</span><span class="project-name">{{project.title}}</span>
+        </a>
+      </nav>
+    </div>
   </section>
-  <a class="awards-strip" routerLink="/awards" aria-label="View all awards">
-    <span class="awards-label">Awards</span><span class="award-title">{{ awards[currentAward] }}</span><span class="awards-count">{{ currentAward + 1 }} / {{ awards.length }}</span>
-  </a>
-  <nav class="art-subnav" aria-label="Art sections"><a routerLink="/artworks">Artworks</a><a routerLink="/exhibitions">Exhibitions</a></nav>
+  <a class="awards-strip" routerLink="/awards"><span>Awards</span><strong>{{awards[currentAward]}}</strong><small>{{currentAward+1}} / {{awards.length}}</small></a>
 </main>
