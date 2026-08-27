@@ -1,26 +1,16 @@
-<main class="home">
-  <header class="intro"><h1><strong>Jalal</strong> Mashhadi Fard</h1><p>Architect · Artist · Creative Director · Designer</p></header>
-  <ng-container *ngIf="sections[0] as architecture">
-    <section class="architecture-feature">
-      <header class="section-head"><span>{{architecture.index}}</span><h2>{{architecture.title}}</h2><a [routerLink]="architecture.route">Index ↗</a></header>
-      <div class="architecture-stage"><a class="architecture-image" [routerLink]="[architecture.route,featured(architecture).id]">
-        <img class="frame current" [class.entering]="transitioning[architecture.key]" [src]="featured(architecture).src" [alt]="featured(architecture).title" [style.object-position]="featured(architecture).coverPosition||'50% 50%'">
-        <img class="frame departing" *ngIf="transitioning[architecture.key]" [src]="previousFeatured(architecture).src" alt=""><span class="project-mark">View project ↗</span>
-      </a><nav class="project-list" aria-label="Architecture projects"><button *ngFor="let project of architecture.projects;let pi=index" type="button" [class.active]="selected[architecture.key]===pi" (click)="select(architecture,pi)"><span>0{{pi+1}}</span><strong>{{project.title}}</strong><i></i></button></nav></div>
-      <div class="architecture-copy"><div><span class="eyebrow">Selected project</span><h3>{{featured(architecture).title}}</h3><small>{{featured(architecture).meta}}</small></div><p>{{featured(architecture).summary}}</p></div>
-    </section>
-  </ng-container>
-  <section class="discipline-grid">
-    <article *ngFor="let section of sections | slice:1" class="discipline-card">
-      <header class="section-head"><span>{{section.index}}</span><h2>{{section.title}}</h2><a [routerLink]="section.route">Index ↗</a></header>
-      <a class="compact-image" [routerLink]="[section.route,featured(section).id]">
-        <ng-container *ngIf="featured(section).coverImages?.length;else compactSingle"><span class="split-cover current" [class.entering]="transitioning[section.key]"><img *ngFor="let image of featured(section).coverImages" [src]="image" [alt]="featured(section).title"></span></ng-container>
-        <ng-template #compactSingle><img class="frame current" [class.entering]="transitioning[section.key]" [src]="featured(section).src" [alt]="featured(section).title" [style.object-position]="featured(section).coverPosition||'50% 50%'"></ng-template>
-        <img class="frame departing" *ngIf="transitioning[section.key]" [src]="previousFeatured(section).src" alt="">
-      </a>
-      <div class="compact-copy"><div><h3>{{featured(section).title}}</h3><small>{{featured(section).meta}}</small></div><p>{{featured(section).summary}}</p></div>
-      <nav class="compact-index" [attr.aria-label]="section.title+' projects'"><button *ngFor="let project of section.projects;let pi=index" type="button" [class.active]="selected[section.key]===pi" (click)="select(section,pi)"><span>{{pi+1}}</span><strong>{{project.title}}</strong></button></nav>
-    </article>
+<main class="home-portals">
+  <section class="portal-grid" aria-label="Selected disciplines">
+    <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.is-changing]="card.changing" [routerLink]="card.route">
+      <img class="portal-image current" [src]="current(card)" [alt]="card.title">
+      <img *ngIf="card.changing" class="portal-image previous" [src]="old(card)" alt="">
+      <span class="veil"></span>
+      <span class="glass-label">{{card.title}}<i>↗</i></span>
+    </a>
   </section>
-  <a class="awards-strip" routerLink="/awards"><span>Awards</span><strong>{{awards[currentAward]}}</strong><small>{{currentAward+1}} / {{awards.length}}</small></a>
+
+  <a class="awards-rail" routerLink="/awards" aria-label="Awards and recognition">
+    <span class="awards-label">Awards</span>
+    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let mark of awardMarks"><strong>{{mark}}</strong><i>✦</i></ng-container><ng-container *ngFor="let mark of awardMarks"><strong>{{mark}}</strong><i>✦</i></ng-container></span></span>
+    <span class="awards-arrow">↗</span>
+  </a>
 </main>

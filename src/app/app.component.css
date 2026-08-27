@@ -12,7 +12,7 @@ a { color: inherit; }
   transition: opacity .65s ease, visibility .65s ease;
 }
 .site-intro.is-leaving { opacity: 0; visibility: hidden; }
-.signature-write { position: relative; width: clamp(120px, 15vw, 180px); }
+.signature-write { position: relative; width: clamp(78px, 9vw, 108px); background: transparent; border: 0; box-shadow: none; }
 .signature-write img {
   display: block;
   width: 100%;
