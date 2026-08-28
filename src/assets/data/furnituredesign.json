@@ -1,71 +1,43 @@
 {
-    "name": "furnituredesign",
-    "title": "Jalal Mashhadi Fard - Furniture design",
-    "description": "Welcome to our website!",
-    "images": [
-        {
-            "id": "Feel",
-            "src": "/assets/images/furnituredesign/Feel/FEEL FUR.jpg",
-            "title": "Feel Furniture",
-            "description": "Feel Boutiqe plaza furnitures",
-            "location": "Muscat, Oman",
-            "isvideo": false,
-            "images": [
-                {
-                    "src": "/assets/images/furnituredesign/images-0001/1.jpg",
-                    "isvideo": false,
-                    "place": 1
-                }
-            ],
-            "place": 1
-        },
-        {
-            "id": "0001",
-            "src": "/assets/images/furnituredesign/1.jpg",
-            "title": "C-chair",
-            "description": "",
-            "location": "Wood + Metal ",
-            "isvideo": false,
-            "images": [
-                {
-                    "src": "/assets/images/furnituredesign/images-0001/1.jpg",
-                    "isvideo": false,
-                    "place": 1
-                }
-            ],
-            "place": 2
-        },
-        {
-            "id": "0002",
-            "src": "/assets/images/furnituredesign/2.jpg",
-            "title": "4/6 Persons Table",
-            "description": "Artists: Omid Jahantigh & Negar Zonoobi & Sanaz Haeri & Elmira Laki & Curator : e1 artgallery Jalal Mashhadi Fard",
-            "location": "Wood + Metal ",
-            "isvideo": false,
-            "images": [
-                {
-                    "src": "/assets/images/furnituredesign/images-0002/1.jpg",
-                    "isvideo": false,
-                    "place": 1
-                }
-            ],
-            "place": 2
-        },
-        {
-            "id": "0003",
-            "src": "/assets/images/furnituredesign/3.jpg",
-            "title": "Bench",
-            "isvideo": false,
-            "description": "",
-            "location": "Designed By Jalal Mashhadi Fard",
-            "images": [
-                {
-                    "src": "/assets/images/furnituredesign/images-0003/1.jpg",
-                    "isvideo": false,
-                    "place": 1
-                }
-            ],
-            "place": 3
-        }
-    ]
+  "name": "furnituredesign",
+  "title": "Jalal Mashhadi Fard — Product Design",
+  "description": "Selected objects and product collections.",
+  "images": [
+    {
+      "id": "paradise-of-the-soul-carpet",
+      "src": "/assets/images/product-design/carpet/carpet-cover.jpg",
+      "title": "Paradise of the Soul Carpet",
+      "description": "Paradise of the Soul is a contemporary carpet that reinterprets the Persian garden not as an earthly landscape, but as an inner cosmos. Its central shamsa marks the origin of creation and awareness, while spring blossoms, mythical birds and upright cypresses trace a journey through birth, illumination and continuity. Rooted in the symbolic language of Persian carpets, the work becomes a contemporary narrative of the soul, meaning and paradise.",
+      "descriptionFa": "بهشت جان فرشی معاصر است که باغ ایرانی را نه به‌عنوان منظره‌ای زمینی، بلکه همچون کیهان درونی جان بازخوانی می‌کند. شمسه مرکزی، نقطه آغاز آفرینش و آگاهی است؛ گل‌های بهاری، پرندگان اسطوره‌ای و سروهای استوار، حرکت میان تولد، روشنایی و جاودانگی را شکل می‌دهند. این اثر با حفظ زبان نمادین فرش ایرانی، آن را به روایتی معاصر از جان، معنا و بهشت بدل می‌کند.",
+      "location": "Persian Carpet · Designed by Jalal Mashhadi Fard",
+      "isvideo": false,
+      "images": [
+        {"src":"/assets/images/product-design/carpet/01.jpg","isvideo":false,"place":1},{"src":"/assets/images/product-design/carpet/02.jpg","isvideo":false,"place":2},{"src":"/assets/images/product-design/carpet/03.jpg","isvideo":false,"place":3},{"src":"/assets/images/product-design/carpet/04.jpg","isvideo":false,"place":4},{"src":"/assets/images/product-design/carpet/05.jpg","isvideo":false,"place":5},{"src":"/assets/images/product-design/carpet/06.jpg","isvideo":false,"place":6},{"src":"/assets/images/product-design/carpet/07.jpg","isvideo":false,"place":7}
+      ],
+      "place": 1
+    },
+    {
+      "id": "persian-carpet-dining-collection",
+      "src": "/assets/images/product-design/dining/dining-cover.jpg",
+      "title": "Persian Carpet Dining Collection",
+      "description": "Persian carpets have long been part of Iranian daily life and collective culture. Today, contemporary design views them beyond their functional role, as expressions of philosophy, artistry, and cultural identity. This collection reimagines the carpet as a valuable artifact; like a protected diamond, no longer placed beneath us, but elevated to the center, where people gather around it once again.",
+      "descriptionFa": "فرش ایرانی برای نسل‌های متوالی، بخشی از زندگی و فرهنگ جمعی ما بوده، اما امروز، در هنر معاصر، فرش را نه صرفاً یک عنصر کاربردی، بلکه منبعی از فلسفه، روایت، هنر و هویت ایرانی می‌شناسیم. در طراحی این ست میز و صندلی، فرش به عنوان گنجینه‌ای ارزشمند بازتعریف شده است؛ همچون الماسی محافظت‌شده که این‌بار نه در زیر پا، بلکه در مرکز قرار می‌گیرد و ما پیرامون آن جمع می‌شویم.",
+      "location": "Table & Chairs · Designed by Jalal Mashhadi Fard",
+      "isvideo": false,
+      "images": [
+        {"src":"/assets/images/product-design/dining/01.jpg","isvideo":false,"place":1},{"src":"/assets/images/product-design/dining/02.jpg","isvideo":false,"place":2},{"src":"/assets/images/product-design/dining/03.jpg","isvideo":false,"place":3},{"src":"/assets/images/product-design/dining/04.jpg","isvideo":false,"place":4},{"src":"/assets/images/product-design/dining/05.jpg","isvideo":false,"place":5},{"src":"/assets/images/product-design/dining/06.jpg","isvideo":false,"place":6},{"src":"/assets/images/product-design/dining/07.jpg","isvideo":false,"place":7},{"src":"/assets/images/product-design/dining/08.jpg","isvideo":false,"place":8},{"src":"/assets/images/product-design/dining/09.jpg","isvideo":false,"place":9},{"src":"/assets/images/product-design/dining/10.jpg","isvideo":false,"place":10}
+      ],
+      "place": 2
+    },
+    {
+      "id": "time-hunter",
+      "src": "/assets/images/product-design/watch/time-hunter.jpg",
+      "title": "Time Hunter",
+      "description": "A watch conceived around the pursuit of time, bringing Persian visual language into a contemporary object through sculpted detail, warm metal and a precise graphic dial.",
+      "location": "Watch Design · Designed by Jalal Mashhadi Fard",
+      "isvideo": false,
+      "images": [{"src":"/assets/images/product-design/watch/time-hunter.jpg","isvideo":false,"place":1}],
+      "place": 3
+    }
+  ]
 }

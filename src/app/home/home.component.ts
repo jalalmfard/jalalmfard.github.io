@@ -7,38 +7,16 @@ interface AwardMark { mark:string; name:string; }
 export class HomeComponent implements OnInit,OnDestroy{
   cards:PortalCard[]=[
     this.card('architecture','Architecture & Interior Design','/architecture',[
-      '/assets/images/main/slider/1515.jpg',
-      '/assets/images/main/slider/1414.jpg',
-      '/assets/images/main/slider/lookout.jpg',
-      '/assets/images/publications/amazing-architecture/keluchick/2.jpg',
-      '/assets/images/architecture/new-generation/new-generation-main.jpeg'
+      '/assets/images/main/slider/1515.jpg','/assets/images/main/slider/1414.jpg','/assets/images/main/slider/lookout.jpg','/assets/images/publications/amazing-architecture/keluchick/2.jpg','/assets/images/architecture/new-generation/new-generation-main.jpeg'
     ]),
     this.card('fashion','Fashion Design','/fashion',[
-      '/assets/images/fashion/lumiere/campaign-cover.jpg',
-      '/assets/images/fashion/lumiere/campaign-standing.jpg',
-      '/assets/images/fashion/lumiere/studio-detail-front.jpg',
-      '/assets/images/embodied-archetypes/29-demeter-garment.jpg',
-      '/assets/images/embodied-archetypes/19-aphrodite-garment.jpg',
-      '/assets/images/jewelry/hera/ring.jpg',
-      '/assets/images/jewelry/hera/earrings.jpg',
-      '/assets/images/jewelry/aphrodite/ring.jpg',
-      '/assets/images/jewelry/demeter/earrings.jpg'
+      '/assets/images/home/fashion-01.jpg','/assets/images/home/fashion-02.jpg','/assets/images/home/fashion-03.jpg','/assets/images/home/fashion-04.jpg','/assets/images/home/fashion-05.jpg','/assets/images/home/fashion-06.jpg'
     ]),
     this.card('artworks','Artworks','/artworks',[
-      '/assets/images/embodied-archetypes/03-persephone-art.jpg',
-      '/assets/images/embodied-archetypes/08-hestia-art.jpg',
-      '/assets/images/embodied-archetypes/18-aphrodite-art.jpg',
-      '/assets/images/embodied-archetypes/33-athena-art.jpg',
-      '/assets/images/main/slider/jan.jpg',
-      '/assets/images/artworks/1.jpg'
+      '/assets/images/home/artwork-01.jpg','/assets/images/home/artwork-02.jpg'
     ]),
-    this.card('exhibitions','Exhibitions','/exhibitions',[
-      '/assets/images/embodied-archetypes/01-cover.jpg',
-      '/assets/images/exhibitions/1.jpg',
-      '/assets/images/exhibitions/Feelthe fann02.jpg',
-      '/assets/images/exhibitions/design week.jpg',
-      '/assets/images/exhibitions/nature.jpg',
-      '/assets/images/exhibitions/Soo.jpg'
+    this.card('product-design','Product Design','/furnituredesign',[
+      '/assets/images/product-design/dining/dining-cover.jpg','/assets/images/product-design/carpet/carpet-cover.jpg','/assets/images/product-design/watch/time-hunter.jpg'
     ])
   ];
   awardMarks:AwardMark[]=[
@@ -46,12 +24,7 @@ export class HomeComponent implements OnInit,OnDestroy{
     {mark:'AMP',name:'Architecture MasterPrize'},{mark:'AOTY',name:'Architecture of the Year'}
   ];
   private timers:number[]=[];private destroyed=false;
-  ngOnInit():void{
-    this.cards.forEach((card,index)=>{
-      this.preload(card.images[0]);this.preload(card.images[1]);
-      if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.timers.push(window.setTimeout(()=>this.start(card),index*420));
-    });
-  }
+  ngOnInit():void{this.cards.forEach((card,index)=>{this.preload(card.images[0]);this.preload(card.images[1]);if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.timers.push(window.setTimeout(()=>this.start(card),index*420));});}
   ngOnDestroy():void{this.destroyed=true;this.timers.forEach(timer=>window.clearTimeout(timer));}
   current(card:PortalCard):string{return card.images[card.current];}
   old(card:PortalCard):string{return card.images[card.previous];}
