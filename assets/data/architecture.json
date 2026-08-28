@@ -373,6 +373,7 @@
         "assets/images/architecture/new-generation-ahmadabad/facade.jpg",
         "assets/images/architecture/new-generation-ahmadabad/balcony.jpg"
       ],
+      "coverPositions": ["center 50%", "70% center"],
       "title": "New Generation",
       "status": "Concept Design",
       "description": "New Generation proposes a contemporary model of living for Ahmadabad, one of Mashhad’s established residential neighbourhoods. The project revisits the role once played by the dining room in traditional Iranian homes: a distinct social space that gathered the household and connected everyday rituals.\n\nHere, that room is reimagined as a mobile green cube. The cube contains a social bar and can move between the living area and the bedroom, attaching itself to either space as needs change. It can extend the living room for gathering, connect to the bedroom as a more private element, or occupy an intermediate position between the two. Rather than assigning every activity to a fixed room, the apartment changes with its residents.\n\nThis movement is expressed on the exterior. The green tiled cubes shift across the façade, turning the changing interior arrangement into the architectural identity of the building. The result is a flexible domestic system in which memory is not reproduced as style, but translated into a new spatial instrument for contemporary life.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nLocation: Ahmadabad, Mashhad, Iran\nStatus: Concept Design",
@@ -386,6 +387,26 @@
         { "src": "assets/images/architecture/new-generation-ahmadabad/plan.jpg", "place": 6, "description": "Typical residential floor plan" }
       ],
       "place": 4.51
+    },
+    {
+      "id": "noor-residence",
+      "src": "assets/images/architecture/noor-residence/pool.jpg",
+      "coverPosition": "center 47%",
+      "title": "Noor Residence",
+      "status": "In Progress",
+      "description": "Noor is a recreational residence in Qeshm shaped by the movement and transformation of light. Its plan begins with a cross: a sign of gathering and the intersection of paths. Water, reflection and sunlight extend this cross through the building, while the spaces and courtyards gather around its luminous centre.\n\nEach room interprets a different condition of light. Shimmer follows light across water; Halo forms a soft luminous field; Prism fragments light into colour; Radiance intensifies its presence; Shadow explores the depth created by its absence; Reflection doubles space through mirrored surfaces; and Ray gives light a direct path into the interior. Together, the rooms form one continuous narrative rather than a collection of separate themes.\n\nAt the heart of the residence, a glass bridge crosses the pool beneath a moving sheet of water. Sunlight passes through it and casts shifting reflections into the interior, turning circulation into the project’s central experience.\n\nProject: Noor Residence\nArchitect: Jalal Mashhadi Fard\nClient: Mehrad Najafi\nLocation: Qeshm, Iran\nStatus: In Progress",
+      "location": "Qeshm / Iran",
+      "images": [
+        { "src": "assets/images/architecture/noor-residence/pool.jpg", "place": 1, "description": "The pool and glass bridge form the luminous heart of Noor" },
+        { "src": "assets/images/architecture/noor-residence/concept-sequence.jpg", "place": 2, "description": "From two sources of light to a shared luminous centre" },
+        { "src": "assets/images/architecture/noor-residence/room-concepts.jpg", "place": 3, "description": "Shimmer, Halo, Prism, Radiance, Shadow, Reflection and Ray" },
+        { "src": "assets/images/architecture/noor-residence/reflection.jpg", "place": 4, "description": "Reflection room" },
+        { "src": "assets/images/architecture/noor-residence/shadow-01.jpg", "place": 5, "description": "Shadow room · mirrorwork, darkness and filtered light" },
+        { "src": "assets/images/architecture/noor-residence/shadow-02.jpg", "place": 6, "description": "Shadow room · light traced across the interior" },
+        { "src": "assets/images/architecture/noor-residence/ray-social.jpg", "place": 7, "description": "Ray · a social room gathered beneath a direct opening of light" },
+        { "src": "assets/images/architecture/noor-residence/ray.jpg", "place": 8, "description": "Ray room" }
+      ],
+      "place": 4.52
     },
     {
       "id": "homay-wellness-center",
