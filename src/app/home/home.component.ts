@@ -8,7 +8,7 @@ interface AwardMark { mark:string; name:string; }
 export class HomeComponent implements OnInit,OnDestroy{
   cards:PortalCard[]=[
     this.card('architecture','Architecture & Interior Design','/architecture',[
-      this.image('/assets/images/main/slider/1515.jpg'),this.image('/assets/images/main/slider/1414.jpg'),this.image('/assets/images/main/slider/lookout.jpg'),this.image('/assets/images/publications/amazing-architecture/keluchick/2.jpg'),this.image('/assets/images/architecture/new-generation-ahmadabad/facade.jpg'),this.image('/assets/images/architecture/new-generation-ahmadabad/balcony.jpg','70% center'),this.image('/assets/images/architecture/noor-residence/pool.jpg','center 48%')
+      this.image('/assets/images/main/slider/1515.jpg'),this.image('/assets/images/main/slider/1414.jpg'),this.image('/assets/images/main/slider/lookout.jpg'),this.image('/assets/images/publications/amazing-architecture/keluchick/2.jpg'),this.image('/assets/images/architecture/new-generation-ahmadabad/facade.jpg'),this.image('/assets/images/architecture/new-generation-ahmadabad/balcony.jpg','92% center'),this.image('/assets/images/architecture/noor-residence/pool.jpg','center 48%')
     ]),
     this.card('fashion','Fashion Design','/fashion',[
       this.image('/assets/images/home/fashion-01.jpg','center 42%'),this.image('/assets/images/home/fashion-02.jpg','center 38%'),this.image('/assets/images/home/fashion-03.jpg','center 28%','contain'),this.image('/assets/images/home/fashion-04.jpg','center 38%'),this.image('/assets/images/home/fashion-05.jpg','center 32%','contain'),this.image('/assets/images/home/fashion-06.jpg','center 30%','contain')
