@@ -7,7 +7,7 @@ interface AwardMark { mark:string; name:string; }
 export class HomeComponent implements OnInit,OnDestroy{
   cards:PortalCard[]=[
     this.card('architecture','Architecture & Interior Design','/architecture',[
-      '/assets/images/main/slider/1515.jpg','/assets/images/main/slider/1414.jpg','/assets/images/main/slider/lookout.jpg','/assets/images/publications/amazing-architecture/keluchick/2.jpg','/assets/images/architecture/new-generation/new-generation-main.jpeg'
+      '/assets/images/main/slider/1515.jpg','/assets/images/main/slider/1414.jpg','/assets/images/main/slider/lookout.jpg','/assets/images/publications/amazing-architecture/keluchick/2.jpg','/assets/images/architecture/new-generation-ahmadabad/facade.jpg','/assets/images/architecture/new-generation-ahmadabad/balcony.jpg'
     ]),
     this.card('fashion','Fashion Design','/fashion',[
       '/assets/images/home/fashion-01.jpg','/assets/images/home/fashion-02.jpg','/assets/images/home/fashion-03.jpg','/assets/images/home/fashion-04.jpg','/assets/images/home/fashion-05.jpg','/assets/images/home/fashion-06.jpg'

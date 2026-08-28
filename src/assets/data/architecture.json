@@ -352,9 +352,9 @@
         "assets/images/architecture/new-generation/facade.jpg",
         "assets/images/architecture/new-generation/bedroom.jpg"
       ],
-      "title": "New Generation",
+      "title": "Next Generation",
       "status": "In Progress",
-      "description": "New Generation is a residential project currently in development on Abuzar Boulevard in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Boulevard, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
+      "description": "Next Generation is a residential project currently in development on Abuzar Boulevard in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: Next Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Boulevard, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
       "location": "Abuzar Boulevard, Ahmadabad · Mashhad / Iran",
       "images": [
         { "src": "assets/images/architecture/new-generation/new-generation-main.jpeg", "place": 1, "description": "Main façade study" },
@@ -365,6 +365,27 @@
         { "src": "assets/images/architecture/new-generation/module-diagram.jpg", "place": 6, "description": "Perforated façade module system" }
       ],
       "place": 4.5
+    },
+    {
+      "id": "new-generation-ahmadabad",
+      "src": "assets/images/architecture/new-generation-ahmadabad/facade.jpg",
+      "coverImages": [
+        "assets/images/architecture/new-generation-ahmadabad/facade.jpg",
+        "assets/images/architecture/new-generation-ahmadabad/balcony.jpg"
+      ],
+      "title": "New Generation",
+      "status": "Concept Design",
+      "description": "New Generation proposes a contemporary model of living for Ahmadabad, one of Mashhad’s established residential neighbourhoods. The project revisits the role once played by the dining room in traditional Iranian homes: a distinct social space that gathered the household and connected everyday rituals.\n\nHere, that room is reimagined as a mobile green cube. The cube contains a social bar and can move between the living area and the bedroom, attaching itself to either space as needs change. It can extend the living room for gathering, connect to the bedroom as a more private element, or occupy an intermediate position between the two. Rather than assigning every activity to a fixed room, the apartment changes with its residents.\n\nThis movement is expressed on the exterior. The green tiled cubes shift across the façade, turning the changing interior arrangement into the architectural identity of the building. The result is a flexible domestic system in which memory is not reproduced as style, but translated into a new spatial instrument for contemporary life.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nLocation: Ahmadabad, Mashhad, Iran\nStatus: Concept Design",
+      "location": "Ahmadabad · Mashhad / Iran",
+      "images": [
+        { "src": "assets/images/architecture/new-generation-ahmadabad/facade.jpg", "place": 1, "description": "The moving green cubes define the changing façade" },
+        { "src": "assets/images/architecture/new-generation-ahmadabad/balcony.jpg", "place": 2, "description": "The green cube connects the private interior to the façade" },
+        { "src": "assets/images/architecture/new-generation-ahmadabad/concept.jpg", "place": 3, "description": "New Generation · project identity" },
+        { "src": "assets/images/architecture/new-generation-ahmadabad/living-model.jpg", "place": 4, "description": "A flexible model of living in Ahmadabad" },
+        { "src": "assets/images/architecture/new-generation-ahmadabad/quantity-to-quality.jpg", "place": 5, "description": "From fixed conventions to adaptable living" },
+        { "src": "assets/images/architecture/new-generation-ahmadabad/plan.jpg", "place": 6, "description": "Typical residential floor plan" }
+      ],
+      "place": 4.51
     },
     {
       "id": "homay-wellness-center",
