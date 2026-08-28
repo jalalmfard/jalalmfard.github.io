@@ -1,132 +1,315 @@
 {
-    "name": "Fashion",
-    "title": "Jalal Mashhadi Fard - Fashion",
-    "description": "Welcome to our website!",
-    "images": [
+  "name": "Fashion",
+  "title": "Jalal Mashhadi Fard - Fashion",
+  "description": "Welcome to our website!",
+  "images": [
+    {
+      "id": "lumiere",
+      "src": "assets/images/fashion/lumiere/campaign-cover.jpg",
+      "coverPosition": "center 64%",
+      "title": "Lumière Dress",
+      "subtitle": "Hestia Collection · NOUSHELLA",
+      "designerCredit": "The Lumière Dress was designed by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "The Lumière Dress is a reflection of the intricate latticework found in Persian architecture—those mesmerizing geometric patterns often seen in historic mosques, rich with mystery and symbolism. There is a certain radiance to them, an almost spiritual glow that became the essence of this design.\n\nCreated for NOUSHELLA, this piece is part of the Hestia Collection: a tribute to women with deep intuition and quiet strength. The patterns, layered with meaning, give the dress a sense of heritage and depth while celebrating the grace and presence of the woman who wears it.",
+      "descriptionFa": "پیراهن لومیر با الهام از گره‌چینی معماری ایرانی طراحی شده است؛ ساختاری که معمولاً در کاشی‌کاری مساجد تاریخی دیده می‌شود و گویی راز و درخشش معنوی را در دل خود دارد. در نتیجه تلاش شده است تا این درخشش در تار و پود طرح تنیده شود. الهام از این گره و اشاره به این مفهوم در طراحی لباس، ستایشی از نیروی شهودی و وقار درونی زنانه است.",
+      "location": "Fashion Design · London",
+      "awards": [
         {
-            "id": "lumiere",
-            "src": "assets/images/fashion/lumiere/campaign-cover.jpg",
-            "coverPosition": "center 64%",
-            "title": "Lumière Dress",
-            "subtitle": "Hestia Collection · NOUSHELLA",
-            "designerCredit": "The Lumière Dress was designed by Jalal Mashhadi Fard for NOUSHELLA.",
-            "description": "The Lumière Dress is a reflection of the intricate latticework found in Persian architecture—those mesmerizing geometric patterns often seen in historic mosques, rich with mystery and symbolism. There is a certain radiance to them, an almost spiritual glow that became the essence of this design.\n\nCreated for NOUSHELLA, this piece is part of the Hestia Collection: a tribute to women with deep intuition and quiet strength. The patterns, layered with meaning, give the dress a sense of heritage and depth while celebrating the grace and presence of the woman who wears it.",
-            "descriptionFa": "پیراهن لومیر با الهام از گره‌چینی معماری ایرانی طراحی شده است؛ ساختاری که معمولاً در کاشی‌کاری مساجد تاریخی دیده می‌شود و گویی راز و درخشش معنوی را در دل خود دارد. در نتیجه تلاش شده است تا این درخشش در تار و پود طرح تنیده شود. الهام از این گره و اشاره به این مفهوم در طراحی لباس، ستایشی از نیروی شهودی و وقار درونی زنانه است.",
-            "location": "Fashion Design · London",
-            "awards": [
-                { "title": "Honorable Mention — Lumière Dress", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93916-25" }
-            ],
-            "images": [
-                { "src": "assets/images/fashion/lumiere/campaign-cover.jpg", "description": "Lumière campaign" },
-                { "src": "assets/images/fashion/lumiere/campaign-seated.jpg", "description": "Campaign portrait" },
-                { "src": "assets/images/fashion/lumiere/campaign-standing.jpg", "description": "Lumière campaign" },
-                { "src": "assets/images/fashion/lumiere/campaign-outdoor.jpg", "description": "Lumière in landscape" },
-                { "src": "assets/images/fashion/lumiere/persian-pattern-reference.jpg", "description": "Persian geometric latticework and the translated garment motif" },
-                { "src": "assets/images/fashion/lumiere/design-sketch.jpg", "description": "Original design sketch" },
-                { "src": "assets/images/fashion/lumiere/front-back.jpg", "description": "Front and back views" },
-                { "src": "assets/images/fashion/lumiere/studio-dress.jpg", "description": "Lumière Dress" },
-                { "src": "assets/images/fashion/lumiere/studio-dress-back.jpg", "description": "Back construction" },
-                { "src": "assets/images/fashion/lumiere/studio-look.jpg", "description": "Lumière top styling" },
-                { "src": "assets/images/fashion/lumiere/studio-look-wide.jpg", "description": "Lumière top and tailored trousers" },
-                { "src": "assets/images/fashion/lumiere/studio-detail-front.jpg", "description": "Geometric appliqué detail" },
-                { "src": "assets/images/fashion/lumiere/studio-detail-side.jpg", "description": "Material and construction detail" }
-            ],
-            "publications": []
-        },
-        {
-            "id": "embodied-archetypes",
-            "src": "assets/images/embodied-archetypes/01-cover.jpg",
-            "title": "Embodied Archetypes",
-            "subtitle": "A study in wearable identity · NOUSHELLA",
-            "designerCredit": "The garments and accompanying visual works were shaped and illustrated by Jalal Mashhadi Fard for NOUSHELLA.",
-            "description": "Embodied Archetypes reflects on how clothing can hold psychological shape. Each piece begins not with a trend, but with a structure drawn from memory, emotion and symbolic form. Grounded in Carl Jung’s thought, the exhibition traces how identity may find presence through what is worn—between surface and soul, where form becomes a quiet echo of the self.\n\nThe project brings seven female archetypes into dialogue through garments and mixed-media works, developed as an ongoing inquiry into feminine form, intuition and identity. Presented at Intent Gallery in Downtown Dubai from 5 September through November 2025.",
-            "location": "Intent Gallery · Downtown Dubai · 2025",
-            "images": [
-                { "src": "assets/images/embodied-archetypes/01-cover.jpg", "description": "Embodied Archetypes · exhibition identity" },
-                { "src": "assets/images/embodied-archetypes/02-statement.jpg", "description": "A study in wearable identity" },
-                { "src": "assets/images/embodied-archetypes/03-persephone-art.jpg", "description": "Persephone · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/04-persephone-garment.jpg", "description": "Persephone Collection · Cora Dress" },
-                { "src": "assets/images/embodied-archetypes/08-hestia-art.jpg", "description": "Hestia · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/09-hestia-garment.jpg", "description": "Hestia Collection" },
-                { "src": "assets/images/embodied-archetypes/13-artemis-art.jpg", "description": "Artemis · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/14-artemis-garment.jpg", "description": "Artemis Collection" },
-                { "src": "assets/images/embodied-archetypes/18-aphrodite-art.jpg", "description": "Aphrodite · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/19-aphrodite-garment.jpg", "description": "Aphrodite Collection · LoveLight Dress" },
-                { "src": "assets/images/embodied-archetypes/23-hera-art.jpg", "description": "Hera · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/24-hera-garment.jpg", "description": "Hera Collection · Bract Camisole" },
-                { "src": "assets/images/embodied-archetypes/28-demeter-art.jpg", "description": "Demeter · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/29-demeter-garment.jpg", "description": "Demeter Collection · Magnolia Suit" },
-                { "src": "assets/images/embodied-archetypes/33-athena-art.jpg", "description": "Athena · mixed media by Jalal Mashhadi Fard" },
-                { "src": "assets/images/embodied-archetypes/34-athena-garment.jpg", "description": "Athena Collection" }
-            ],
-            "place": 3
-        },
-        {
-            "id": "jewelry",
-            "coverImages": ["assets/images/jewelry/hera/ring.jpg", "assets/images/jewelry/hera/earrings.jpg"],
-            "title": "Jewelry",
-            "designerCredit": "All jewelry collections presented here were designed by Jalal Mashhadi Fard for NOUSHELLA.",
-            "description": "Seven jewelry collections developed as complete design families for NOUSHELLA. Each collection brings together a ring and a pair of earrings through a shared geometry, material language and mythological identity. Design authorship for every piece shown on this page belongs to Jalal Mashhadi Fard.",
-            "location": "Seven collections · Rings & Earrings",
-            "collections": [
-                {
-                    "id": "artemis",
-                    "title": "Artemis",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/artemis/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/artemis/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "athena",
-                    "title": "Athena",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/athena/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/athena/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "aphrodite",
-                    "title": "Aphrodite",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/aphrodite/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/aphrodite/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "demeter",
-                    "title": "Demeter",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/demeter/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/demeter/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "hestia",
-                    "title": "Hestia",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/hestia/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/hestia/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "hera",
-                    "title": "Hera",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/hera/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/hera/earrings.jpg" }
-                    ]
-                },
-                {
-                    "id": "persephone",
-                    "title": "Persephone",
-                    "pieces": [
-                        { "type": "Ring", "src": "assets/images/jewelry/persephone/ring.jpg" },
-                        { "type": "Earrings", "src": "assets/images/jewelry/persephone/earrings.jpg" }
-                    ]
-                }
-            ],
-            "images": []
+          "title": "Honorable Mention — Lumière Dress",
+          "label": "DNA Paris Design Awards 2025",
+          "url": "https://dna.paris/winner/zoom.php?eid=71-93916-25"
         }
-    ]
+      ],
+      "images": [
+        {
+          "src": "assets/images/fashion/lumiere/campaign-cover.jpg",
+          "description": "Lumière campaign"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/campaign-seated.jpg",
+          "description": "Campaign portrait"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/campaign-standing.jpg",
+          "description": "Lumière campaign"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/campaign-outdoor.jpg",
+          "description": "Lumière in landscape"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/persian-pattern-reference.jpg",
+          "description": "Persian geometric latticework and the translated garment motif"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/design-sketch.jpg",
+          "description": "Original design sketch"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/front-back.jpg",
+          "description": "Front and back views"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-dress.jpg",
+          "description": "Lumière Dress"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-dress-back.jpg",
+          "description": "Back construction"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-look.jpg",
+          "description": "Lumière top styling"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-look-wide.jpg",
+          "description": "Lumière top and tailored trousers"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-detail-front.jpg",
+          "description": "Geometric appliqué detail"
+        },
+        {
+          "src": "assets/images/fashion/lumiere/studio-detail-side.jpg",
+          "description": "Material and construction detail"
+        }
+      ],
+      "publications": []
+    },
+    {
+      "id": "embodied-archetypes",
+      "src": "assets/images/embodied-archetypes/01-cover.jpg",
+      "title": "Embodied Archetypes",
+      "subtitle": "A study in wearable identity · NOUSHELLA",
+      "designerCredit": "The garments and accompanying visual works were shaped and illustrated by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "Embodied Archetypes reflects on how clothing can hold psychological shape. Each piece begins not with a trend, but with a structure drawn from memory, emotion and symbolic form. Grounded in Carl Jung’s thought, the exhibition traces how identity may find presence through what is worn—between surface and soul, where form becomes a quiet echo of the self.\n\nThe project brings seven female archetypes into dialogue through garments and mixed-media works, developed as an ongoing inquiry into feminine form, intuition and identity. Presented at Intent Gallery in Downtown Dubai from 5 September through November 2025.",
+      "location": "Intent Gallery · Downtown Dubai · 2025",
+      "images": [
+        {
+          "src": "assets/images/embodied-archetypes/01-cover.jpg",
+          "description": "Embodied Archetypes · exhibition identity"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/02-statement.jpg",
+          "description": "A study in wearable identity"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/03-persephone-art.jpg",
+          "description": "Persephone · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/04-persephone-garment.jpg",
+          "description": "Persephone Collection · Cora Dress"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/08-hestia-art.jpg",
+          "description": "Hestia · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/09-hestia-garment.jpg",
+          "description": "Hestia Collection"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/13-artemis-art.jpg",
+          "description": "Artemis · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/14-artemis-garment.jpg",
+          "description": "Artemis Collection"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/18-aphrodite-art.jpg",
+          "description": "Aphrodite · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/19-aphrodite-garment.jpg",
+          "description": "Aphrodite Collection · LoveLight Dress"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/23-hera-art.jpg",
+          "description": "Hera · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/24-hera-garment.jpg",
+          "description": "Hera Collection · Bract Camisole"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/28-demeter-art.jpg",
+          "description": "Demeter · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/29-demeter-garment.jpg",
+          "description": "Demeter Collection · Magnolia Suit"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/33-athena-art.jpg",
+          "description": "Athena · mixed media by Jalal Mashhadi Fard"
+        },
+        {
+          "src": "assets/images/embodied-archetypes/34-athena-garment.jpg",
+          "description": "Athena Collection"
+        }
+      ],
+      "place": 3
+    },
+    {
+      "id": "jewelry",
+      "coverImages": [
+        "assets/images/jewelry/hera/ring.jpg",
+        "assets/images/jewelry/hera/earrings.jpg"
+      ],
+      "title": "Jewelry",
+      "designerCredit": "All jewelry collections presented here were designed by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "Seven jewelry collections developed as complete design families for NOUSHELLA. Each collection brings together a ring and a pair of earrings through a shared geometry, material language and mythological identity. Design authorship for every piece shown on this page belongs to Jalal Mashhadi Fard.",
+      "location": "Seven collections · Rings & Earrings",
+      "collections": [
+        {
+          "id": "artemis",
+          "title": "Artemis",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/artemis/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/artemis/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "athena",
+          "title": "Athena",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/athena/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/athena/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aphrodite",
+          "title": "Aphrodite",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/aphrodite/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/aphrodite/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "demeter",
+          "title": "Demeter",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/demeter/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/demeter/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hestia",
+          "title": "Hestia",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/hestia/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/hestia/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hera",
+          "title": "Hera",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/hera/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/hera/earrings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "persephone",
+          "title": "Persephone",
+          "pieces": [
+            {
+              "type": "Ring",
+              "src": "assets/images/jewelry/persephone/ring.jpg"
+            },
+            {
+              "type": "Earrings",
+              "src": "assets/images/jewelry/persephone/earrings.jpg"
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "anya-heels",
+      "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
+      "coverPosition": "center center",
+      "title": "Anya Heels",
+      "subtitle": "Footwear Design · NOUSHELLA",
+      "designerCredit": "Anya Heels was designed by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "Anya Heels is shaped around the image of a deer gently embracing the foot. The upper curves around the foot like a protective body, while its intersecting lines translate the animal’s grace into a precise, sculptural silhouette. The faceted heel extends the concept through an architectural geometry inspired by the vertical rhythm of columns in sacred spaces.",
+      "descriptionFa": "کفش Anya با الهام از تصویر آهویی طراحی شده است که پا را به‌آرامی در بر می‌گیرد. خطوط منحنی رویه، مانند بدنی محافظ پیرامون پا حرکت می‌کنند و ظرافت آهو را به فرمی دقیق و مجسمه‌وار تبدیل می‌کنند. هندسه تراش‌خورده پاشنه نیز با الهام از ریتم عمودی ستون‌ها در فضاهای مذهبی شکل گرفته است.",
+      "location": "Footwear Design · NOUSHELLA",
+      "images": [
+        {
+          "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
+          "description": "Original concept sketch and final design"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/editorial.webp",
+          "description": "Anya Heels editorial"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-front-pair.webp",
+          "description": "Silver Anya Heels · front view"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-back-pair.webp",
+          "description": "Silver Anya Heels · back view"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/black-back-pair.webp",
+          "description": "Black Anya Heels · sculpted heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-single.webp",
+          "description": "Silver Anya Heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/pink-single.webp",
+          "description": "Pink Anya Heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/gold-single.webp",
+          "description": "Gold Anya Heel"
+        }
+      ],
+      "publications": [],
+      "place": 4
+    }
+  ]
 }
