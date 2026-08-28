@@ -21,10 +21,10 @@
                 <div id="frame">
                     <div id="border">
                         <div class="split-cover" *ngIf="slide.coverImages?.length === 2; else singleCover">
-                            <img [src]="slide.coverImages[0]" [alt]="slide.title + ' façade'" loading="lazy">
-                            <img [src]="slide.coverImages[1]" [alt]="slide.title + ' interior'" loading="lazy">
+                            <img [src]="slide.coverImages[0]" [alt]="slide.title + ' façade'" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[0] : null">
+                            <img [src]="slide.coverImages[1]" [alt]="slide.title + ' interior'" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[1] : null">
                         </div>
-                        <ng-template #singleCover><img class="project-cover" [src]="slide.src" [alt]="slide.title" loading="lazy"></ng-template>
+                        <ng-template #singleCover><img class="project-cover" [src]="slide.src" [alt]="slide.title" loading="lazy" [style.object-position]="slide.coverPosition || null"></ng-template>
                     </div>
                 </div>
             </div>
