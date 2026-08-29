@@ -12,16 +12,39 @@
       "publishedGallery": {
         "path": "assets/images/publications/amazing-architecture/feel-boutique-plaza",
         "count": 41,
-        "extensions": { "32": "jpeg", "33": "JPG" }
+        "extensions": {
+          "32": "jpeg",
+          "33": "JPG"
+        }
       },
       "awards": [
-        { "title": "Winner — Interior Renovations", "label": "LOOP Design Awards 2025", "url": "https://loopdesignawards.com/winners-2025/" }
+        {
+          "title": "Winner — Interior Renovations",
+          "label": "LOOP Design Awards 2025",
+          "url": "https://loopdesignawards.com/winners-2025/"
+        }
       ],
       "publications": [
-        { "title": "Architizer", "label": "Project feature · 34 photographs", "url": "https://architizer.com/projects/feel-boutique-plaza/" },
-        { "title": "Archello", "label": "Project feature", "url": "https://archello.com/project/feel-boutique-plaza" },
-        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/retail/feel-boutique-plaza-muscat-oman-by-innovative-corner-design" },
-        { "title": "Iranian Architect", "label": "Project 0518", "url": "https://iranian-architect.ir/project-0518" }
+        {
+          "title": "Architizer",
+          "label": "Project feature · 34 photographs",
+          "url": "https://architizer.com/projects/feel-boutique-plaza/"
+        },
+        {
+          "title": "Archello",
+          "label": "Project feature",
+          "url": "https://archello.com/project/feel-boutique-plaza"
+        },
+        {
+          "title": "Amazing Architecture",
+          "label": "Project feature",
+          "url": "https://amazingarchitecture.com/retail/feel-boutique-plaza-muscat-oman-by-innovative-corner-design"
+        },
+        {
+          "title": "Iranian Architect",
+          "label": "Project 0518",
+          "url": "https://iranian-architect.ir/project-0518"
+        }
       ],
       "images": [
         {
@@ -250,14 +273,38 @@
         "count": 12
       },
       "awards": [
-        { "title": "Honorable Mention", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93978-25" }
+        {
+          "title": "Honorable Mention",
+          "label": "DNA Paris Design Awards 2025",
+          "url": "https://dna.paris/winner/zoom.php?eid=71-93978-25"
+        }
       ],
       "publications": [
-        { "title": "Architizer", "label": "Project feature · 12 photographs", "url": "https://architizer.com/projects/look-out-look-in/" },
-        { "title": "Archello", "label": "Project feature", "url": "https://archello.com/project/look-inlook-out" },
-        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cafe/look-inout-mashhad-iran-by-jalal-mashhadi-fard-studio" },
-        { "title": "Contemporary Architecture of Iran", "label": "English project feature", "url": "https://caoi.ir/en/projects/item/1974-look-out-coffee-shop-mashhad-jalal-mashhadi-fard-design-studio.html" },
-        { "title": "معماری معاصر ایران", "label": "گزارش فارسی پروژه", "url": "https://www.caoi.ir/fa/projects/item/1975-%DA%A9%D8%A7%D9%81%DB%8C-%D8%B4%D8%A7%D9%BE-%D9%84%D9%88%DA%A9%D8%A7%D8%AA-%D9%85%D8%B4%D9%87%D8%AF-%D8%A7%D8%B3%D8%AA%D9%88%D8%AF%DB%8C%D9%88-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%AC%D9%84%D8%A7%D9%84-%D9%85%D8%B4%D9%87%D8%AF%DB%8C-%D9%81%D8%B1%D8%AF.html" }
+        {
+          "title": "Architizer",
+          "label": "Project feature · 12 photographs",
+          "url": "https://architizer.com/projects/look-out-look-in/"
+        },
+        {
+          "title": "Archello",
+          "label": "Project feature",
+          "url": "https://archello.com/project/look-inlook-out"
+        },
+        {
+          "title": "Amazing Architecture",
+          "label": "Project feature",
+          "url": "https://amazingarchitecture.com/cafe/look-inout-mashhad-iran-by-jalal-mashhadi-fard-studio"
+        },
+        {
+          "title": "Contemporary Architecture of Iran",
+          "label": "English project feature",
+          "url": "https://caoi.ir/en/projects/item/1974-look-out-coffee-shop-mashhad-jalal-mashhadi-fard-design-studio.html"
+        },
+        {
+          "title": "معماری معاصر ایران",
+          "label": "گزارش فارسی پروژه",
+          "url": "https://www.caoi.ir/fa/projects/item/1975-%DA%A9%D8%A7%D9%81%DB%8C-%D8%B4%D8%A7%D9%BE-%D9%84%D9%88%DA%A9%D8%A7%D8%AA-%D9%85%D8%B4%D9%87%D8%AF-%D8%A7%D8%B3%D8%AA%D9%88%D8%AF%DB%8C%D9%88-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%AC%D9%84%D8%A7%D9%84-%D9%85%D8%B4%D9%87%D8%AF%DB%8C-%D9%81%D8%B1%D8%AF.html"
+        }
       ],
       "images": [
         {
@@ -278,14 +325,38 @@
         "count": 38
       },
       "awards": [
-        { "title": "Special Mention — Architecture +Art", "label": "Architizer A+Awards 2025", "url": "https://architizer.com/projects/jan-plaza/" },
-        { "title": "Honorable Mention", "label": "DNA Paris Design Awards 2025", "url": "https://dna.paris/winner/zoom.php?eid=71-93884-25" }
+        {
+          "title": "Special Mention — Architecture +Art",
+          "label": "Architizer A+Awards 2025",
+          "url": "https://architizer.com/projects/jan-plaza/"
+        },
+        {
+          "title": "Honorable Mention",
+          "label": "DNA Paris Design Awards 2025",
+          "url": "https://dna.paris/winner/zoom.php?eid=71-93884-25"
+        }
       ],
       "publications": [
-        { "title": "Architizer", "label": "Project & award profile", "url": "https://architizer.com/projects/jan-plaza/" },
-        { "title": "Amazing Architecture", "label": "Project feature", "url": "https://amazingarchitecture.com/cultural-center/jan-plaza-mashhad-iran-by-jalal-mashhadi-fard" },
-        { "title": "Archello", "label": "Project feature and gallery", "url": "https://archello.com/project/jan-plaza" },
-        { "title": "Iranian Architect", "label": "Project 0536", "url": "https://iranian-architect.ir/project-0536" }
+        {
+          "title": "Architizer",
+          "label": "Project & award profile",
+          "url": "https://architizer.com/projects/jan-plaza/"
+        },
+        {
+          "title": "Amazing Architecture",
+          "label": "Project feature",
+          "url": "https://amazingarchitecture.com/cultural-center/jan-plaza-mashhad-iran-by-jalal-mashhadi-fard"
+        },
+        {
+          "title": "Archello",
+          "label": "Project feature and gallery",
+          "url": "https://archello.com/project/jan-plaza"
+        },
+        {
+          "title": "Iranian Architect",
+          "label": "Project 0536",
+          "url": "https://iranian-architect.ir/project-0536"
+        }
       ],
       "images": [
         {
@@ -336,11 +407,21 @@
       "publishedGallery": {
         "path": "assets/images/publications/amazing-architecture/keluchick",
         "count": 10,
-        "extensions": { "10": "png" }
+        "extensions": {
+          "10": "png"
+        }
       },
       "publications": [
-        { "title": "Amazing Architecture", "label": "Complete project feature and gallery", "url": "https://amazingarchitecture.com/store/keluchick-handmade-chocolate-house-mashhad-iran-by-jalal-mashhadi-fards-design-studio" },
-        { "title": "Architizer", "label": "Project profile", "url": "https://architizer.com/projects/keluchic-chocolate-house/" }
+        {
+          "title": "Amazing Architecture",
+          "label": "Complete project feature and gallery",
+          "url": "https://amazingarchitecture.com/store/keluchick-handmade-chocolate-house-mashhad-iran-by-jalal-mashhadi-fards-design-studio"
+        },
+        {
+          "title": "Architizer",
+          "label": "Project profile",
+          "url": "https://architizer.com/projects/keluchic-chocolate-house/"
+        }
       ],
       "images": [],
       "place": 4
@@ -357,12 +438,36 @@
       "description": "Next Generation is a residential project currently in development on Abuzar Boulevard in Mashhad, within the established Ahmadabad neighbourhood. It is being designed for a new generation of residents whose understanding of luxury is shaped less by size and formality, and more by adaptability, spatial quality and everyday experience.\n\nThe project moves from fixed domestic conventions toward a more flexible way of living: smaller but smarter apartments, open social kitchens, adaptable living areas, home offices, walk-in closets and private master suites. Its architecture negotiates openness and privacy through layered façades, planted thresholds and adjustable screens.\n\nThe main elevation combines transparent living spaces with recessed private bedroom suites. A protective outer layer of perforated modules filters daylight, air and views; selected modules operate as mirrors, open apertures or integrated lights, allowing the façade to shift between privacy, reflection and illumination.\n\nProject: Next Generation Apartment\nArchitect: Jalal Mashhadi Fard\nClient: Mr. Zarandi and Level Construction Group\nLocation: Abuzar Boulevard, Ahmadabad, Mashhad, Iran\nStatus: In Progress",
       "location": "Abuzar Boulevard, Ahmadabad · Mashhad / Iran",
       "images": [
-        { "src": "assets/images/architecture/new-generation/new-generation-main.jpeg", "place": 1, "description": "Main façade study" },
-        { "src": "assets/images/architecture/new-generation/bedroom.jpg", "place": 2, "description": "Private master suite" },
-        { "src": "assets/images/architecture/new-generation/entrance.jpg", "place": 3, "description": "Entrance and shared threshold" },
-        { "src": "assets/images/architecture/new-generation/concept.jpg", "place": 4, "description": "From quantity to quality · concept diagram" },
-        { "src": "assets/images/architecture/new-generation/facade-diagram.jpg", "place": 5, "description": "Façade organisation and privacy layers" },
-        { "src": "assets/images/architecture/new-generation/module-diagram.jpg", "place": 6, "description": "Perforated façade module system" }
+        {
+          "src": "assets/images/architecture/new-generation/new-generation-main.jpeg",
+          "place": 1,
+          "description": "Main façade study"
+        },
+        {
+          "src": "assets/images/architecture/new-generation/bedroom.jpg",
+          "place": 2,
+          "description": "Private master suite"
+        },
+        {
+          "src": "assets/images/architecture/new-generation/entrance.jpg",
+          "place": 3,
+          "description": "Entrance and shared threshold"
+        },
+        {
+          "src": "assets/images/architecture/new-generation/concept.jpg",
+          "place": 4,
+          "description": "From quantity to quality · concept diagram"
+        },
+        {
+          "src": "assets/images/architecture/new-generation/facade-diagram.jpg",
+          "place": 5,
+          "description": "Façade organisation and privacy layers"
+        },
+        {
+          "src": "assets/images/architecture/new-generation/module-diagram.jpg",
+          "place": 6,
+          "description": "Perforated façade module system"
+        }
       ],
       "place": 4.5
     },
@@ -373,18 +478,45 @@
         "assets/images/architecture/new-generation-ahmadabad/facade.jpg",
         "assets/images/architecture/new-generation-ahmadabad/balcony.jpg"
       ],
-      "coverPositions": ["center 50%", "80% center"],
+      "coverPositions": [
+        "center 50%",
+        "80% center"
+      ],
       "title": "New Generation",
       "status": "Concept Design",
       "description": "New Generation proposes a contemporary model of living for Ahmadabad, one of Mashhad’s established residential neighbourhoods. The project revisits the role once played by the dining room in traditional Iranian homes: a distinct social space that gathered the household and connected everyday rituals.\n\nHere, that room is reimagined as a mobile green cube. The cube contains a social bar and can move between the living area and the bedroom, attaching itself to either space as needs change. It can extend the living room for gathering, connect to the bedroom as a more private element, or occupy an intermediate position between the two. Rather than assigning every activity to a fixed room, the apartment changes with its residents.\n\nThis movement is expressed on the exterior. The green tiled cubes shift across the façade, turning the changing interior arrangement into the architectural identity of the building. The result is a flexible domestic system in which memory is not reproduced as style, but translated into a new spatial instrument for contemporary life.\n\nProject: New Generation Apartment\nArchitect: Jalal Mashhadi Fard\nLocation: Ahmadabad, Mashhad, Iran\nStatus: Concept Design",
       "location": "Ahmadabad · Mashhad / Iran",
       "images": [
-        { "src": "assets/images/architecture/new-generation-ahmadabad/facade.jpg", "place": 1, "description": "The moving green cubes define the changing façade" },
-        { "src": "assets/images/architecture/new-generation-ahmadabad/balcony.jpg", "place": 2, "description": "The green cube connects the private interior to the façade" },
-        { "src": "assets/images/architecture/new-generation-ahmadabad/concept.jpg", "place": 3, "description": "New Generation · project identity" },
-        { "src": "assets/images/architecture/new-generation-ahmadabad/living-model.jpg", "place": 4, "description": "A flexible model of living in Ahmadabad" },
-        { "src": "assets/images/architecture/new-generation-ahmadabad/quantity-to-quality.jpg", "place": 5, "description": "From fixed conventions to adaptable living" },
-        { "src": "assets/images/architecture/new-generation-ahmadabad/plan.jpg", "place": 6, "description": "Typical residential floor plan" }
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/facade.jpg",
+          "place": 1,
+          "description": "The moving green cubes define the changing façade"
+        },
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/balcony.jpg",
+          "place": 2,
+          "description": "The green cube connects the private interior to the façade"
+        },
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/concept.jpg",
+          "place": 3,
+          "description": "New Generation · project identity"
+        },
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/living-model.jpg",
+          "place": 4,
+          "description": "A flexible model of living in Ahmadabad"
+        },
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/quantity-to-quality.jpg",
+          "place": 5,
+          "description": "From fixed conventions to adaptable living"
+        },
+        {
+          "src": "assets/images/architecture/new-generation-ahmadabad/plan.jpg",
+          "place": 6,
+          "description": "Typical residential floor plan"
+        }
       ],
       "place": 4.51
     },
@@ -397,14 +529,46 @@
       "description": "Noor is a recreational residence in Qeshm shaped by the movement and transformation of light. Its plan begins with a cross: a sign of gathering and the intersection of paths. Water, reflection and sunlight extend this cross through the building, while the spaces and courtyards gather around its luminous centre.\n\nEach room interprets a different condition of light. Shimmer follows light across water; Halo forms a soft luminous field; Prism fragments light into colour; Radiance intensifies its presence; Shadow explores the depth created by its absence; Reflection doubles space through mirrored surfaces; and Ray gives light a direct path into the interior. Together, the rooms form one continuous narrative rather than a collection of separate themes.\n\nAt the heart of the residence, a glass bridge crosses the pool beneath a moving sheet of water. Sunlight passes through it and casts shifting reflections into the interior, turning circulation into the project’s central experience.\n\nProject: Noor Residence\nArchitect: Jalal Mashhadi Fard\nClient: Mehrad Najafi\nLocation: Qeshm, Iran\nStatus: In Progress",
       "location": "Qeshm / Iran",
       "images": [
-        { "src": "assets/images/architecture/noor-residence/pool.jpg", "place": 1, "description": "The pool and glass bridge form the luminous heart of Noor" },
-        { "src": "assets/images/architecture/noor-residence/concept-sequence.jpg", "place": 2, "description": "From two sources of light to a shared luminous centre" },
-        { "src": "assets/images/architecture/noor-residence/room-concepts.jpg", "place": 3, "description": "Shimmer, Halo, Prism, Radiance, Shadow, Reflection and Ray" },
-        { "src": "assets/images/architecture/noor-residence/reflection.jpg", "place": 4, "description": "Reflection room" },
-        { "src": "assets/images/architecture/noor-residence/shadow-01.jpg", "place": 5, "description": "Shadow room · mirrorwork, darkness and filtered light" },
-        { "src": "assets/images/architecture/noor-residence/shadow-02.jpg", "place": 6, "description": "Shadow room · light traced across the interior" },
-        { "src": "assets/images/architecture/noor-residence/ray-social.jpg", "place": 7, "description": "Ray · a social room gathered beneath a direct opening of light" },
-        { "src": "assets/images/architecture/noor-residence/ray.jpg", "place": 8, "description": "Ray room" }
+        {
+          "src": "assets/images/architecture/noor-residence/pool.jpg",
+          "place": 1,
+          "description": "The pool and glass bridge form the luminous heart of Noor"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/concept-sequence.jpg",
+          "place": 2,
+          "description": "From two sources of light to a shared luminous centre"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/room-concepts.jpg",
+          "place": 3,
+          "description": "Shimmer, Halo, Prism, Radiance, Shadow, Reflection and Ray"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/reflection.jpg",
+          "place": 4,
+          "description": "Reflection room"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/shadow-01.jpg",
+          "place": 5,
+          "description": "Shadow room · mirrorwork, darkness and filtered light"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/shadow-02.jpg",
+          "place": 6,
+          "description": "Shadow room · light traced across the interior"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/ray-social.jpg",
+          "place": 7,
+          "description": "Ray · a social room gathered beneath a direct opening of light"
+        },
+        {
+          "src": "assets/images/architecture/noor-residence/ray.jpg",
+          "place": 8,
+          "description": "Ray room"
+        }
       ],
       "place": 4.52
     },
@@ -416,26 +580,112 @@
       "description": "Homay Wellness Center is conceived as a landmark destination where sport, health, hospitality and landscape form one continuous experience. Set within a mountainous terrain, the proposal follows the contours of the site through a family of curved volumes, planted roofs and a multi-level movement loop.\n\nThe programme brings together a professional gym, indoor and outdoor pools, a luxury restaurant and VIP club, a hotel and café, and a medical health centre. Rather than separating these functions into isolated buildings, the architecture links them through terraces, bridges and walking routes, allowing movement, views and landscape to become the connective tissue of the project.\n\nA flowing timber screen wraps the glazed volumes, filtering sun and views while giving the complex a unified identity. The buildings step with the slope, preserving panoramic views and creating a sequence of interior and exterior spaces for exercise, recovery, dining and rest.\n\nProject: Homay Wellness Center\nArchitect: Jalal Mashhadi Fard Studio\nClient: Mr. Ali Tabrizi\nStatus: Design Stage · Unbuilt",
       "location": "Wellness, Sports & Lifestyle Complex",
       "images": [
-        { "src": "assets/images/architecture/homay-wellness-center/01-overview.jpg", "place": 1, "description": "Concept and development proposal" },
-        { "src": "assets/images/architecture/homay-wellness-center/02-program.jpg", "place": 2, "description": "Programme and site organisation" },
-        { "src": "assets/images/architecture/homay-wellness-center/03-gym-diagram.jpg", "place": 3, "section": "Gym", "description": "Professional gym within the connected wellness landscape" },
-        { "src": "assets/images/architecture/homay-wellness-center/04-gym.jpg", "place": 4, "description": "Gym overlooking the mountain landscape" },
-        { "src": "assets/images/architecture/homay-wellness-center/05-pool-diagram.jpg", "place": 5, "section": "Pool", "description": "Indoor and outdoor pool programme" },
-        { "src": "assets/images/architecture/homay-wellness-center/06-pool.jpg", "place": 6, "description": "Pool terraces and recovery spaces" },
-        { "src": "assets/images/architecture/homay-wellness-center/07-pool-interior.jpg", "place": 7, "description": "Interior pool with panoramic views" },
-        { "src": "assets/images/architecture/homay-wellness-center/08-fnb-diagram.jpg", "place": 8, "section": "F&B", "description": "Luxury restaurant and VIP club programme" },
-        { "src": "assets/images/architecture/homay-wellness-center/09-restaurant.jpg", "place": 9, "description": "Restaurant at night" },
-        { "src": "assets/images/architecture/homay-wellness-center/10-restaurant-spaces.jpg", "place": 10, "description": "Restaurant, lounge and bar spaces" },
-        { "src": "assets/images/architecture/homay-wellness-center/11-restaurant-terrace.jpg", "place": 11, "description": "Restaurant terrace overlooking the site" },
-        { "src": "assets/images/architecture/homay-wellness-center/12-movement-loop.jpg", "place": 12, "section": "Movement Loop", "description": "Walking and running loop connecting the programme" },
-        { "src": "assets/images/architecture/homay-wellness-center/13-path-study.jpg", "place": 13, "description": "Circulation and adaptive reuse study" },
-        { "src": "assets/images/architecture/homay-wellness-center/14-hotel-diagram.jpg", "place": 14, "section": "Hotel", "description": "Hotel and café programme" },
-        { "src": "assets/images/architecture/homay-wellness-center/15-hotel-room.jpg", "place": 15, "description": "Guest room with filtered mountain view" },
-        { "src": "assets/images/architecture/homay-wellness-center/16-hotel-plan.jpg", "place": 16, "description": "Hotel organisation around a planted courtyard" },
-        { "src": "assets/images/architecture/homay-wellness-center/17-health-diagram.jpg", "place": 17, "section": "Health Center", "description": "Medical health, beauty, yoga and recovery programme" },
-        { "src": "assets/images/architecture/homay-wellness-center/18-health-center.jpg", "place": 18, "description": "Treatment and recovery interior" },
-        { "src": "assets/images/architecture/homay-wellness-center/19-summary.jpg", "place": 19, "description": "Architecture, landscape and movement studies" },
-        { "src": "assets/images/architecture/homay-wellness-center/20-final-overview.jpg", "place": 20, "description": "Final exterior overview" }
+        {
+          "src": "assets/images/architecture/homay-wellness-center/01-overview.jpg",
+          "place": 1,
+          "description": "Concept and development proposal"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/02-program.jpg",
+          "place": 2,
+          "description": "Programme and site organisation"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/03-gym-diagram.jpg",
+          "place": 3,
+          "section": "Gym",
+          "description": "Professional gym within the connected wellness landscape"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/04-gym.jpg",
+          "place": 4,
+          "description": "Gym overlooking the mountain landscape"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/05-pool-diagram.jpg",
+          "place": 5,
+          "section": "Pool",
+          "description": "Indoor and outdoor pool programme"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/06-pool.jpg",
+          "place": 6,
+          "description": "Pool terraces and recovery spaces"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/07-pool-interior.jpg",
+          "place": 7,
+          "description": "Interior pool with panoramic views"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/08-fnb-diagram.jpg",
+          "place": 8,
+          "section": "F&B",
+          "description": "Luxury restaurant and VIP club programme"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/09-restaurant.jpg",
+          "place": 9,
+          "description": "Restaurant at night"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/10-restaurant-spaces.jpg",
+          "place": 10,
+          "description": "Restaurant, lounge and bar spaces"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/11-restaurant-terrace.jpg",
+          "place": 11,
+          "description": "Restaurant terrace overlooking the site"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/12-movement-loop.jpg",
+          "place": 12,
+          "section": "Movement Loop",
+          "description": "Walking and running loop connecting the programme"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/13-path-study.jpg",
+          "place": 13,
+          "description": "Circulation and adaptive reuse study"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/14-hotel-diagram.jpg",
+          "place": 14,
+          "section": "Hotel",
+          "description": "Hotel and café programme"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/15-hotel-room.jpg",
+          "place": 15,
+          "description": "Guest room with filtered mountain view"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/16-hotel-plan.jpg",
+          "place": 16,
+          "description": "Hotel organisation around a planted courtyard"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/17-health-diagram.jpg",
+          "place": 17,
+          "section": "Health Center",
+          "description": "Medical health, beauty, yoga and recovery programme"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/18-health-center.jpg",
+          "place": 18,
+          "description": "Treatment and recovery interior"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/19-summary.jpg",
+          "place": 19,
+          "description": "Architecture, landscape and movement studies"
+        },
+        {
+          "src": "assets/images/architecture/homay-wellness-center/20-final-overview.jpg",
+          "place": 20,
+          "description": "Final exterior overview"
+        }
       ],
       "place": 4.55
     },
@@ -444,17 +694,49 @@
       "src": "assets/images/architecture/tobe/cover.jpg",
       "title": "ToBe",
       "status": "Concept Design",
-      "description": "ToBe is a social café conceived around the tension between being and not being—and the shared space in which we become. The identity begins with two dark circular forms and a warm illuminated centre: me, you and the collective we. This elemental diagram is translated into an interior organised around encounter, reflection and changing atmosphere.\n\nA long communal table becomes the project’s social spine. Warm backlit planes meet cool blue reflections, while brushed stainless steel, mirrored surfaces, smoked translucent seating and glass blocks multiply people, light and movement. The space shifts character from morning to night without losing its restrained material language.\n\nCreative direction, identity and spatial concept are developed as one continuous system. Graphic elements, lighting, material palette and architecture all express the same proposition: between being and not being, we become.\n\nProject: ToBe Social Café\nArchitecture and creative direction: Jalal Mashhadi Fard\nStatus: Concept Design",
+      "description": "ToBe is a social café conceived around the tension between being and not being—and the shared space in which we become. The identity begins with two dark circular forms and a warm illuminated centre: me, you and the collective we. This elemental diagram is translated into an interior organised around encounter, reflection and changing atmosphere.\n\nA long communal table becomes the project’s social spine. Warm backlit planes meet cool blue reflections, while brushed stainless steel, mirrored surfaces, smoked translucent seating and glass blocks multiply people, light and movement. The space shifts character from morning to night without losing its restrained material language.\n\nCreative direction, identity and spatial concept are developed as one continuous system. Graphic elements, lighting, material palette and architecture all express the same proposition: between being and not being, we become.\n\nProject: ToBe Social Café\nArchitecture and creative direction: Jalal Mashhadi Fard\nHospitality advisors: Amir Baroudi & Alireza Omidvar\nStatus: Concept Design",
       "location": "Architecture & Creative Direction",
       "images": [
-        { "src": "assets/images/architecture/tobe/cover.jpg", "place": 1, "description": "Main interior concept" },
-        { "src": "assets/images/architecture/tobe/identity.jpg", "place": 2, "description": "ToBe identity" },
-        { "src": "assets/images/architecture/tobe/concept.jpg", "place": 3, "description": "Me, you and we · concept diagram" },
-        { "src": "assets/images/architecture/tobe/duality.jpg", "place": 4, "description": "To be / not to be" },
-        { "src": "assets/images/architecture/tobe/encounter.jpg", "place": 5, "description": "Social encounter and reflection" },
-        { "src": "assets/images/architecture/tobe/materials.jpg", "place": 6, "description": "Material and lighting palette" },
-        { "src": "assets/images/architecture/tobe/day-night.jpg", "place": 7, "description": "Day and night atmospheres" },
-        { "src": "assets/images/architecture/tobe/interior.jpg", "place": 8, "description": "Spatial concept" }
+        {
+          "src": "assets/images/architecture/tobe/cover.jpg",
+          "place": 1,
+          "description": "Main interior concept"
+        },
+        {
+          "src": "assets/images/architecture/tobe/identity.jpg",
+          "place": 2,
+          "description": "ToBe identity"
+        },
+        {
+          "src": "assets/images/architecture/tobe/concept.jpg",
+          "place": 3,
+          "description": "Me, you and we · concept diagram"
+        },
+        {
+          "src": "assets/images/architecture/tobe/duality.jpg",
+          "place": 4,
+          "description": "To be / not to be"
+        },
+        {
+          "src": "assets/images/architecture/tobe/encounter.jpg",
+          "place": 5,
+          "description": "Social encounter and reflection"
+        },
+        {
+          "src": "assets/images/architecture/tobe/materials.jpg",
+          "place": 6,
+          "description": "Material and lighting palette"
+        },
+        {
+          "src": "assets/images/architecture/tobe/day-night.jpg",
+          "place": 7,
+          "description": "Day and night atmospheres"
+        },
+        {
+          "src": "assets/images/architecture/tobe/interior.jpg",
+          "place": 8,
+          "description": "Spatial concept"
+        }
       ],
       "place": 4.6
     },
