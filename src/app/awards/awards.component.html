@@ -5,8 +5,9 @@
   </header>
   <div class="awards-list">
     <a class="award-row" *ngFor="let item of awards" [href]="item.url || null" [attr.target]="item.url ? '_blank' : null" [attr.rel]="item.url ? 'noopener noreferrer' : null">
-      <span class="year">{{ item.year }}</span>
-      <div>
+      <span class="year">{{ item.year || '—' }}</span>
+      <span class="award-logo" aria-hidden="true">{{ item.logo }}</span>
+      <div class="award-copy">
         <h2>{{ item.award }}</h2>
         <p>{{ item.recognition }}</p>
       </div>
