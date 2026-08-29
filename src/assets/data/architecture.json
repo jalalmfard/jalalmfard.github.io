@@ -829,6 +829,33 @@
         }
       ],
       "place": 16
+    },
+    {
+      "id": "baharestan-garden-apartment",
+      "src": "assets/images/architecture/baharestan-garden-apartment/facade.webp",
+      "coverPosition": "center 48%",
+      "title": "Baharestan Garden Apartment",
+      "status": "Design in Progress",
+      "description": "Baharestan Garden Apartment is a residential project in Mashhad conceived as a vertical garden woven into everyday domestic life. A planted central void rises through the building behind a rhythmic arcade, bringing greenery, filtered light and seasonal change into the depth of the apartment.\n\nThe façade is organised through two complementary material fields: warm brick defines the residential volume, while green ceramic tiles mark the garden and shared thresholds. Arched openings frame planting at each level, turning the courtyard into a living elevation rather than a decorative screen.\n\nInside, the garden continues through planted balconies and light-filled internal courtyards. Living spaces and the kitchen open toward these green rooms, allowing the landscape to become part of daily routines.\n\nProject: Baharestan Garden Apartment\nArchitect: Jalal Mashhadi Fard\nLocation: Baharestan Street, Sajjad Boulevard, Mashhad, Iran\nStatus: Design in Progress",
+      "location": "Baharestan Street, Sajjad Boulevard · Mashhad / Iran",
+      "images": [
+        {
+          "src": "assets/images/architecture/baharestan-garden-apartment/facade.webp",
+          "place": 1,
+          "description": "The main façade pairs warm brick with a planted green arcade rising through the building."
+        },
+        {
+          "src": "assets/images/architecture/baharestan-garden-apartment/garden-balcony.webp",
+          "place": 2,
+          "description": "A garden balcony creates a shaded communal room framed by arches and planting."
+        },
+        {
+          "src": "assets/images/architecture/baharestan-garden-apartment/kitchen-courtyard.webp",
+          "place": 3,
+          "description": "The kitchen opens toward internal courtyards, extending greenery and daylight into daily life."
+        }
+      ],
+      "place": 4.53
     }
   ]
 }
