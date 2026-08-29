@@ -14,7 +14,11 @@ export class HomeComponent implements OnInit,OnDestroy{
       this.image('/assets/images/home/fashion-01.jpg','center 40%'),this.image('/assets/images/home/fashion-02.jpg','center 35%'),this.image('/assets/images/home/fashion-04.jpg','center 45%')
     ]),
     this.card('artworks','Artworks','/artworks',[
-      this.image('/assets/images/home/artwork-01.jpg'),this.image('/assets/images/home/artwork-02.jpg')
+      this.image('/assets/images/home/artwork-01.webp','center 56%'),
+      this.image('/assets/images/home/artwork-02.webp','center 58%'),
+      this.image('/assets/images/home/artwork-03.webp','26% center'),
+      this.image('/assets/images/home/artwork-04.webp','center 54%'),
+      this.image('/assets/images/home/artwork-05.webp','center 42%')
     ]),
     this.card('product-design','Product Design','/furnituredesign',[
       this.image('/assets/images/product-design/dining/dining-cover.jpg'),this.image('/assets/images/product-design/carpet/carpet-cover.jpg'),this.image('/assets/images/product-design/watch/time-hunter.jpg')
