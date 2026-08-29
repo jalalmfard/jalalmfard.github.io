@@ -856,6 +856,47 @@
         }
       ],
       "place": 4.53
+    },
+    {
+      "id": "nobel-cafe-restaurant",
+      "src": "assets/images/architecture/nobel-cafe-restaurant/01-entrance.webp",
+      "coverPosition": "center 48%",
+      "title": "Nobel Café & Restaurant",
+      "description": "Nobel is an interior design project for a café and restaurant in Torghabeh, Mashhad. A sequence of softened arches organises the interior and gives the different dining areas a continuous architectural rhythm. Deep green surfaces, dark stone floors and black reflective elements create a calm, theatrical atmosphere, while burgundy upholstery adds warmth and contrast.\n\nMirrors extend the arches and planting beyond their physical boundaries. Indoor trees, linear planters and a reflective water feature bring the garden into the interior, while warm lighting defines intimate tables, the café counter, a long communal dining room and the bar. The result is a hospitality interior shaped through repetition, reflection, greenery and carefully controlled light.\n\nProject: Nobel Café & Restaurant\nInterior Design: Jalal Mashhadi Fard\nClient: Ms. Diseh\nLocation: Torghabeh, Mashhad, Iran\nProgramme: Café & Restaurant",
+      "location": "Torghabeh · Mashhad / Iran",
+      "images": [
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/01-entrance.webp",
+          "place": 1,
+          "description": "A reflective water feature and indoor tree form the project’s central arrival space."
+        },
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/02-cafe.webp",
+          "place": 2,
+          "description": "The café counter is framed by a sequence of green arches."
+        },
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/03-restaurant.webp",
+          "place": 3,
+          "description": "Layered mirrors, planting and warm light shape the main restaurant hall."
+        },
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/04-communal-table.webp",
+          "place": 4,
+          "description": "A long communal table extends through the arched dining room."
+        },
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/05-bar.webp",
+          "place": 5,
+          "description": "The bar is enclosed by a luminous ribbed structure."
+        },
+        {
+          "src": "assets/images/architecture/nobel-cafe-restaurant/06-sketch.webp",
+          "place": 6,
+          "description": "Early interior atmosphere sketch."
+        }
+      ],
+      "place": 4.54
     }
   ]
 }
