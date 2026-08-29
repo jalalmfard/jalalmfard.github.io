@@ -10,7 +10,7 @@
 
   <a class="awards-rail" routerLink="/awards" aria-label="Awards and recognition">
     <span class="awards-label">Awards</span>
-    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b>{{award.mark}}</b><small>{{award.name}}</small></span></ng-container><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b>{{award.mark}}</b><small>{{award.name}}</small></span></ng-container></span></span>
+    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b class="award-logo">{{award.mark}}</b><small>{{award.name}}</small></span></ng-container><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><b class="award-logo">{{award.mark}}</b><small>{{award.name}}</small></span></ng-container></span></span>
     <span class="awards-arrow">↗</span>
   </a>
 </main>
