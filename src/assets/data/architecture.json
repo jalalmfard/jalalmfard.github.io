@@ -897,6 +897,37 @@
         }
       ],
       "place": 4.54
+    },
+    {
+      "id": "shandiz-tourism-boutique-motel",
+      "src": "assets/images/architecture/shandiz-tourism-boutique-motel/01-rooms-in-nature.webp",
+      "coverPosition": "center center",
+      "title": "Shandiz Tourism District & Boutique Motel",
+      "description": "Set within the wooded landscape of Shandiz, this tourism district and boutique motel is conceived as a sequence of inhabitable rooms dispersed through the slope. Each oval suite is wrapped by a perforated skin derived from Iranian geometric patterns, filtering sunlight and views while allowing the architecture to sit gently among the trees.\n\nThe masterplan is organised in three connected zones. The upper zone contains arrival, reception, café and support spaces; the middle zone distributes independent suite units through the landscape; and the lower destination brings guests to a café-restaurant and sculpted pools. A tunnel elevator and elevated walkways connect the levels with minimal disturbance to the terrain.\n\nProject: Shandiz Tourism District & Boutique Motel\nArchitect: Jalal Mashhadi Fard\nHospitality Consultant: Alireza Ghahreman\nLocation: Shandiz, Mashhad, Iran\nStatus: Concept & Design Stage",
+      "location": "Shandiz · Mashhad / Iran",
+      "images": [
+        {
+          "src": "assets/images/architecture/shandiz-tourism-boutique-motel/01-rooms-in-nature.webp",
+          "place": 1,
+          "description": "Boutique motel suites are nested among the trees and connected by elevated walkways."
+        },
+        {
+          "src": "assets/images/architecture/shandiz-tourism-boutique-motel/02-masterplan-aerial.webp",
+          "place": 2,
+          "description": "The complete tourism district follows the natural slope across three connected zones."
+        },
+        {
+          "src": "assets/images/architecture/shandiz-tourism-boutique-motel/03-concept-diagram.webp",
+          "place": 3,
+          "description": "Concept diagram showing arrival, suite and destination zones."
+        },
+        {
+          "src": "assets/images/architecture/shandiz-tourism-boutique-motel/04-hillside-destination.webp",
+          "place": 4,
+          "description": "Terraced hospitality spaces and pools follow the wooded hillside."
+        }
+      ],
+      "place": 4.545
     }
   ]
 }
