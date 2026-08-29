@@ -16,7 +16,6 @@ export class HomeComponent implements OnInit,OnDestroy{
     this.card('artworks','Artworks','/artworks',[
       this.image('/assets/images/home/artwork-01.webp','center 56%'),
       this.image('/assets/images/home/artwork-02.webp','center 58%'),
-      this.image('/assets/images/home/artwork-03.webp','26% center'),
       this.image('/assets/images/home/artwork-04.webp','center 54%'),
       this.image('/assets/images/home/artwork-05.webp','center 42%')
     ]),
@@ -25,8 +24,14 @@ export class HomeComponent implements OnInit,OnDestroy{
     ])
   ];
   awardMarks:AwardMark[]=[
-    {mark:'A+',name:'Architizer A+Awards'},{mark:'LOOP',name:'Design Awards'},{mark:'DNA',name:'Paris Design Awards'},
-    {mark:'AMP',name:'Architecture MasterPrize'},{mark:'AOTY',name:'Architecture of the Year'}
+    {mark:'A′',name:'A′ Design Award'},
+    {mark:'A+',name:'Architizer A+Awards'},
+    {mark:'LOOP',name:'Design Awards'},
+    {mark:'DNA',name:'Paris Design Awards'},
+    {mark:'AMP',name:'Architecture MasterPrize'},
+    {mark:'هنرمعماری',name:'Architecture of the Year'},
+    {mark:'NY',name:'Product Design Awards'},
+    {mark:'SIAA',name:'Shiraz Interior Architecture Award'}
   ];
   private timers:number[]=[];private destroyed=false;
   ngOnInit():void{this.cards.forEach((card,index)=>{this.preload(card.images[0]);this.preload(card.images[1]);if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.timers.push(window.setTimeout(()=>this.start(card),index*420));});}
