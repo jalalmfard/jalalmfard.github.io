@@ -1,6 +1,6 @@
 <main class="home-portals">
   <section class="portal-grid" aria-label="Selected disciplines">
-    <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.is-changing]="card.changing" [routerLink]="card.route">
+    <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.artworks]="card.key==='artworks'" [class.is-changing]="card.changing" [routerLink]="card.route">
       <img class="portal-image current" [src]="current(card).src" [alt]="card.title" [style.object-position]="current(card).position">
       <img *ngIf="card.changing" class="portal-image previous" [src]="old(card).src" alt="" [style.object-position]="old(card).position">
       <span class="glass-surface"></span>
