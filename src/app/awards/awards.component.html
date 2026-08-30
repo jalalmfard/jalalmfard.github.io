@@ -6,7 +6,7 @@
   <div class="awards-list">
     <a class="award-row" *ngFor="let item of awards" [href]="item.url || null" [attr.target]="item.url ? '_blank' : null" [attr.rel]="item.url ? 'noopener noreferrer' : null">
       <span class="year">{{ item.year || '—' }}</span>
-      <span class="award-logo" aria-hidden="true">{{ item.logo }}</span>
+      <span class="award-logo" [class.dark]="item.dark"><img *ngIf="item.logoSrc" [src]="item.logoSrc" [alt]="item.award"><b *ngIf="!item.logoSrc">{{ item.logoText }}</b></span>
       <div class="award-copy">
         <h2>{{ item.award }}</h2>
         <p>{{ item.recognition }}</p>

@@ -5,7 +5,7 @@ h1 { margin: 18px 0 72px; font-size: clamp(68px, 12vw, 160px); line-height: .9; 
 .award-row { position: relative; display: grid; grid-template-columns: 58px 76px minmax(0, 1fr) minmax(150px, auto); gap: 22px; align-items: center; width: 100%; padding: 26px 46px 26px 24px; border: 0; border-radius: 20px; box-sizing: border-box; color: inherit; text-decoration: none; background: #eef0f3; box-shadow: -8px -8px 20px rgba(255,255,255,.84), 8px 8px 20px rgba(151,158,169,.18); transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s ease; }
 .award-row:hover { transform: translateY(-3px); box-shadow: -10px -10px 24px rgba(255,255,255,.88), 12px 12px 26px rgba(151,158,169,.22); }
 .year, .award-row p { color: #777; font-size: 13px; }
-.award-logo { display: grid; place-items: center; min-width: 58px; height: 38px; padding: 0 7px; border: 1px solid rgba(23,24,27,.22); border-radius: 9px; box-sizing: border-box; background: rgba(255,255,255,.48); font-size: 11px; font-weight: 650; line-height: 1; letter-spacing: -.03em; text-align: center; }
+.award-logo { display: grid; place-items: center; width: 68px; height: 48px; padding: 6px 8px; border: 1px solid rgba(23,24,27,.16); border-radius: 9px; box-sizing: border-box; background: rgba(255,255,255,.82); overflow: hidden; } .award-logo.dark { background: #111; } .award-logo img { display: block; width: 100%; height: 100%; object-fit: contain; } .award-logo b { font-size: 9px; font-weight: 650; line-height: 1.12; text-align: center; }
 .award-copy { min-width: 0; }
 h2 { margin: 0 0 6px; font-size: clamp(20px, 3vw, 34px); font-weight: 400; }
 .award-row strong { font-size: 13px; font-weight: 400; text-align: right; }
@@ -16,7 +16,7 @@ h2 { margin: 0 0 6px; font-size: clamp(20px, 3vw, 34px); font-weight: 400; }
   .awards-list { gap: 9px; }
   .award-row { grid-template-columns: 34px 54px minmax(0, 1fr); gap: 11px; align-items: start; padding: 19px 30px 19px 14px; border-radius: 16px; }
   .award-row:hover { transform: none; }
-  .award-logo { min-width: 50px; height: 32px; padding: 0 5px; font-size: 9px; }
+  .award-logo { width: 52px; height: 38px; padding: 5px; } .award-logo b { font-size: 7px; }
   h2 { font-size: 18px; }
   .award-row p, .year, .award-row strong { font-size: 11px; }
   .award-row strong { grid-column: 3; text-align: left; margin-top: -4px; }

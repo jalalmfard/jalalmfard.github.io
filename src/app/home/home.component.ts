@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 interface PortalImage { src:string; position:string; }
 interface PortalCard { key:string; title:string; route:string; images:PortalImage[]; current:number; previous:number; changing:boolean; }
-interface AwardMark { mark:string; name:string; }
+interface AwardMark { name:string; logoSrc?:string; logoText?:string; dark?:boolean; }
 
 @Component({selector:'app-home',templateUrl:'./home.component.html',styleUrls:['./home.component.css']})
 export class HomeComponent implements OnInit,OnDestroy{
@@ -24,14 +24,14 @@ export class HomeComponent implements OnInit,OnDestroy{
     ])
   ];
   awardMarks:AwardMark[]=[
-    {mark:'A′',name:'A′ Design Award'},
-    {mark:'A+',name:'Architizer A+Awards'},
-    {mark:'LOOP',name:'Design Awards'},
-    {mark:'DNA',name:'Paris Design Awards'},
-    {mark:'AMP',name:'Architecture MasterPrize'},
-    {mark:'هنرمعماری',name:'Architecture of the Year'},
-    {mark:'NY',name:'Product Design Awards'},
-    {mark:'SIAA',name:'Shiraz Interior Architecture Award'}
+    {name:'A′ Design Award',logoSrc:'https://competition.adesignaward.com/images/square-logo-with-text-vertical-hires.jpg'},
+    {name:'Architizer A+Awards',logoSrc:'https://architizer-uploads.s3.us-west-2.amazonaws.com/A%2BAwardsLogo_WhiteStacked.png',dark:true},
+    {name:'LOOP Design Awards',logoSrc:'https://loopdesignawards.com/wp-content/uploads/2020/02/LOOP_awards_badge_2024.png'},
+    {name:'DNA Paris Design Awards',logoSrc:'https://gehri.ch/content/uploads/2024/07/Paris_Design_Awards_Logo-992x620.jpg'},
+    {name:'Architecture MasterPrize',logoSrc:'https://architectureprize.com/wp-content/uploads/2018/06/AM-logo-color-on-white-main.png'},
+    {name:'Architecture of the Year Award',logoText:'هنرمعماری'},
+    {name:'NY Product Design Awards',logoSrc:'https://nydesignawards.com/upload/winner/1637724570winner_2.png'},
+    {name:'Shiraz Interior Architecture Award',logoText:'جایزه معماری شیراز'}
   ];
   private timers:number[]=[];private destroyed=false;
   ngOnInit():void{this.cards.forEach((card,index)=>{this.preload(card.images[0]);this.preload(card.images[1]);if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.timers.push(window.setTimeout(()=>this.start(card),index*420));});}

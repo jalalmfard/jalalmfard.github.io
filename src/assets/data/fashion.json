@@ -72,9 +72,69 @@
         {
           "src": "assets/images/fashion/lumiere/studio-detail-side.jpg",
           "description": "Material and construction detail"
+        },
+        {
+          "src": "assets/images/jewelry/hera/ring.jpg",
+          "description": "Hera Ring · Lumière Collection"
+        },
+        {
+          "src": "assets/images/jewelry/hera/earrings.jpg",
+          "description": "Hera Earrings · Lumière Collection"
         }
       ],
-      "publications": []
+      "publications": [],
+      "place": 1
+    },
+    {
+      "id": "anima-collection",
+      "src": "assets/images/fashion/anima/anima-cover.jpg",
+      "coverPosition": "center 28%",
+      "title": "Anima Collection",
+      "subtitle": "Fashion, accessories and jewelry · NOUSHELLA",
+      "designerCredit": "The Anima Collection was designed by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "Anima is conceived as a living design family in which garment, footwear, accessories and jewelry are shaped through one continuous language. Curved layers gather around the body like an embrace, while sculptural details translate inner character into form. The collection brings together the Anima dress, bag, Anya Heels and Persephone jewelry as related expressions of protection, movement and identity.",
+      "descriptionFa": "کالکشن آنیما یک خانوادهٔ طراحی یکپارچه است که در آن لباس، کفش، اکسسوری و جواهرات با یک زبان مشترک شکل گرفته‌اند. لایه‌های منحنی همچون آغوشی بدن را در بر می‌گیرند و جزئیات مجسمه‌وار، شخصیت درونی را به فرم تبدیل می‌کنند. پیراهن آنیما، کیف، کفش Anya و جواهرات Persephone در این مجموعه روایت‌هایی مرتبط از محافظت، حرکت و هویت‌اند.",
+      "location": "Fashion Design · NOUSHELLA",
+      "images": [
+        {
+          "src": "assets/images/fashion/anima/anima-cover.jpg",
+          "description": "Anima Collection · dress and original sketch"
+        },
+        {
+          "src": "assets/images/fashion/anima/anima-dress-outdoor.jpg",
+          "description": "Anima Dress · editorial"
+        },
+        {
+          "src": "assets/images/fashion/anima/anima-folklore-editorial.jpg",
+          "description": "Anima Collection · The Folklore feature"
+        },
+        {
+          "src": "assets/images/fashion/anima/anima-bag.jpg",
+          "description": "Anima Bag"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
+          "description": "Anya Heels · concept sketch and final design"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/editorial.webp",
+          "description": "Anya Heels · Anima Collection"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-front-pair.webp",
+          "description": "Anya Heels · silver pair"
+        },
+        {
+          "src": "assets/images/jewelry/persephone/ring.jpg",
+          "description": "Persephone Ring · Anima Collection"
+        },
+        {
+          "src": "assets/images/jewelry/persephone/earrings.jpg",
+          "description": "Persephone Earrings · Anima Collection"
+        }
+      ],
+      "publications": [],
+      "place": 2
     },
     {
       "id": "embodied-archetypes",
@@ -151,6 +211,53 @@
         }
       ],
       "place": 3
+    },
+    {
+      "id": "anya-heels",
+      "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
+      "coverPosition": "center center",
+      "title": "Anya Heels",
+      "subtitle": "Footwear Design · NOUSHELLA",
+      "designerCredit": "Anya Heels was designed by Jalal Mashhadi Fard for NOUSHELLA.",
+      "description": "Anya Heels is conceived as an embrace around the foot. The upper folds across and gathers the foot in a soft, protective gesture, translating the intimacy of a hug into a precise sculptural silhouette. The faceted heel extends the concept through an architectural geometry inspired by the vertical rhythm of columns in sacred spaces.",
+      "descriptionFa": "کفش Anya همچون آغوشی پیرامون پا شکل گرفته است. رویه با حرکتی نرم و محافظ، پا را در بر می‌گیرد و صمیمیت یک بغل را به فرمی دقیق و مجسمه‌وار تبدیل می‌کند. هندسهٔ تراش‌خوردهٔ پاشنه نیز با الهام از ریتم عمودی ستون‌ها در فضاهای مذهبی شکل گرفته است.",
+      "location": "Footwear Design · NOUSHELLA",
+      "images": [
+        {
+          "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
+          "description": "Original concept sketch and final design"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/editorial.webp",
+          "description": "Anya Heels editorial"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-front-pair.webp",
+          "description": "Silver Anya Heels · front view"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-back-pair.webp",
+          "description": "Silver Anya Heels · back view"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/black-back-pair.webp",
+          "description": "Black Anya Heels · sculpted heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/silver-single.webp",
+          "description": "Silver Anya Heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/pink-single.webp",
+          "description": "Pink Anya Heel"
+        },
+        {
+          "src": "assets/images/fashion/anya-heels/gold-single.webp",
+          "description": "Gold Anya Heel"
+        }
+      ],
+      "publications": [],
+      "place": 4
     },
     {
       "id": "jewelry",
@@ -262,54 +369,8 @@
           ]
         }
       ],
-      "images": []
-    },
-    {
-      "id": "anya-heels",
-      "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
-      "coverPosition": "center center",
-      "title": "Anya Heels",
-      "subtitle": "Footwear Design · NOUSHELLA",
-      "designerCredit": "Anya Heels was designed by Jalal Mashhadi Fard for NOUSHELLA.",
-      "description": "Anya Heels is conceived as an embrace around the foot. The upper folds across and gathers the foot in a soft, protective gesture, translating the intimacy of a hug into a precise sculptural silhouette. The faceted heel extends the concept through an architectural geometry inspired by the vertical rhythm of columns in sacred spaces.",
-      "descriptionFa": "کفش Anya همچون آغوشی پیرامون پا شکل گرفته است. رویه با حرکتی نرم و محافظ، پا را در بر می‌گیرد و صمیمیت یک بغل را به فرمی دقیق و مجسمه‌وار تبدیل می‌کند. هندسهٔ تراش‌خوردهٔ پاشنه نیز با الهام از ریتم عمودی ستون‌ها در فضاهای مذهبی شکل گرفته است.",
-      "location": "Footwear Design · NOUSHELLA",
-      "images": [
-        {
-          "src": "assets/images/fashion/anya-heels/anya-heels-sketch.webp",
-          "description": "Original concept sketch and final design"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/editorial.webp",
-          "description": "Anya Heels editorial"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/silver-front-pair.webp",
-          "description": "Silver Anya Heels · front view"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/silver-back-pair.webp",
-          "description": "Silver Anya Heels · back view"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/black-back-pair.webp",
-          "description": "Black Anya Heels · sculpted heel"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/silver-single.webp",
-          "description": "Silver Anya Heel"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/pink-single.webp",
-          "description": "Pink Anya Heel"
-        },
-        {
-          "src": "assets/images/fashion/anya-heels/gold-single.webp",
-          "description": "Gold Anya Heel"
-        }
-      ],
-      "publications": [],
-      "place": 4
+      "images": [],
+      "place": 5
     }
   ]
 }
