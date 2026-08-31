@@ -34,14 +34,33 @@ export class HomeComponent implements OnInit,OnDestroy{
     {name:'Shiraz Interior Architecture Award',logoText:'جایزه معماری شیراز'}
   ];
   private timers:number[]=[];private destroyed=false;
-  ngOnInit():void{this.cards.forEach((card,index)=>{this.preload(card.images[0]);this.preload(card.images[1]);if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.timers.push(window.setTimeout(()=>this.start(card),index*420));});}
+  ngOnInit():void{
+    this.cards.forEach(card=>{this.preload(card.images[0]);this.preload(card.images[1]);});
+    if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)this.startSynchronized();
+  }
   ngOnDestroy():void{this.destroyed=true;this.timers.forEach(timer=>window.clearTimeout(timer));}
   current(card:PortalCard):PortalImage{return card.images[card.current];}
   old(card:PortalCard):PortalImage{return card.images[card.previous];}
   private image(src:string,position='center'):PortalImage{return{src,position};}
   private card(key:string,title:string,route:string,images:PortalImage[]):PortalCard{return{key,title,route,images,current:0,previous:0,changing:false};}
-  private start(card:PortalCard):void{const tick=()=>{if(this.destroyed)return;this.advance(card);this.timers.push(window.setTimeout(tick,4000));};this.timers.push(window.setTimeout(tick,4000));}
-  private advance(card:PortalCard):void{if(card.changing)return;const next=(card.current+1)%card.images.length;this.load(card.images[next].src).then(()=>{if(this.destroyed)return;card.previous=card.current;card.current=next;card.changing=true;this.preload(card.images[(next+1)%card.images.length]);this.timers.push(window.setTimeout(()=>card.changing=false,1250));});}
+  private startSynchronized():void{
+    const tick=()=>{if(this.destroyed)return;this.advanceAll();this.timers.push(window.setTimeout(tick,4500));};
+    this.timers.push(window.setTimeout(tick,4500));
+  }
+  private advanceAll():void{
+    if(this.cards.some(card=>card.changing))return;
+    const nextIndexes=this.cards.map(card=>(card.current+1)%card.images.length);
+    Promise.all(this.cards.map((card,index)=>this.load(card.images[nextIndexes[index]].src))).then(()=>{
+      if(this.destroyed)return;
+      this.cards.forEach((card,index)=>{
+        card.previous=card.current;
+        card.current=nextIndexes[index];
+        card.changing=true;
+        this.preload(card.images[(card.current+1)%card.images.length]);
+      });
+      this.timers.push(window.setTimeout(()=>this.cards.forEach(card=>card.changing=false),1250));
+    });
+  }
   private load(src:string):Promise<void>{if(typeof Image==='undefined')return Promise.resolve();return new Promise(resolve=>{const image=new Image();image.onload=()=>resolve();image.onerror=()=>resolve();image.src=src;if(image.complete)resolve();});}
   private preload(image:PortalImage|string):void{this.load(typeof image==='string'?image:image.src);}
 }
