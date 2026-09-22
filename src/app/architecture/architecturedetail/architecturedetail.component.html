@@ -14,6 +14,12 @@
       <a class="recognition-item" *ngFor="let item of selectedItem.publications" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
     </div>
   </section>
+  <section class="recognition" *ngIf="selectedItem.presentation">
+    <div class="recognition-column">
+      <h2>Presentation</h2>
+      <a class="recognition-item" [href]="selectedItem.presentation.url" target="_blank" rel="noopener noreferrer"><span>View Presentation</span><small>{{ selectedItem.presentation.label }}</small><b>↗</b></a>
+    </div>
+  </section>
   <section class="project-story"><p>{{ selectedItem.description }}</p></section>
   <section class="project-gallery" *ngIf="galleryImages.length">
     <figure *ngFor="let slide of galleryImages">
