@@ -928,6 +928,42 @@
         }
       ],
       "place": 4.545
+    },
+    {
+      "id": "aram-cafe",
+      "title": "ARAM — Cafe & Coffee",
+      "src": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site/assets/final.jpeg",
+      "coverPosition": "center center",
+      "status": "Concept Design",
+      "location": "Zanbagh Street",
+      "description": "ARAM is conceived as a quiet continuation of the nearby park: a compact cafe where everyday movement gives way to a moment of pause. The project begins with the client's calm presence, generous character and expansive ambitions, translating these qualities into a restrained architectural language.\n\nDeep green marble draws its colour from the park, while warm timber gives the interior a welcoming, tactile character. Mirrored surfaces bring trees and daylight into the depth of the space, extending the experience of the landscape beyond the cafe's physical boundaries. The material palette combines this natural setting with the client's personal taste.\n\nBroad, layered steps become places to sit, share a conversation and enjoy a cup of coffee. Circulation and seating are developed as a single spatial idea, creating a small retreat from the pace of daily life. A focused menu and an unhurried atmosphere carry the same sense of calm into the hospitality experience.\n\nThe name ARAM means calm. Its identity pairs classical letterforms, reflecting the client's authentic character, with triangular A forms that recall the ascent of the stepped interior. Architecture, materials and identity express one continuous idea: let the calm continue.\n\nProject: ARAM — Cafe & Coffee\nLocation: Zanbagh Street\nArchitecture, interior design and identity: Jalal Mashhadi Fard\nClient: Mr. Jebelli\nLaunch consultants: Farhad Tamadoni and Hamid Deldar\nStatus: Concept Design\nMaterials: green marble, wood and mirror\nImages: design visualisation, original identity, concept sketch and plan",
+      "presentation": {
+        "url": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site",
+        "label": "Interactive concept and design presentation"
+      },
+      "images": [
+        {
+          "src": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site/assets/final.jpeg",
+          "place": 1,
+          "description": "Final design visualisation · green marble, timber and stepped seating."
+        },
+        {
+          "src": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site/assets/logo.jpeg",
+          "place": 2,
+          "description": "ARAM · original Cafe & Coffee identity."
+        },
+        {
+          "src": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site/assets/sketch.jpeg",
+          "place": 3,
+          "description": "Concept sketch by Jalal Mashhadi Fard."
+        },
+        {
+          "src": "https://aram-cafe-story.jalal-m-fard1372.chatgpt.site/assets/plan.jpeg",
+          "place": 4,
+          "description": "Design plan · stepped seating and service counter."
+        }
+      ],
+      "place": 4.61
     }
   ]
 }
