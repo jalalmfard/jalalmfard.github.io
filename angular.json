@@ -26,7 +26,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              {
+                "glob": "**/*",
+                "input": "src/presentations/aram",
+                "output": "/presentations/aram"
+              }
             ],
             "styles": [
               "src/styles.css",
