@@ -959,6 +959,47 @@
         }
       ],
       "place": 4.61
+    },
+    {
+      "id": "dr-khodadadi-muscat-office",
+      "title": "Dr. Khodadadi — Muscat Office",
+      "src": "/presentations/khodadadi-office/assets/space-19.jpg",
+      "coverPosition": "center center",
+      "status": "Concept Design",
+      "location": "Muscat, Oman",
+      "place": 4.62,
+      "description": "Designed by Jalal Mashhadi Fard, Dr. Khodadadi’s Muscat office brings together a waiting lounge, meeting room and manager’s office through reflection, warm materials, planting and personal collections.\n\nThe circulation distinguishes two clear routes: normal visitor access from the waiting room into the meeting room, and a separate concealed connection from the manager’s office to the meeting room.\n\nWithin the meeting room, a suspended mirror allows discreet occupancy reading at floor level, while curved bronze surfaces and planted glazing shape light and privacy. The head seat is composed for online meetings, with the ATLAS mark and greenery forming a deliberate camera background. Light and living growth evoke the identity of an energy company.\n\nThe manager’s office combines formal work and hospitality. Lateral display systems frame the central desk, integrating books, objects and a personal collection into the architectural composition.\n\nProject: Dr. Khodadadi — Muscat Office\nLocation: Muscat, Oman\nArchitecture & creative direction: Jalal Mashhadi Fard\nStatus: Concept Design\nImages: architectural design visualisations",
+      "presentation": {
+        "url": "/presentations/khodadadi-office/",
+        "label": "Interactive architectural presentation · access, concepts and spaces"
+      },
+      "images": [
+        {
+          "src": "/presentations/khodadadi-office/assets/space-19.jpg",
+          "place": 1,
+          "description": "Manager’s office · central desk, lounge and integrated display systems."
+        },
+        {
+          "src": "/presentations/khodadadi-office/assets/space-4.jpg",
+          "place": 2,
+          "description": "Waiting lounge · seating, art and the Muscat horizon."
+        },
+        {
+          "src": "/presentations/khodadadi-office/assets/space-3.jpg",
+          "place": 3,
+          "description": "Entrance · green surfaces, warm reflection and suspended artwork."
+        },
+        {
+          "src": "/presentations/khodadadi-office/assets/space-12.jpg",
+          "place": 4,
+          "description": "Meeting room · suspended mirror, curved bronze partition and planted glazing."
+        },
+        {
+          "src": "/presentations/khodadadi-office/assets/space-13.jpg",
+          "place": 5,
+          "description": "Online meeting backdrop · ATLAS identity and greenery."
+        }
+      ]
     }
   ]
 }
