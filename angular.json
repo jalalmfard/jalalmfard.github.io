@@ -31,6 +31,11 @@
                 "glob": "**/*",
                 "input": "src/presentations/aram",
                 "output": "/presentations/aram"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/presentations/khodadadi-office",
+                "output": "/presentations/khodadadi-office"
               }
             ],
             "styles": [
