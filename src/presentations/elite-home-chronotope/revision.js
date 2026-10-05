@@ -1,0 +1,26 @@
+// Spatial image locations on the supplied plans (normalized to the original image).
+const rooms={memory:[
+ ['اتاق خواب',31,18,['bedroom.webp']],['کلوزت',43,27,['closet.webp']],['سرویس',52,18,['bathroom.webp']],
+ ['نشیمن',28,69,['living-room.webp']],['ایوان',43,51,['courtyard-today.jpeg']],['حیاط مرکزی',57,53,['courtyard-today.jpeg','courtyard-memory.jpeg']],['غذاخوری',58,76,['dining-sculptural.jpeg','dining-brass.jpeg']]
+],dream:[
+ ['لابی',70,70,['future-lobby.webp']],['آشپزخانه',47,51,['future-kitchen.webp']],['غذاخوری',41,42,['future-dining.webp']],
+ ['نشیمن',26,51,['future-hall.webp']],['فضای کار',33,25,['future-work.webp']],['اتاق خواب',49,25,['future-bedroom.webp']],['کلوزت',63,19,['future-closet.webp']],['سرویس',72,26,['future-bathroom.webp']],['تراس',69,44,['future-terrace.webp']],['حیاط‌خلوت',15,62,['future-patio.webp']]
+]};
+const gallery=document.createElement('dialog');gallery.className='room-gallery';gallery.innerHTML='<button class="gallery-close" aria-label="بستن">×</button><h2></h2><img alt=""><div class="gallery-actions"><button class="gallery-prev">تصویر قبل</button><span></span><button class="gallery-next">تصویر بعد</button></div>';document.body.append(gallery);
+let selectedRoom=null,photoIndex=0,originButton=null;
+function renderRoom(){gallery.querySelector('h2').textContent=selectedRoom[0];gallery.querySelector('img').src='assets/'+selectedRoom[3][photoIndex];gallery.querySelector('img').alt=selectedRoom[0];gallery.querySelector('.gallery-actions span').textContent=`${photoIndex+1} / ${selectedRoom[3].length}`;gallery.querySelectorAll('.gallery-actions button').forEach(b=>b.hidden=selectedRoom[3].length<2)}
+function closeRoom(){gallery.close();originButton?.focus()}
+gallery.querySelector('.gallery-close').onclick=closeRoom;gallery.addEventListener('click',e=>{if(e.target===gallery)closeRoom()});gallery.addEventListener('keydown',e=>e.stopPropagation());
+gallery.querySelector('.gallery-prev').onclick=()=>{photoIndex=(photoIndex+selectedRoom[3].length-1)%selectedRoom[3].length;renderRoom()};gallery.querySelector('.gallery-next').onclick=()=>{photoIndex=(photoIndex+1)%selectedRoom[3].length;renderRoom()};
+for(const kind of ['memory','dream']){const section=document.getElementById(kind+'-interactive');section.innerHTML=`<div class="interactive-layout"><div class="interactive-plan"><img src="assets/${kind==='memory'?'memory':'dream'}-plan.jpeg" alt="${kind==='memory'?'خانه امروز با خاطرات':'خانه امروز با رویا'}"></div><p class="plan-help">برای دیدن تصاویر، روی نام هر فضا کلیک کنید.</p></div>`;const plan=section.querySelector('.interactive-plan');rooms[kind].forEach(room=>{const b=document.createElement('button');b.className='room-pin';b.style.left=room[1]+'%';b.style.top=room[2]+'%';b.textContent=room[0];b.setAttribute('aria-label','نمایش تصاویر '+room[0]);b.onclick=()=>{selectedRoom=room;photoIndex=0;originButton=b;renderRoom();gallery.showModal()};plan.append(b)})}
+$('#chronotope-brand').innerHTML='<div class="chronotope-brand"><img src="assets/elite-logo.jpeg" alt="ELITE HOME MASHHAD"><h1>کرونوتوپ</h1><p dir="ltr">CHRONOTOPE</p></div>';
+const theory=document.createElement('section');theory.id='chronotope-theory';theory.className='chapter theory';theory.hidden=true;theory.innerHTML=`<h1>کرونوتوپ <small>زمان‌مکان</small></h1><p>در مفهوم کرونوتوپِ باختین، زمان و مکان در روایت به هم پیوند می‌خورند.</p><svg viewBox="0 0 900 330" role="img" aria-label="نمودار تفسیری پیوند زمان و مکان در خانه امروز"><path d="M110 165H790M450 35V295" stroke="#777" stroke-width="2"/><circle cx="450" cy="165" r="75" fill="#183f3a" stroke="#35b28b" stroke-width="2"/><g fill="#eee" text-anchor="middle" font-size="24"><text x="160" y="145">خاطرات</text><text x="740" y="145">رویا</text><text x="450" y="160">خانه امروز</text><text x="450" y="192" font-size="17">تجربهٔ فضایی</text><text x="450" y="28">مکان</text><text x="770" y="202" font-size="17">زمانِ روایت</text></g></svg><p class="interpretation">برداشت طراحی ما: خاطرات و رویا در فضای خانهٔ امروز به تجربه تبدیل می‌شوند.</p><small class="theory-source">نمودار، تفسیر این پروژه از مفهوم باختین است.<br>Bakhtin, The Dialogic Imagination, 1981, p. 84</small>`;$('main').append(theory);
+$('.postmodern-question').remove();$('.past-horizon').remove();$('.future-horizon').remove();
+const revisionSetChapter=setChapter;setChapter=function(i,morph=false){revisionSetChapter(i,morph);theory.hidden=chapter!==5;theory.classList.toggle('active',chapter===5);if(chapter===5){$('#question-scene').hidden=true;question.hidden=true}if(chapter===6)question.hidden=true;const mid=$('[data-step="1"]');mid.hidden=chapter===3;if(chapter===3){$('#progress').step='200'}else $('#progress').step='1';};
+next=function(){if(gallery.open)return;if(chapter===3&&values[3]<190){values[3]=200;render();return}if(chapter===lastChapter){restart();return}setChapter(chapter+1,chapter===0)};$('#next').onclick=next;
+$('#progress').addEventListener('input',()=>{if(chapter===3){values[3]=values[3]<100?0:200;render()}});
+$('[data-step="2"]').onclick=()=>{if(chapter===3){values[3]=200;render()}else animateTo(200)};
+const theoryNav=$('[data-chapter="5"]');theoryNav.innerHTML='زمان‌مکان<span>06</span>';
+// Remove obsolete embedded labels while keeping the two opening slides intact.
+choices[1]=choices[2];
+setChapter(0);

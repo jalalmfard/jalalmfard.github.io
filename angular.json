@@ -41,6 +41,11 @@
                 "glob": "**/*",
                 "input": "src/presentations/elite-home",
                 "output": "/presentations/elite-home"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/presentations/elite-home-chronotope",
+                "output": "/presentations/elite-home-chronotope"
               }
             ],
             "styles": [
