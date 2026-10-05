@@ -36,6 +36,11 @@
                 "glob": "**/*",
                 "input": "src/presentations/khodadadi-office",
                 "output": "/presentations/khodadadi-office"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/presentations/elite-home",
+                "output": "/presentations/elite-home"
               }
             ],
             "styles": [
