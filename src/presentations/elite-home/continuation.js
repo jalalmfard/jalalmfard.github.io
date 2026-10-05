@@ -12,7 +12,7 @@ $('#building-next').src='assets/royal-exterior.webp';$('#building-next').alt='ه
 const photoChapters=[
  {id:'exhibition-entry',image:'exhibition-entry.webp',alt:'ورودی نمایشگاه در بلک‌باکس سیاه؛ مخاطبان به فضای خانه وارد می‌شوند',label:'آغاز',entry:true},
  {id:'choice-paths',image:'choice-paths.jpeg',alt:'دوراهی انتخاب مخاطبان میان خاطرات گذشته و رویای فردا',label:'دوراهی',question:true},
- {id:'past-future-threshold',image:'past-future-threshold.jpeg',alt:'آستانهٔ گذشته و آینده؛ کلید رسیدن به آینده در گذشته پنهان است',label:'آستانه',question:true},
+ {id:'past-future-threshold',image:'past-future-threshold.jpeg?v=2',alt:'آستانهٔ گذشته و آینده؛ کلید رسیدن به آینده در گذشته پنهان است',label:'آستانه',question:true},
  {id:'courtyard-design',image:'courtyard-today.jpeg',alt:'بازخوانی امروز؛ طراحی حیاط مرکزی',label:'حیاط مرکزی',zone:'court'},
  {id:'courtyard-compare',image:'courtyard-today.jpeg',other:'courtyard-memory.jpeg',alt:'مقایسهٔ حیاط امروز و گذشته',label:'مقایسه',zone:'court'},
  {id:'dining-design',image:'dining-sculptural.jpeg',alt:'طراحی اصلی مهمانخانه با فرش قرمز',label:'مهمانخانه',zone:'hospitality'},
