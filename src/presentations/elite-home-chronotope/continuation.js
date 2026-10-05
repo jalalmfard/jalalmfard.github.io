@@ -13,12 +13,12 @@ const photoChapters=[
 {id:'chronotope-brand',label:'کرونوتوپ',title:'کرونوتوپ',titleEn:'CHRONOTOPE',brand:true},
 {id:'bedrooms-compare',image:'bedroom.webp',other:'future-bedroom.webp',alt:'مقایسه اتاق خواب دو خانه',label:'مقایسه خواب',title:'اتاق خواب؛ خاطرات و رویا',titleEn:'Bedroom · Memory and dream'},
 {id:'courtyard-lobby-compare',image:'courtyard-today.jpeg',other:'future-lobby.webp',alt:'مقایسه حیاط مرکزی و لابی',label:'مقایسه فضا',title:'حیاط مرکزی و لابی',titleEn:'Courtyard and lobby'},
-{id:'dining-compare',image:'dining-sculptural.jpeg',other:'future-dining.webp',alt:'مقایسه غذاخوری دو خانه',label:'مقایسه غذاخوری',title:'غذاخوری؛ خاطرات و رویا',titleEn:'Dining · Memory and dream'},
+{id:'dining-compare',image:'dining-sculptural.jpeg',other:'dining-brass.jpeg',alt:'تغییر فرش، مبلمان و چراغ در همان سالن غذاخوری ایرانی',label:'تغییر متریال',title:'انعطاف در انتخاب محصولات و متریال‌ها',titleEn:'Flexibility in choosing products and materials'},
 {id:'exhibition-plan',image:'master.jpeg',alt:'پلان کلی نمایشگاه',label:'پلان کلی',title:'پلان کلی نمایشگاه',titleEn:'Exhibition master plan'},
 {id:'three-zones',image:'three-zones.jpeg',alt:'پلان سه بخشی',label:'سه بخش',title:'پلان سه‌بخشی',titleEn:'Question · Memory · Dream'},
 {id:'memory-interactive',image:'memory-plan.jpeg',alt:'پلان تعاملی خانه امروز با خاطرات',label:'خانه خاطرات',title:'خانه امروز با خاطرات',titleEn:"Today's home with memories",interactive:'memory'},
 {id:'dream-interactive',image:'dream-plan.jpeg',alt:'پلان تعاملی خانه امروز با رویا',label:'خانه رویا',title:'خانه امروز با رویا',titleEn:"Today's home with dreams",interactive:'dream'},
-{id:'final-blackbox',image:'future-blackbox.webp',alt:'بلک‌باکس',label:'بلک‌باکس',title:'بلک‌باکس',titleEn:'BLACK BOX'}];
+{id:'final-blackbox',image:'blackbox.webp',alt:'بلک‌باکس با خانه صورتی و ورود مخاطبان به راهرو',label:'بلک‌باکس',title:'بلک‌باکس',titleEn:'BLACK BOX'}];
 const planZones={
  court:{name:'حیاط مرکزی',points:'586,356 951,356 951,696 586,696',dot:[721,536]},
  hospitality:{name:'مهمانخانه',points:'468,696 1094,696 1094,900 850,900 850,941 468,941',dot:[725,798]},
