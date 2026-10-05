@@ -5,14 +5,14 @@
   "images": [
     {
       "id": "elite-home",
-      "src": "/presentations/elite-home/assets/choice-paths.jpeg",
+      "src": "/presentations/elite-home-chronotope/assets/future-blackbox.webp",
       "title": "Elite Home",
-      "description": "From Word to Space: an interactive exhibition presentation exploring a shared question — is today's home shaped by memories of the past or dreams of tomorrow?\n\nSpatial design by Jalal Mashhadi Fard.",
+      "description": "Chronotope: an interactive exhibition presentation exploring a shared question: is today's home shaped by memories or dreams?\n\nSpatial design by Jalal Mashhadi Fard.",
       "location": "Mashhad / Iran",
       "place": 0,
       "presentation": {
-        "url": "/presentations/elite-home/",
-        "label": "From Word to Space · فارسی / English"
+        "url": "/presentations/elite-home-chronotope/",
+        "label": "Chronotope · فارسی / English"
       },
       "images": []
     },
