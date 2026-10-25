@@ -10,10 +10,9 @@ const isLanguage = (value: string | null): value is SiteLanguage => value === 'e
 export class LocalizationService {
   language: SiteLanguage = 'en';
   constructor(@Inject(DOCUMENT) private document: Document, private router: Router) {
-    let saved: string | null = null;
-    try { saved = this.document.defaultView?.localStorage.getItem('site-language') || null; } catch {}
     const query = new URLSearchParams(this.document.defaultView?.location.search || '').get('lang');
-    this.apply(isLanguage(query) ? query : isLanguage(saved) ? saved : 'en');
+    // Standard visits always open in English; translated links remain explicit.
+    this.apply(isLanguage(query) ? query : 'en');
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         const lang = this.router.parseUrl(event.urlAfterRedirects).queryParams['lang'];
@@ -30,7 +29,6 @@ export class LocalizationService {
     this.language = language;
     this.document.documentElement.lang = language;
     this.document.documentElement.dir = language === 'en' ? 'ltr' : 'rtl';
-    try { this.document.defaultView?.localStorage.setItem('site-language', language); } catch {}
   }
   text(value: unknown): string {
     if (value === null || value === undefined) return '';

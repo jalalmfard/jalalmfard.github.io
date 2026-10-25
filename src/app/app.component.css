@@ -214,11 +214,11 @@ a { color: inherit; }
 .site-header { gap: 14px; }
 .wordmark { direction: ltr; }
 .foxnav { min-width: 0; }
-app-select-language { order: 2; }
+app-select-language { order: 2; margin-inline-start: 2px; }
 @media (max-width: 900px) {
   .site-header { grid-template-columns: minmax(0,1fr) auto auto; gap: 8px; }
-  app-select-language { order: 0; }
-  .menu-toggle { grid-column: 3; grid-row: 1; }
+  app-select-language { order: 0; grid-column: 3; grid-row: 1; }
+  .menu-toggle { grid-column: 2; grid-row: 1; }
   .foxnav { grid-row: 2; }
 }
 @media (max-width: 380px) { .site-header { padding-inline: 10px; gap: 5px; } .wordmark {font-size:10px} .menu-toggle {padding-inline:8px} }
