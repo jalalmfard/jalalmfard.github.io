@@ -1,17 +1,17 @@
- 
+
 <div class="card-container p-10">
 
-    <h1>exhibitions</h1>
+    <h1>{{ "exhibitions" | localize }}</h1>
 
 </div>
 <div class="card-container"*ngFor="let slide of slides" >
     <div class="main">
         <div>
             <div class="title">
-                {{slide.title}}
+                {{ (slide.title) | localize }}
             </div>
             <div class="location">
-                {{slide.location}}  
+                {{ (slide.location) | localize }}
             </div>
         </div>
 
@@ -20,34 +20,34 @@
             <div>
                 <div class="image">
                     <div id="frame">
-                      
+
                             <div id="border" *ngIf="!slide.isvideo">
-                      
+
                                 <img class="image" [src]="slide.src">
                             </div>
 
                             <div id="border" *ngIf="slide.isvideo">
-                        
-                             
+
+
 
                                 <video class="image" controls>
                                     <source [src]="slide.src" type="video/mp4">
-                                   Your browser does not support the video tag.
+                                   {{ "Your browser does not support the video tag." | localize }}
                                   </video>
                             </div>
 
 
-                      
+
                     </div>
                 </div>
                 <div class="link">
-                    <button class="button-more" [routerLink]="['/exhibitions/'+slide.id]" role="button">more ...</button>
-    
+                    <button class="button-more" [routerLink]="['/exhibitions/'+slide.id]" role="button">{{ "more ..." | localize }}</button>
+
                 </div>
             </div>
-   
- 
+
+
         </div>
     </div>
-    
+
 </div>

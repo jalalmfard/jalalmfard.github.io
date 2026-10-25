@@ -3,30 +3,31 @@
     <img src="/assets/images/jalal-arteza.png" alt="">
     <span class="signature-dot-cover"></span>
   </div>
-  <span class="intro-name">Jalal Mashhadi Fard</span>
+  <span class="intro-name">{{ "Jalal Mashhadi Fard" | localize }}</span>
 </div>
 
 <div class="content" role="main" [class.content-ready]="!showIntro">
   <header class="site-header">
-    <a class="wordmark" [routerLink]="['/']" aria-label="JalalMFard.com — Home">
+    <a class="wordmark" [routerLink]="['/']" [attr.aria-label]="'JalalMFard.com — Home' | localize">
       <strong>JalalMFard</strong>.com
     </a>
 
+    <app-select-language></app-select-language>
     <button class="menu-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen" aria-controls="primary-navigation">
-      <span>{{ menuOpen ? 'Close' : 'Menu' }}</span>
+      <span>{{ (menuOpen ? 'Close' : 'Menu') | localize }}</span>
     </button>
 
-    <nav class="foxnav" id="primary-navigation" [class.is-open]="menuOpen" aria-label="Primary navigation">
+    <nav class="foxnav" id="primary-navigation" [class.is-open]="menuOpen" [attr.aria-label]="'Primary navigation' | localize">
       <ul class="foxnav-items">
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/architecture" routerLinkActive="active">Architecture</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/fashion" routerLinkActive="active">Fashion</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/artworks" routerLinkActive="active">Artworks</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/exhibitions" routerLinkActive="active">Exhibitions</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/furnituredesign" routerLinkActive="active">Product Design</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/creative-direction" routerLinkActive="active">Creative Direction</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/awards" routerLinkActive="active">Awards</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/about" routerLinkActive="active">About</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">{{ "Home" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/architecture" routerLinkActive="active">{{ "Architecture" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/fashion" routerLinkActive="active">{{ "Fashion" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/artworks" routerLinkActive="active">{{ "Artworks" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/exhibitions" routerLinkActive="active">{{ "Exhibitions" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/furnituredesign" routerLinkActive="active">{{ "Product Design" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/creative-direction" routerLinkActive="active">{{ "Creative Direction" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/awards" routerLinkActive="active">{{ "Awards" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/about" routerLinkActive="active">{{ "About" | localize }}</a></li>
       </ul>
     </nav>
   </header>
@@ -35,8 +36,8 @@
 
   <footer class="footer">
     <img src="/assets/images/jalal-arteza.png" class="sign" alt="Jalal Mashhadi Fard signature" />
-    <span>© 2026 Jalal Mashhadi Fard</span>
-    <a href="https://www.instagram.com/JalalMfard/" target="_blank" rel="noreferrer" aria-label="Instagram">
+    <span>{{ "© 2026 Jalal Mashhadi Fard" | localize }}</span>
+    <a href="https://www.instagram.com/JalalMfard/" target="_blank" rel="noreferrer" [attr.aria-label]="'Instagram' | localize">
       <img class="instagram" src="/assets/images/instagram.svg" alt="" />
     </a>
   </footer>

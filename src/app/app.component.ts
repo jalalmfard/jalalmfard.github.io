@@ -1,3 +1,4 @@
+import { LocalizationService } from './i18n/localization.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnDestroy {
+  constructor(public localization: LocalizationService) {}
   title = 'jalalmfard';
   menuOpen = false;
   showIntro = true;

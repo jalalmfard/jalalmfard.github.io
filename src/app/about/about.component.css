@@ -27,5 +27,4 @@ h1 { margin: 28px 0 48px; font-size: clamp(48px, 8vw, 116px); line-height: .88; 
 }
 
 /* Portrait-led profile treatment; compatible with the existing public About markup. */
-.about-hero{position:relative;padding-right:clamp(210px,29vw,360px)}.about-hero::before{content:"";position:absolute;top:0;right:0;width:clamp(180px,24vw,310px);aspect-ratio:3/4;background:url('/assets/images/about/jalal-portrait.jpeg') center 28%/cover no-repeat}.about-hero>.eyebrow{font-size:0}.about-hero>.eyebrow::after{content:"Profile";font-size:11px}.about-hero>h1{font-size:0}.about-hero>h1::after{content:"Jalal\A Mashhadi Fard";display:block;white-space:pre;font-size:clamp(48px,8vw,116px);line-height:.88;letter-spacing:-.055em}
-@media(max-width:760px){.about-hero{padding-right:145px}.about-hero::before{width:130px}.about-hero>h1::after{font-size:clamp(38px,11vw,64px)}}
+.about-hero{position:relative;padding-inline-end:clamp(210px,29vw,360px)}.about-hero::before{content:"";position:absolute;top:0;inset-inline-end:0;width:clamp(180px,24vw,310px);aspect-ratio:3/4;background:url('/assets/images/about/jalal-portrait.jpeg') center 28%/cover no-repeat}@media(max-width:760px){.about-hero{padding-inline-end:145px}.about-hero::before{width:130px}.about-hero>h1{font-size:clamp(38px,11vw,64px)}}

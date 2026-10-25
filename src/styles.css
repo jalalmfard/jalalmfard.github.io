@@ -741,3 +741,15 @@ app-home .discipline-copy{z-index:4}
 @keyframes new-sheet{from{transform:scale(1.016);filter:brightness(.96)}to{transform:scale(1.002);filter:brightness(1)}}
 @keyframes paper-sheen{0%{opacity:0;transform:translateX(-80%)}36%{opacity:.5}100%{opacity:0;transform:translateX(80%)}}
 @media(prefers-reduced-motion:reduce){app-home .discipline img,app-home .discipline::after{animation:none!important}}
+
+/* Persian and Arabic use connected script and logical alignment. */
+html[dir="rtl"] body { font-family: Tahoma, "Segoe UI", Arial, sans-serif; }
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] p, html[dir="rtl"] a, html[dir="rtl"] span, html[dir="rtl"] button, html[dir="rtl"] small, html[dir="rtl"] strong { letter-spacing: normal !important; }
+html[dir="rtl"] .project-story, html[dir="rtl"] .statement, html[dir="rtl"] .intro, html[dir="rtl"] .recognition-intro { text-align: start; line-height: 2; }
+html[dir="rtl"] .project-header, html[dir="rtl"] .archive-heading, html[dir="rtl"] .award-copy, html[dir="rtl"] .about-hero { text-align: start; }
+html[dir="rtl"] .item-link { font-size: 12px; }
+html[dir="rtl"] .contact-card a[href^="tel:"], html[dir="rtl"] .contact-card a[href^="mailto:"], .wordmark { direction: ltr; unicode-bidi: isolate; }
+html[dir="rtl"] .marquee { direction: ltr; }
+html[dir="rtl"] .portal-title { line-height: 1.7; }
+
+html[dir="rtl"] .about-hero h1 { line-height: 1.3; font-size: clamp(36px,6vw,84px); }

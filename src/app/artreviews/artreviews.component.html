@@ -1,17 +1,17 @@
 
 <div class="card-container p-10">
 
-    <h1>Art reviews</h1>
+    <h1>{{ "Art reviews" | localize }}</h1>
 
 </div>
 <div class="card-container"*ngFor="let slide of slides" >
     <div class="main">
         <div>
             <div class="title">
-                {{slide.title}}
+                {{ (slide.title) | localize }}
             </div>
             <div class="location">
-                {{slide.location}}
+                {{ (slide.location) | localize }}
             </div>
         </div>
 
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="link">
-                <button class="button-more" [routerLink]="['/artreviews/'+slide.id]" role="button">more ...</button>
+                <button class="button-more" [routerLink]="['/artreviews/'+slide.id]" role="button">{{ "more ..." | localize }}</button>
 
             </div>
         </div>

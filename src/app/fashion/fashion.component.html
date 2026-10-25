@@ -1,17 +1,17 @@
 
 <div class="card-container p-10">
 
-    <h1>Fashion</h1>
+    <h1>{{ "Fashion" | localize }}</h1>
 
 </div>
 <div class="card-container"*ngFor="let slide of slides" >
     <div class="main">
         <div>
             <div class="title">
-                {{slide.title}}
+                {{ (slide.title) | localize }}
             </div>
             <div class="location">
-                {{slide.location}}
+                {{ (slide.location) | localize }}
             </div>
         </div>
 
@@ -20,17 +20,17 @@
                 <div id="frame">
                     <div id="border">
                         <div class="split-cover" *ngIf="slide.coverImages?.length; else singleCover">
-                            <img *ngFor="let cover of slide.coverImages" [src]="cover" [alt]="slide.title">
+                            <img *ngFor="let cover of slide.coverImages" [src]="cover" [alt]="(slide.title) | localize">
                         </div>
                         <ng-template #singleCover>
-                            <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="slide.title" [style.object-position]="slide.coverPosition || null">
+                            <img *ngIf="slide.src" class="image" [src]="slide.src" [alt]="(slide.title) | localize" [style.object-position]="slide.coverPosition || null">
                             <div *ngIf="!slide.src" class="placeholder-mark" aria-hidden="true">J</div>
                         </ng-template>
                     </div>
                 </div>
             </div>
             <div class="link">
-                <button class="button-more" [routerLink]="['/fashion/'+slide.id]" role="button">more ...</button>
+                <button class="button-more" [routerLink]="['/fashion/'+slide.id]" role="button">{{ "more ..." | localize }}</button>
 
             </div>
         </div>

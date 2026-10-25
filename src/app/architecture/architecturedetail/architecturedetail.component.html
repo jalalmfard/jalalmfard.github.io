@@ -1,31 +1,31 @@
 <article class="project" *ngIf="selectedItem">
   <header class="project-header">
-    <p class="eyebrow">Architecture · {{ selectedItem.location }}<span *ngIf="selectedItem.status"> · {{ selectedItem.status }}</span></p>
-    <h1>{{ selectedItem.title }}</h1>
+    <p class="eyebrow">{{ "Architecture ·" | localize }} {{ (selectedItem.location) | localize }}<span *ngIf="selectedItem.status"> · {{ (selectedItem.status) | localize }}</span></p>
+    <h1>{{ (selectedItem.title) | localize }}</h1>
   </header>
   <section class="recognition" *ngIf="selectedItem.awards?.length || selectedItem.publications?.length">
-    <p class="recognition-intro">This project has been recognized and published by international and Iranian architecture platforms. Follow the links below to read the complete features and award citations.</p>
+    <p class="recognition-intro">{{ "This project has been recognized and published by international and Iranian architecture platforms. Follow the links below to read the complete features and award citations." | localize }}</p>
     <div class="recognition-column" *ngIf="selectedItem.awards?.length">
-      <h2>Awards</h2>
-      <a class="recognition-item" *ngFor="let item of selectedItem.awards" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
+      <h2>{{ "Awards" | localize }}</h2>
+      <a class="recognition-item" *ngFor="let item of selectedItem.awards" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ (item.title) | localize }}</span><small>{{ (item.label) | localize }}</small><b>↗</b></a>
     </div>
     <div class="recognition-column" *ngIf="selectedItem.publications?.length">
-      <h2>Publications</h2>
-      <a class="recognition-item" *ngFor="let item of selectedItem.publications" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ item.title }}</span><small>{{ item.label }}</small><b>↗</b></a>
+      <h2>{{ "Publications" | localize }}</h2>
+      <a class="recognition-item" *ngFor="let item of selectedItem.publications" [href]="item.url" target="_blank" rel="noopener noreferrer"><span>{{ (item.title) | localize }}</span><small>{{ (item.label) | localize }}</small><b>↗</b></a>
     </div>
   </section>
   <section class="recognition" *ngIf="selectedItem.presentation">
     <div class="recognition-column">
-      <h2>Presentation</h2>
-      <a class="recognition-item" [href]="selectedItem.presentation.url" target="_blank" rel="noopener noreferrer"><span>View Presentation</span><small>{{ selectedItem.presentation.label }}</small><b>↗</b></a>
+      <h2>{{ "Presentation" | localize }}</h2>
+      <a class="recognition-item" [href]="selectedItem.presentation.url" target="_blank" rel="noopener noreferrer"><span>{{ "View Presentation" | localize }}</span><small>{{ (selectedItem.presentation.label) | localize }}</small><b>↗</b></a>
     </div>
   </section>
-  <section class="project-story"><p>{{ selectedItem.description }}</p></section>
+  <section class="project-story"><p>{{ (selectedItem.description) | localize }}</p></section>
   <section class="project-gallery" *ngIf="galleryImages.length">
     <figure *ngFor="let slide of galleryImages">
-      <h2 class="gallery-section" *ngIf="slide.section">{{ slide.section }}</h2>
-      <img [src]="slide.src" [alt]="selectedItem.title" loading="lazy">
-      <figcaption *ngIf="slide.description">{{ slide.description }}</figcaption>
+      <h2 class="gallery-section" *ngIf="slide.section">{{ (slide.section) | localize }}</h2>
+      <img [src]="slide.src" [alt]="(selectedItem.title) | localize" loading="lazy">
+      <figcaption *ngIf="slide.description">{{ (slide.description) | localize }}</figcaption>
     </figure>
   </section>
 </article>

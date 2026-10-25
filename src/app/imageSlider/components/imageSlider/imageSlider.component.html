@@ -6,7 +6,7 @@
     <div id="frame">
       <div id="border">
         <img loading="lazy" [src]="getCurrentSlideUrl()" [style.--mobile-position]="getCurrentSlidePosition()" class="fade" alt="">
-        <div class="text">{{getCurrentSlideTitle()}}</div>
+        <div class="text">{{ (getCurrentSlideTitle()) | localize }}</div>
       </div>
     </div>
   </div>

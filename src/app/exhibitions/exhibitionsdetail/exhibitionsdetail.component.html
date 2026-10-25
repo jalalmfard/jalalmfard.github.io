@@ -1,12 +1,12 @@
 <div class="card-container p-10">
 
-    <h1>{{selectedItem.title}}</h1>
+    <h1>{{ (selectedItem.title) | localize }}</h1>
 
 </div>
 <br>
 <div class="card-container p-10">
     <p>
-        {{selectedItem.description}}
+        {{ (selectedItem.description) | localize }}
     </p>
 </div>
 <br>
@@ -23,14 +23,14 @@
 
                 <video class="image" controls>
                     <source [src]="slide.src" type="video/mp4">
-                   Your browser does not support the video tag.
+                   {{ "Your browser does not support the video tag." | localize }}
                   </video>
 
 
             </div>
         </div>
         <div *ngIf="slide.description">
-            <button class="button-more" role="button">{{slide.description}}</button>
+            <button class="button-more" role="button">{{ (slide.description) | localize }}</button>
         </div>
         <br>
         <br>

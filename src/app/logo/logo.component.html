@@ -1,21 +1,21 @@
 <section class="archive-heading">
-  <p>Selected multidisciplinary projects</p>
-  <h1>Creative Direction</h1>
+  <p>{{ "Selected multidisciplinary projects" | localize }}</p>
+  <h1>{{ "Creative Direction" | localize }}</h1>
 </section>
 <div class="card-container" *ngFor="let slide of slides">
   <article class="main">
     <div>
-      <div class="title">{{ slide.title }}</div>
-      <div class="location">{{ slide.location }}</div>
+      <div class="title">{{ (slide.title) | localize }}</div>
+      <div class="location">{{ (slide.location) | localize }}</div>
     </div>
     <div>
       <div class="image">
         <div id="frame">
-          <div id="border" *ngIf="!slide.isvideo"><img class="image" [src]="slide.src" [alt]="slide.title"></div>
+          <div id="border" *ngIf="!slide.isvideo"><img class="image" [src]="slide.src" [alt]="(slide.title) | localize"></div>
           <div id="border" *ngIf="slide.isvideo"><video class="image" controls><source [src]="slide.src" type="video/mp4"></video></div>
         </div>
       </div>
-      <div class="link"><button class="button-more" [routerLink]="['/creative-direction/' + slide.id]">View project</button></div>
+      <div class="link"><button class="button-more" [routerLink]="['/creative-direction/' + slide.id]">{{ "View project" | localize }}</button></div>
     </div>
   </article>
 </div>

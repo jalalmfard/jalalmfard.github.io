@@ -1,14 +1,14 @@
 <div *ngIf="selectedItem">
-  <div class="card-container p-10"><h1>{{selectedItem.title}}</h1></div>
+  <div class="card-container p-10"><h1>{{ (selectedItem.title) | localize }}</h1></div>
   <br>
   <div class="card-container p-10">
-    <p>{{selectedItem.description}}</p>
-    <p *ngIf="selectedItem.descriptionFa" dir="rtl" lang="fa">{{selectedItem.descriptionFa}}</p>
+    <p>{{ (selectedItem.description) | localize }}</p>
+    <p *ngIf="selectedItem.descriptionFa && localization.language === 'en'" dir="rtl" lang="fa">{{ (selectedItem.descriptionFa) | localize }}</p>
   </div>
   <br>
   <div *ngIf="selectedItem.images">
     <div class="card-container" *ngFor="let slide of selectedItem.images">
-      <div id="frame"><div id="border" *ngIf="!slide.isvideo"><img class="show-image" [src]="slide.src" [alt]="selectedItem.title"></div></div>
+      <div id="frame"><div id="border" *ngIf="!slide.isvideo"><img class="show-image" [src]="slide.src" [alt]="(selectedItem.title) | localize"></div></div>
       <br><br>
     </div>
   </div>

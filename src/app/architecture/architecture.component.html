@@ -1,19 +1,19 @@
 
 <div class="card-container p-10">
 
-    <h1>Architecture & Interior design</h1>
+    <h1>{{ "Architecture & Interior design" | localize }}</h1>
 
 </div>
 <div class="card-container"*ngFor="let slide of slides" >
     <div class="main">
         <div>
             <div class="title">
-                {{slide.title}}
+                {{ (slide.title) | localize }}
             </div>
             <div class="location">
-                {{slide.location}}  
+                {{ (slide.location) | localize }}
             </div>
-            <div class="project-status" *ngIf="slide.status">{{ slide.status }}</div>
+            <div class="project-status" *ngIf="slide.status">{{ (slide.status) | localize }}</div>
         </div>
 
         <div>
@@ -21,18 +21,18 @@
                 <div id="frame">
                     <div id="border">
                         <div class="split-cover" *ngIf="slide.coverImages?.length === 2; else singleCover">
-                            <img [src]="slide.coverImages[0]" [alt]="slide.title + ' façade'" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[0] : null">
-                            <img [src]="slide.coverImages[1]" [alt]="slide.title + ' interior'" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[1] : null">
+                            <img [src]="slide.coverImages[0]" [alt]="(slide.title + ' façade') | localize" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[0] : null">
+                            <img [src]="slide.coverImages[1]" [alt]="(slide.title + ' interior') | localize" loading="lazy" [style.object-position]="slide.coverPositions ? slide.coverPositions[1] : null">
                         </div>
-                        <ng-template #singleCover><img class="project-cover" [src]="slide.src" [alt]="slide.title" loading="lazy" [style.object-position]="slide.coverPosition || null"></ng-template>
+                        <ng-template #singleCover><img class="project-cover" [src]="slide.src" [alt]="(slide.title) | localize" loading="lazy" [style.object-position]="slide.coverPosition || null"></ng-template>
                     </div>
                 </div>
             </div>
             <div class="link">
-                <button class="button-more" [routerLink]="['/architecture/'+slide.id]" role="button">more ...</button>
+                <button class="button-more" [routerLink]="['/architecture/'+slide.id]" role="button">{{ "more ..." | localize }}</button>
 
             </div>
         </div>
     </div>
-    
+
 </div>

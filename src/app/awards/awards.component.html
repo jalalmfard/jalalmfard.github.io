@@ -1,17 +1,17 @@
 <section class="awards-page">
   <header>
-    <p>Selected recognition</p>
-    <h1>Awards</h1>
+    <p>{{ "Selected recognition" | localize }}</p>
+    <h1>{{ "Awards" | localize }}</h1>
   </header>
   <div class="awards-list">
     <a class="award-row" *ngFor="let item of awards" [href]="item.url || null" [attr.target]="item.url ? '_blank' : null" [attr.rel]="item.url ? 'noopener noreferrer' : null">
-      <span class="year">{{ item.year || '—' }}</span>
-      <span class="award-logo" [class.dark]="item.dark"><img *ngIf="item.logoSrc" [src]="item.logoSrc" [alt]="item.award"><b *ngIf="!item.logoSrc">{{ item.logoText }}</b></span>
+      <span class="year">{{ (item.year || '—') | localize }}</span>
+      <span class="award-logo" [class.dark]="item.dark"><img *ngIf="item.logoSrc" [src]="item.logoSrc" [alt]="(item.award) | localize"><b *ngIf="!item.logoSrc">{{ (item.logoText) | localize }}</b></span>
       <div class="award-copy">
-        <h2>{{ item.award }}</h2>
-        <p>{{ item.recognition }}</p>
+        <h2>{{ (item.award) | localize }}</h2>
+        <p>{{ (item.recognition) | localize }}</p>
       </div>
-      <strong>{{ item.project }}</strong>
+      <strong>{{ (item.project) | localize }}</strong>
       <span class="arrow" *ngIf="item.url">↗</span>
     </a>
   </div>

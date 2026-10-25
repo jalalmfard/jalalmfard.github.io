@@ -1,3 +1,4 @@
+import { LocalizationService } from '../../i18n/localization.service';
 import { Component } from '@angular/core';
 import { SetupService } from 'src/app/services/setup.service';
 import { ActivatedRoute } from '@angular/router';
@@ -12,7 +13,7 @@ export class furnituredesignDetailComponent {
    slides!: any[] ;
   data: any;
   selectedItem: any;
-  constructor(private setup: SetupService,private route: ActivatedRoute) {}
+  constructor(public localization: LocalizationService, private setup: SetupService,private route: ActivatedRoute) {}
   async ngOnInit(): Promise<void> {
 
     this.data = await this.setup.getPageData('furnituredesign');
