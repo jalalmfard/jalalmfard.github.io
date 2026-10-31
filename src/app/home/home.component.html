@@ -1,16 +1,29 @@
-<main class="home-portals">
-  <section class="portal-grid" [attr.aria-label]="'Selected disciplines' | localize">
+<div class="home-portals">
+  <header class="home-intro">
+    <div>
+      <p class="home-eyebrow">{{ "Jalal Mashhadi Fard" | localize }}</p>
+      <h1>{{ "A dialogue across disciplines." | localize }}</h1>
+    </div>
+    <div class="home-intro-aside">
+      <p>{{ "Architecture, art, fashion and objects." | localize }}</p>
+      <a routerLink="/about">{{ "Explore the practice" | localize }} <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <div class="portal-heading">
+    <h2>{{ "Selected disciplines" | localize }}</h2>
+    <button type="button" class="motion-toggle" (click)="toggleMotion()" [attr.aria-pressed]="motionPaused">{{ (motionPaused ? 'Play slideshow' : 'Pause slideshow') | localize }}</button>
+  </div>
+  <section class="portal-grid" [attr.aria-label]="'Selected disciplines' | localize" (mouseenter)="hoverPaused=true" (mouseleave)="hoverPaused=false" (focusin)="focusPaused=true" (focusout)="focusPaused=false">
     <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.artworks]="card.key==='artworks'" [class.is-changing]="card.changing" [routerLink]="card.route">
-      <img class="portal-image current" [class.focused-artwork]="current(card).focused" [src]="current(card).src" [alt]="(card.title) | localize" [style.object-position]="current(card).position">
+      <img class="portal-image current" [class.focused-artwork]="current(card).focused" [src]="current(card).src" alt="" [attr.fetchpriority]="i===0 ? 'high' : 'auto'" decoding="async" [style.object-position]="current(card).position">
       <img *ngIf="card.changing" class="portal-image previous" [class.focused-artwork]="old(card).focused" [src]="old(card).src" alt="" [style.object-position]="old(card).position">
       <span class="glass-surface"></span>
-      <span class="portal-title">{{ (card.title) | localize }}<i>↗</i></span>
+      <span class="portal-title"><span>{{ card.title | localize }}</span><i aria-hidden="true">↗</i></span>
     </a>
   </section>
-
   <a class="awards-rail" routerLink="/awards" [attr.aria-label]="'Awards and recognition' | localize">
-    <span class="awards-label">{{ "Awards" | localize }}</span>
-    <span class="marquee"><span class="marquee-track"><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><span class="award-logo" [class.dark]="award.dark"><img *ngIf="award.logoSrc" [src]="award.logoSrc" [alt]="(award.name) | localize"><b *ngIf="!award.logoSrc">{{ (award.logoText) | localize }}</b></span><small>{{ (award.name) | localize }}</small></span></ng-container><ng-container *ngFor="let award of awardMarks"><span class="award-mark"><span class="award-logo" [class.dark]="award.dark"><img *ngIf="award.logoSrc" [src]="award.logoSrc" [alt]="(award.name) | localize"><b *ngIf="!award.logoSrc">{{ (award.logoText) | localize }}</b></span><small>{{ (award.name) | localize }}</small></span></ng-container></span></span>
-    <span class="awards-arrow">↗</span>
+    <span class="awards-label">{{ "Selected recognition" | localize }}</span>
+    <span class="award-names"><span *ngFor="let award of awardMarks">{{ award.name | localize }}</span></span>
+    <span class="awards-arrow" aria-hidden="true">↗</span>
   </a>
-</main>
+</div>

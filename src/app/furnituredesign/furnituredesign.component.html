@@ -1,8 +1,8 @@
 <div class="card-container p-10"><h1>{{ "Product Design" | localize }}</h1></div>
 <div class="card-container" *ngFor="let slide of slides">
-  <div class="main"><div><div class="title">{{ (slide.title) | localize }}</div><div class="location">{{ (slide.location) | localize }}</div></div>
+  <div class="main"><div><h2 class="title">{{ (slide.title) | localize }}</h2><div class="location">{{ (slide.location) | localize }}</div></div>
     <div><div class="image"><div id="frame"><div id="border" *ngIf="!slide.isvideo"><img class="image" [src]="slide.src" [alt]="(slide.title) | localize"></div></div></div>
-      <div class="link"><button class="button-more" [routerLink]="['/furnituredesign/'+slide.id]" role="button">{{ "view project ↗" | localize }}</button></div>
+      <div class="link"><a class="button-more" [routerLink]="['/furnituredesign/'+slide.id]" [attr.aria-label]="('View project' | localize) + ': ' + (slide.title | localize)">{{ "View project" | localize }}</a></div>
     </div>
   </div>
 </div>

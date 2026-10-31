@@ -6,33 +6,35 @@
   <span class="intro-name">{{ "Jalal Mashhadi Fard" | localize }}</span>
 </div>
 
-<div class="content" role="main" [class.content-ready]="!showIntro">
+<a class="skip-link" href="#main-content">{{ "Skip to content" | localize }}</a>
+
+<div class="content" [class.content-ready]="!showIntro">
   <header class="site-header">
     <a class="wordmark" [routerLink]="['/']" [attr.aria-label]="'JalalMFard.com — Home' | localize">
       <strong>JalalMFard</strong>.com
     </a>
 
     <app-select-language></app-select-language>
-    <button class="menu-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen" aria-controls="primary-navigation">
+    <button class="menu-toggle" #menuToggle type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen" aria-controls="primary-navigation">
       <span>{{ (menuOpen ? 'Close' : 'Menu') | localize }}</span>
     </button>
 
     <nav class="foxnav" id="primary-navigation" [class.is-open]="menuOpen" [attr.aria-label]="'Primary navigation' | localize">
       <ul class="foxnav-items">
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">{{ "Home" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/architecture" routerLinkActive="active">{{ "Architecture" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/fashion" routerLinkActive="active">{{ "Fashion" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/artworks" routerLinkActive="active">{{ "Artworks" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/exhibitions" routerLinkActive="active">{{ "Exhibitions" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/furnituredesign" routerLinkActive="active">{{ "Product Design" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/creative-direction" routerLinkActive="active">{{ "Creative Direction" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/awards" routerLinkActive="active">{{ "Awards" | localize }}</a></li>
-        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/about" routerLinkActive="active">{{ "About" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">{{ "Home" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/architecture" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Architecture" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/fashion" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Fashion" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/artworks" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Artworks" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/exhibitions" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Exhibitions" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/furnituredesign" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Product Design" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/creative-direction" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Creative Direction" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/awards" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "Awards" | localize }}</a></li>
+        <li class="foxnav-item"><a class="item-link" (click)="closeMenu()" routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">{{ "About" | localize }}</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="main-content"><router-outlet></router-outlet></main>
+  <main class="main-content" id="main-content" tabindex="-1"><router-outlet></router-outlet></main>
 
   <footer class="footer">
     <img src="/assets/images/jalal-arteza.png" class="sign" alt="Jalal Mashhadi Fard signature" />

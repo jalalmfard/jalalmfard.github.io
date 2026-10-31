@@ -1,0 +1,45 @@
+/* Shared portfolio tokens. Keep visual changes here, outside the design assistant. */
+:root {
+  --ui-ink: #202226;
+  --ui-muted: #555b64;
+  --ui-canvas: #eceef0;
+  --ui-surface: #f3f4f5;
+  --ui-raised: 0 8px 28px rgba(30, 38, 48, .06);
+  --ui-raised-small: 0 2px 10px rgba(30, 38, 48, .05);
+  --ui-radius: 20px;
+  --portfolio-width: 1280px;
+  --portfolio-gutter: clamp(20px, 4vw, 48px);
+}
+html { scroll-padding-top: 112px; }
+body { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 16px; line-height: 1.6; }
+h1, h2, h3 { font-family: Archivo, Arial, sans-serif; font-weight: 400; text-wrap: balance; }
+html[dir="rtl"] :is(h1,h2,h3) { font-family: Tahoma, Arial, sans-serif; line-height: 1.45; }
+*, *::before, *::after { box-sizing: border-box; }
+:where(a,button,summary) { -webkit-tap-highlight-color: rgba(32,34,38,.12); touch-action: manipulation; }
+:where(a,button,summary):focus-visible { outline: 2px solid #303b4c; outline-offset: 5px; }
+:where(a,button,summary):active { opacity: .75; }
+:where(h1,h2,h3,p,a) { overflow-wrap: break-word; }
+:where(button,summary) { cursor: pointer; }
+.card-container { width: min(1120px, calc(100% - var(--portfolio-gutter) * 2)); }
+.card-container.p-10:first-child { justify-content: flex-start; padding-block: 0 24px; }
+.card-container > h1 { margin: 0; font-size: clamp(32px, 5vw, 60px); line-height: 1.15; letter-spacing: -.04em; }
+.main { align-items: center; padding: clamp(20px, 3vw, 36px); border: 1px solid rgba(32,34,38,.06); }
+.main > div { min-width: 0; }
+.main .title { margin: 0 0 12px; font-size: clamp(24px, 2.8vw, 38px); line-height: 1.2; letter-spacing: -.035em; font-weight: 400; text-align: start !important; }
+.main .location { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ui-muted); }
+.main:hover { transform: none; box-shadow: 0 12px 32px rgba(30,38,48,.08); }
+.main .button-more { min-height: 48px; color: var(--ui-ink); border: 1px solid #c4c9cf; border-radius: 12px; background: transparent; box-shadow: none; font-size: 12px; letter-spacing: .07em; }
+.main .button-more:hover { color: #fff; background: var(--ui-ink); border-color: var(--ui-ink); box-shadow: none; }
+.main .project-status { box-shadow: none; border: 1px solid #c4c9cf; background: transparent; color: var(--ui-muted); font-size: 11px; }
+.project-story { max-width: 800px; }
+.project-story p { line-height: 1.75; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+@media (max-width: 768px) {
+  html { scroll-padding-top: 96px; }
+  .card-container { width: calc(100% - 40px); }
+  .main { margin-block: 0 20px; }
+  .main > div { width: 100%; }
+  .main .title { font-size: 26px; }
+}

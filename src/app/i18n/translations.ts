@@ -1,5 +1,12 @@
 // Curated Persian and Arabic translations. Official award and publication names retain their original spelling.
 export const TRANSLATIONS: Record<string, [string, string]> = {
+  "Skip to content": ["رفتن به محتوا", "الانتقال إلى المحتوى"],
+  "A dialogue across disciplines.": ["گفت‌وگویی میان جهان‌های طراحی.", "حوار بين مجالات التصميم."],
+  "Architecture, art, fashion and objects.": ["معماری، هنر، مد و طراحی اشیا.", "العمارة والفن والأزياء وتصميم الأشياء."],
+  "Explore the practice": ["درباره رویکرد من", "اكتشف الممارسة"],
+  "Pause slideshow": ["توقف نمایش تصاویر", "إيقاف عرض الصور"],
+  "Play slideshow": ["پخش نمایش تصاویر", "تشغيل عرض الصور"],
+
   "Jalal Mashhadi Fard": [
     "جلال مشهدی فرد",
     "جلال مشهدي فرد"

@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, HostListener, OnDestroy, OnInit } from '@angular/core';
 
 interface PortalImage { src:string; position:string; focused?:boolean; }
 interface PortalCard { key:string; title:string; route:string; images:PortalImage[]; current:number; previous:number; changing:boolean; }
@@ -32,17 +32,28 @@ export class HomeComponent implements OnInit,OnDestroy{
     {name:'NY Product Design Awards',logoSrc:'https://nydesignawards.com/upload/winner/1637724570winner_2.png'},
     {name:'Shiraz Interior Architecture Award',logoText:'جایزه معماری شیراز'}
   ];
+  motionPaused = false;
+  hoverPaused = false;
+  focusPaused = false;
+  private motionPreference?: MediaQueryList;
+  private preferenceChanged = (event: MediaQueryListEvent): void => { if (event.matches) this.motionPaused = true; };
+  @HostListener('document:visibilitychange') visibilityChanged(): void { this.hoverPaused = false; }
+  toggleMotion(): void { this.motionPaused = !this.motionPaused; }
   private timers:number[]=[];private destroyed=false;
   ngOnInit():void{
-    this.cards.forEach(card=>{this.preload(card.images[0]);this.preload(card.images[1]);});
-    if(typeof window!=='undefined'&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-      this.startCard(this.cards[0],700,3200);
-      this.startCard(this.cards[1],1800,5100);
-      this.startCard(this.cards[2],2900,6300);
-      this.startCard(this.cards[3],4100,7600);
+    if (typeof window === 'undefined') return;
+    this.motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    this.motionPaused = this.motionPreference.matches;
+    this.motionPreference.addEventListener('change', this.preferenceChanged);
+    this.cards.forEach(card=>this.preload(card.images[0]));
+    if(typeof window!=='undefined'){
+      this.startCard(this.cards[0],5500,7000);
+      this.startCard(this.cards[1],7500,8500);
+      this.startCard(this.cards[2],9500,9500);
+      this.startCard(this.cards[3],11500,10500);
     }
   }
-  ngOnDestroy():void{this.destroyed=true;this.timers.forEach(timer=>window.clearTimeout(timer));}
+  ngOnDestroy():void{this.motionPreference?.removeEventListener('change',this.preferenceChanged);this.destroyed=true;this.timers.forEach(timer=>window.clearTimeout(timer));}
   current(card:PortalCard):PortalImage{return card.images[card.current];}
   old(card:PortalCard):PortalImage{return card.images[card.previous];}
   private image(src:string,position='center',focused=false):PortalImage{return{src,position,focused};}
@@ -56,16 +67,16 @@ export class HomeComponent implements OnInit,OnDestroy{
     this.timers.push(window.setTimeout(tick,delay));
   }
   private async advance(card:PortalCard):Promise<void>{
-    if(card.changing)return;
+    if(card.changing || this.motionPaused || this.hoverPaused || this.focusPaused || document.hidden)return;
     const next=(card.current+1)%card.images.length;
-    await this.load(card.images[next].src);
-    if(this.destroyed)return;
+    const loaded = await this.load(card.images[next].src);
+    if(this.destroyed || !loaded || this.motionPaused || this.hoverPaused || this.focusPaused || document.hidden)return;
     card.previous=card.current;
     card.current=next;
     card.changing=true;
     this.preload(card.images[(card.current+1)%card.images.length]);
     this.timers.push(window.setTimeout(()=>card.changing=false,1250));
   }
-  private load(src:string):Promise<void>{if(typeof Image==='undefined')return Promise.resolve();return new Promise(resolve=>{const image=new Image();image.onload=()=>resolve();image.onerror=()=>resolve();image.src=src;if(image.complete)resolve();});}
+  private load(src:string):Promise<boolean>{if(typeof Image==='undefined')return Promise.resolve(false);return new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(true);image.onerror=()=>resolve(false);image.src=src;if(image.complete)resolve(image.naturalWidth>0);});}
   private preload(image:PortalImage|string):void{this.load(typeof image==='string'?image:image.src);}
 }

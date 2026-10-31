@@ -7,9 +7,9 @@
 <div class="card-container"*ngFor="let slide of slides" >
     <div class="main">
         <div>
-            <div class="title">
+            <h2 class="title">
                 {{ (slide.title) | localize }}
-            </div>
+            </h2>
             <div class="location">
                 {{ (slide.location) | localize }}
             </div>
@@ -23,7 +23,7 @@
 
                             <div id="border" *ngIf="!slide.isvideo">
 
-                                <img class="image" [src]="slide.src">
+                                <img class="image" [src]="slide.src" [alt]="slide.title | localize" loading="lazy" decoding="async">
                             </div>
 
                             <div id="border" *ngIf="slide.isvideo">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <button class="button-more" [routerLink]="['/exhibitions/'+slide.id]" role="button">{{ "more ..." | localize }}</button>
+                    <a class="button-more" [routerLink]="['/exhibitions/'+slide.id]" [attr.aria-label]="('View project' | localize) + ': ' + (slide.title | localize)">{{ "View project" | localize }}</a>
 
                 </div>
             </div>
