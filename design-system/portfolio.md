@@ -17,3 +17,5 @@ The verified recommendation was Minimalism & Swiss Style, hero-centric imagery a
 Validation: production Angular build; browser checks of home, archive and project navigation, mobile menu, language switching, keyboard focus and reduced motion where available.
 
 Upstream source and exact revision are recorded in .github/skills/ui-ux-pro-max/SOURCE.md; MIT attribution is retained. Design assistant files are development resources and not runtime dependencies.
+
+Content constraint: preserve the existing content, project names, images and navigation labels. Do not add editorial headlines, introductions, concepts, or new content sections when refining design. Keep motion controls icon-based with accessible labels.

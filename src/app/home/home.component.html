@@ -1,18 +1,7 @@
 <div class="home-portals">
-  <header class="home-intro">
-    <div>
-      <p class="home-eyebrow">{{ "Jalal Mashhadi Fard" | localize }}</p>
-      <h1>{{ "A dialogue across disciplines." | localize }}</h1>
-    </div>
-    <div class="home-intro-aside">
-      <p>{{ "Architecture, art, fashion and objects." | localize }}</p>
-      <a routerLink="/about">{{ "Explore the practice" | localize }} <span aria-hidden="true">↗</span></a>
-    </div>
-  </header>
-  <div class="portal-heading">
-    <h2>{{ "Selected disciplines" | localize }}</h2>
-    <button type="button" class="motion-toggle" (click)="toggleMotion()" [attr.aria-pressed]="motionPaused">{{ (motionPaused ? 'Play slideshow' : 'Pause slideshow') | localize }}</button>
-  </div>
+  <button type="button" class="motion-toggle" (click)="toggleMotion()" [attr.aria-pressed]="motionPaused" [attr.aria-label]="(motionPaused ? 'Play slideshow' : 'Pause slideshow') | localize" [attr.title]="(motionPaused ? 'Play slideshow' : 'Pause slideshow') | localize">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path *ngIf="!motionPaused" d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="2"/><path *ngIf="motionPaused" d="m8 5 11 7-11 7z" fill="currentColor"/></svg>
+  </button>
   <section class="portal-grid" [attr.aria-label]="'Selected disciplines' | localize" (mouseenter)="hoverPaused=true" (mouseleave)="hoverPaused=false" (focusin)="focusPaused=true" (focusout)="focusPaused=false">
     <a *ngFor="let card of cards;let i=index" class="portal-card" [class.architecture]="i===0" [class.artworks]="card.key==='artworks'" [class.is-changing]="card.changing" [routerLink]="card.route">
       <img class="portal-image current" [class.focused-artwork]="current(card).focused" [src]="current(card).src" alt="" [attr.fetchpriority]="i===0 ? 'high' : 'auto'" decoding="async" [style.object-position]="current(card).position">
@@ -22,8 +11,8 @@
     </a>
   </section>
   <a class="awards-rail" routerLink="/awards" [attr.aria-label]="'Awards and recognition' | localize">
-    <span class="awards-label">{{ "Selected recognition" | localize }}</span>
-    <span class="award-names"><span *ngFor="let award of awardMarks">{{ award.name | localize }}</span></span>
+    <span class="awards-label">{{ "Awards" | localize }}</span>
+    <span class="award-names"><span class="award-mark" *ngFor="let award of awardMarks"><span class="award-logo" [class.dark]="award.dark"><img *ngIf="award.logoSrc" [src]="award.logoSrc" alt="" loading="lazy" (error)="$any($event.target).parentElement.hidden = true"><b *ngIf="!award.logoSrc">{{ award.logoText | localize }}</b></span><span>{{ award.name | localize }}</span></span></span>
     <span class="awards-arrow" aria-hidden="true">↗</span>
   </a>
 </div>
