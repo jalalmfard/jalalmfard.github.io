@@ -11,8 +11,8 @@
   --portfolio-gutter: clamp(20px, 4vw, 48px);
 }
 html { scroll-padding-top: 112px; }
-body { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 16px; line-height: 1.6; }
-h1, h2, h3 { font-family: Archivo, Arial, sans-serif; font-weight: 400; text-wrap: balance; }
+body { line-height: 1.6; }
+h1, h2, h3 { font-family: inherit; text-wrap: balance; }
 html[dir="rtl"] :is(h1,h2,h3) { font-family: Tahoma, Arial, sans-serif; line-height: 1.45; }
 *, *::before, *::after { box-sizing: border-box; }
 :where(a,button,summary) { -webkit-tap-highlight-color: rgba(32,34,38,.12); touch-action: manipulation; }
@@ -22,13 +22,13 @@ html[dir="rtl"] :is(h1,h2,h3) { font-family: Tahoma, Arial, sans-serif; line-hei
 :where(button,summary) { cursor: pointer; }
 .card-container { width: min(1120px, calc(100% - var(--portfolio-gutter) * 2)); }
 .card-container.p-10:first-child { justify-content: flex-start; padding-block: 0 24px; }
-.card-container > h1 { margin: 0; font-size: clamp(32px, 5vw, 60px); line-height: 1.15; letter-spacing: -.04em; }
+.card-container > h1 { margin: 0; font-size: 32px; font-weight: 300; line-height: 1.15; letter-spacing: -.045em; }
 .main { align-items: center; padding: clamp(20px, 3vw, 36px); border: 1px solid rgba(32,34,38,.06); }
 .main > div { min-width: 0; }
-.main .title { margin: 0 0 12px; font-size: clamp(24px, 2.8vw, 38px); line-height: 1.2; letter-spacing: -.035em; font-weight: 400; text-align: start !important; }
+.main .title { margin: 0 0 12px; font-size: 24px; line-height: 1.3; letter-spacing: -.025em; font-weight: 400; text-align: start !important; }
 .main .location { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ui-muted); }
 .main:hover { transform: none; box-shadow: 0 12px 32px rgba(30,38,48,.08); }
-.main .button-more { min-height: 48px; color: var(--ui-ink); border: 1px solid #c4c9cf; border-radius: 12px; background: transparent; box-shadow: none; font-size: 12px; letter-spacing: .07em; }
+.main .button-more { min-height: 48px; color: var(--ui-ink); border: 1px solid #c4c9cf; border-radius: 12px; background: transparent; box-shadow: none; font-size: 11px; letter-spacing: .12em; }
 .main .button-more:hover { color: #fff; background: var(--ui-ink); border-color: var(--ui-ink); box-shadow: none; }
 .main .project-status { box-shadow: none; border: 1px solid #c4c9cf; background: transparent; color: var(--ui-muted); font-size: 11px; }
 .project-story { max-width: 800px; }
@@ -41,5 +41,5 @@ html[dir="rtl"] :is(h1,h2,h3) { font-family: Tahoma, Arial, sans-serif; line-hei
   .card-container { width: calc(100% - 40px); }
   .main { margin-block: 0 20px; }
   .main > div { width: 100%; }
-  .main .title { font-size: 26px; }
+  .main .title { font-size: 22px; }
 }

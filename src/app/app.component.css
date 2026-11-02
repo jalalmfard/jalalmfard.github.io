@@ -13,11 +13,11 @@ a { color: inherit; }
   background: rgba(243,244,245,.94); box-shadow: 0 6px 24px rgba(30,38,48,.06);
   backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
 }
-.wordmark { flex-shrink: 0; color: var(--ui-ink); direction: ltr; text-decoration: none; white-space: nowrap; font-size: 13px; letter-spacing: .07em; text-transform: uppercase; }
-.wordmark strong { font-weight: 600; }
+.wordmark { flex-shrink: 0; color: var(--ui-ink); direction: ltr; text-decoration: none; white-space: nowrap; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; }
+.wordmark strong { font-weight: 500; }
 .foxnav { min-width: 0; }
 .foxnav-items { display: flex; align-items: center; gap: 0; margin: 0; padding: 0; list-style: none; }
-.item-link { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px; border-radius: 9px; color: var(--ui-muted); text-decoration: none; font-size: 11px; line-height: 1.4; white-space: nowrap; transition: color .2s, background .2s; }
+.item-link { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px; border-radius: 9px; color: var(--ui-muted); text-decoration: none; font-size: 10px; letter-spacing: .075em; text-transform: uppercase; line-height: 1.4; white-space: nowrap; transition: color .2s, background .2s; }
 .item-link:hover { color: var(--ui-ink); background: #e5e8ec; }
 .item-link.active { color: var(--ui-ink); background: #e1e5e9; }
 app-select-language { flex-shrink: 0; order: 2; }
@@ -28,7 +28,7 @@ app-select-language { flex-shrink: 0; order: 2; }
   width: min(var(--portfolio-width), calc(100% - var(--portfolio-gutter) * 2)); max-width: none;
   margin: 0 auto 24px; padding: 20px 0; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
   background: transparent; border: 0; border-top: 1px solid #cbd0d5; border-radius: 0; box-shadow: none;
-  color: var(--ui-muted); font-size: 12px; line-height: 1.5; font-weight: 400; white-space: normal; overflow: visible;
+  color: var(--ui-muted); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; line-height: 1.5; font-weight: 400; white-space: normal; overflow: visible;
 }
 .sign { width: 58px; height: auto; border: 0; border-radius: 0; }
 .footer > span { text-align: center; }
@@ -40,20 +40,20 @@ app-select-language { flex-shrink: 0; order: 2; }
 .signature-write { width: 96px; }
 .signature-write img { width: 100%; border: 0; border-radius: 0; clip-path: inset(0 100% 0 0); animation: signature .75s ease forwards; }
 .signature-dot-cover { display: none; }
-.intro-name { margin-top: 16px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ui-muted); }
+.intro-name { margin-top: 16px; font-size: 8px; letter-spacing: .22em; text-transform: uppercase; color: var(--ui-muted); }
 @keyframes signature { to { clip-path: inset(0); } }
 @media (max-width: 1180px) {
   .site-header { display: grid; grid-template-columns: minmax(0,1fr) auto auto; gap: 8px; padding: 10px 14px 10px 18px; margin-block: 16px 32px; }
   app-select-language { order: 0; grid-column: 3; grid-row: 1; }
-  .menu-toggle { display: block; grid-column: 2; grid-row: 1; min-width: 64px; min-height: 44px; padding: 8px 12px; border: 1px solid #c4c9cf; border-radius: 10px; background: transparent; color: var(--ui-ink); font: inherit; font-size: 12px; }
+  .menu-toggle { display: block; grid-column: 2; grid-row: 1; min-width: 64px; min-height: 44px; padding: 8px 12px; border: 1px solid #c4c9cf; border-radius: 10px; background: transparent; color: var(--ui-ink); font: inherit; font-size: 10px; letter-spacing: .11em; text-transform: uppercase; }
   .foxnav { display: none; grid-column: 1 / -1; grid-row: 2; width: 100%; }
   .foxnav.is-open { display: block; padding-block: 12px 4px; border-top: 1px solid #cbd0d5; margin-top: 8px; max-height: calc(100dvh - 140px); overflow-y: auto; }
   .foxnav-items { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 6px; }
-  .item-link { justify-content: flex-start; min-height: 48px; padding: 12px; font-size: 14px; white-space: normal; }
+  .item-link { justify-content: flex-start; min-height: 48px; padding: 12px; font-size: 11px; white-space: normal; }
 }
 @media (max-width: 620px) {
   .site-header { width: calc(100% - 32px); top: 8px; margin-bottom: 28px; }
-  .wordmark { font-size: 12px; letter-spacing: .04em; }
+  .wordmark { font-size: 12px; letter-spacing: .08em; }
   .foxnav-items { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .main-content { margin-bottom: 48px; }
   .footer { width: calc(100% - 40px); grid-template-columns: 1fr auto; row-gap: 12px; }

@@ -18,7 +18,7 @@ import { LocalizationService } from '../i18n/localization.service';
   styles: [`
     :host{display:block;flex-shrink:0}
     details{position:relative}
-    summary{display:flex;align-items:center;justify-content:center;gap:5px;min-width:44px;min-height:44px;padding:0 2px;list-style:none;color:#555b64;font:400 12px/1 Arial,sans-serif;letter-spacing:.08em;cursor:pointer}
+    summary{display:flex;align-items:center;justify-content:center;gap:5px;min-width:44px;min-height:44px;padding:0 2px;list-style:none;color:#555b64;font:400 10px/1 Arial,sans-serif;letter-spacing:.08em;cursor:pointer}
     summary::-webkit-details-marker{display:none}
     summary span{font-size:12px;letter-spacing:0}
     summary:hover,details[open] summary{color:#17181b}
