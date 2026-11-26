@@ -5,65 +5,68 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta name="theme-color" content="#142219">
-<title>انتخاب نام پیستری درویشیان | جلال مشهدی‌فرد</title>
+<meta name="theme-color" content="#eceef0">
+<title>نام پیستری درویشیان | جلال مشهدی‌فرد</title>
 <link rel="icon" href="/assets/images/logos/favicon-32x32.png">
-<link rel="stylesheet" href="./style.css">
-<script type="module" src="./app.js"></script>
+<link rel="stylesheet" href="./style.css?v=2">
+<script type="module" src="./app.js?v=2"></script>
 </head>
 <body>
-<header class="masthead">
-  <a href="/" class="wordmark" dir="ltr"><strong>JalalMFard</strong>.com</a>
-  <img src="/assets/images/jalal-arteza.png" width="92" height="36" alt="امضای جلال مشهدی‌فرد">
+<a class="skip" href="#main">رفتن به فرم رأی</a>
+<header class="masthead" dir="ltr">
+  <a href="/" class="wordmark"><strong>JalalMFard</strong>.com</a>
+  <img src="/assets/images/jalal-arteza.png" width="62" height="31" alt="امضای جلال مشهدی‌فرد">
 </header>
-<main class="shell">
-  <section id="entry" class="gate">
-    <div class="gate-art" aria-hidden="true"><span>PISTACHIO</span><span>PASTRY</span><span>DARVISHIAN</span></div>
-    <div class="gate-copy">
-      <p class="kicker">ارائه و رأی‌گیری هیئت مشاوران</p>
-      <h1>انتخاب نام پیستری درویشیان</h1>
-      <p>چهار پیشنهاد برای پیستری پستهٔ خانوادهٔ درویشیان. نام‌تان را وارد کنید تا پیشنهادها را ببینید و رأی‌تان را ثبت کنید.</p>
+<main id="main" class="shell">
+  <div id="experience">
+    <header class="intro">
+      <h1>نام پیستری درویشیان</h1>
+      <p>چهار پیشنهاد، چهار شخصیت. به هر نام از ۱ تا ۱۰ امتیاز بدهید و اولویت‌های خود را مشخص کنید.</p>
+    </header>
+    <section id="entry" class="entry" aria-label="ورود به رأی‌گیری">
       <form id="identity">
-        <label for="voter">نام و نام خانوادگی</label>
-        <input id="voter" name="voter" maxlength="100" autocomplete="name" required placeholder="نام کامل یا نام تیم">
-        <button class="primary" type="submit">مشاهدهٔ پیشنهادها</button>
+        <label for="voter">به‌عنوان چه کسی رأی می‌دهید؟</label>
+        <div class="entry-controls">
+          <select id="voter" name="voter" required><option value="">نام خود را انتخاب کنید</option></select>
+          <button id="identity-submit" class="primary" type="submit">شروع رأی‌گیری</button>
+        </div>
+        <label id="guest-field" class="guest-field" hidden>نام مهمان (اختیاری)<input id="guest-name" maxlength="80" autocomplete="name" placeholder="نام و نام خانوادگی"></label>
         <p id="identity-status" class="status" role="status"></p>
       </form>
-      <p class="hint">دعوت از هفت رأی‌دهنده. تیم خلاقیت پارادایس یک رأی مشترک دارد.</p>
-    </div>
-  </section>
-  <h2 id="ballot-heading" tabindex="-1" hidden>چهار نام برای پیستری درویشیان</h2>
-  <section id="ballot" hidden aria-labelledby="ballot-heading">
-    <div class="section-intro">
-      <p>داور <strong id="jury-name"></strong></p>
-      <p>برای هر اسم یک نمره از ۱ تا ۱۰ بدهید. سپس نام‌ها را به ترتیب دلخواه انتخاب کنید. برای تغییر رتبه، گزینه را از برگه بردارید و دوباره انتخاب کنید.</p>
-    </div>
-    <div id="candidates" class="grid"></div>
-    <section class="rank-board" aria-labelledby="rank-heading">
-      <div class="rank-heading"><h3 id="rank-heading">برگهٔ رأی</h3><span id="progress"></span></div>
-      <div id="slots" class="slots"></div>
-      <button type="button" class="primary" id="submit-ballot" disabled>ثبت نهایی رأی</button>
-      <p id="ballot-status" class="status" role="status" aria-live="polite"></p>
     </section>
-  </section>
+    <section id="ballot" aria-label="چهار گزینهٔ نام پیستری">
+      <div class="ballot-meta" id="ballot-meta" hidden>
+        <span id="jury-name"></span><button type="button" id="change-voter" class="text-button">تغییر رأی‌دهنده</button>
+      </div>
+      <div id="candidates" class="grid"></div>
+      <section id="rank-board" class="rank-board" hidden aria-labelledby="rank-heading">
+        <div class="rank-heading"><h2 id="rank-heading">ترتیب اولویت</h2><span id="progress" role="status"></span></div>
+        <p class="rank-hint">عنوان هر کارت را به برگه اضافه کنید. رتبه‌ها را با دکمه‌های جابه‌جایی تغییر دهید.</p>
+        <ol id="slots" class="slots"></ol>
+        <button type="button" class="primary" id="submit-ballot" disabled>ثبت رأی</button>
+        <p id="ballot-status" class="status" role="status"></p>
+      </section>
+    </section>
+  </div>
   <section id="confirmation" class="notice" hidden aria-labelledby="confirmation-title">
-    <h2 id="confirmation-title" tabindex="-1">رأی شما ثبت شد</h2>
-    <p>از وقتی که برای انتخاب نام گذاشتید، متشکریم.</p>
+    <h1 id="confirmation-title" tabindex="-1">رأی شما ثبت شد</h1>
+    <p id="confirmation-copy">از وقتی که برای انتخاب نام گذاشتید، متشکریم.</p>
     <div id="receipt"></div>
+    <button type="button" class="text-button" id="return-to-page">بازگشت به پیشنهادها</button>
   </section>
   <section id="results" class="notice" hidden>
-    <h2>نتایج رأی‌گیری</h2><p id="results-status" class="status" role="status"></p>
+    <h1>نتایج رأی‌گیری</h1><p id="results-status" class="status" role="status"></p>
     <div id="results-data"></div>
   </section>
 </main>
 <footer class="footer"><span>جلال مشهدی‌فرد</span><span>طراحی و ارائهٔ نام برند</span></footer>
 <template id="candidate-template">
   <article class="card">
-    <div class="sample"><span class="latin" dir="ltr" lang="en"></span></div>
+    <div class="sample"><span class="latin" dir="ltr" lang="en"></span><span class="rank-tag" hidden></span></div>
     <div class="card-content">
-      <h3></h3><p class="story"></p><ul class="traits"></ul>
-      <div class="card-controls">
-        <label>نمره <select><option value="">انتخاب کنید</option></select></label>
+      <h2></h2><p class="story"></p><ul class="traits"></ul>
+      <div class="card-controls" hidden>
+        <label>نمره از ۱۰<select><option value="">نمره را انتخاب کنید</option></select></label>
         <button type="button" class="order-button" aria-pressed="false">افزودن به اولویت‌ها</button>
       </div>
     </div>
